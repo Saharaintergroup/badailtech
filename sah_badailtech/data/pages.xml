@@ -186,13 +186,91 @@
                             <section class="oe_structure">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-12  home_odoo_tour_container">
+                                        <div class="col-12">
                                             <h3>Why Choose Us</h3>
                                             <p class="home_company_chosen">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                                                 aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
                                                 takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet .</p>
                                         </div>
+                                        <div class="col-4">
+                                            <div class="home_company_chosen_img">
+                                                <img src="/sah_badailtech/static/src/img/quality.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="home_company_chosen_content">
+                                                <h4><span>01</span></h4>
+                                                <h4>
+                                                    QUALITY
+                                                </h4>
+                                                <P>Lorem ipsum dolor sit amet, consetetur
+                                                    sadipscing elitr, sed diam nonumy eirmod</P>
+                                            </div>
+                                        </div>
+                                        <div class="col-4 home_company_chosen_border">
+                                            <div class="home_company_chosen_img">
+                                                <img src="/sah_badailtech/static/src/img/creativity.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="home_company_chosen_content">
+                                                <h4><span>02</span></h4>
+                                                <h4>
+                                                    CREATIVITY
+                                                </h4>
+                                                <P>Lorem ipsum dolor sit amet, consetetur
+                                                    sadipscing elitr, sed diam nonumy eirmod</P>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="home_company_chosen_img">
+                                                <img src="/sah_badailtech/static/src/img/fast_response.png" class="img-fluid"/>
+                                            </div>
+                                            <div class="home_company_chosen_content">
+                                                <h4><span>03</span></h4>
+                                                <h4>
+                                                    FAST RESPONSE
+                                                </h4>
+                                                <P>Lorem ipsum dolor sit amet, consetetur
+                                                    sadipscing elitr, sed diam nonumy eirmod</P>
+                                            </div>
+                                        </div>
 
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="oe_structure home_odoo_tour mt-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 text-center home_odoo_tour_container">
+                                            <h3>OUR CUSTOMER</h3>
+                                        </div>
+                                        <div class="owl-carousel owl-theme odoo_customer_slider">
+                                            <div class="item text-center">
+                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                    consetetur sadipscing elitr, sed
+                                                    diam nonumy eirmod tempor
+                                                    invidunt</p>
+                                            </div>
+                                            <div class="item text-center">
+                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                    consetetur sadipscing elitr, sed
+                                                    diam nonumy eirmod tempor
+                                                    invidunt</p>
+                                            </div>
+                                            <div class="item text-center">
+                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                    consetetur sadipscing elitr, sed
+                                                    diam nonumy eirmod tempor
+                                                    invidunt</p>
+                                            </div>
+                                            <div class="item text-center">
+                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                    consetetur sadipscing elitr, sed
+                                                    diam nonumy eirmod tempor
+                                                    invidunt</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </section>
@@ -203,5 +281,177 @@
                 </t>
             </field>
         </record>
+
+
+        <!-- === Contact Us Page === -->
+
+        <record id="badailtech_contact_us_page" model="website.page">
+
+            <field name="name">Contact Us</field>
+            <field name="website_published">True</field>
+            <field name="url">/contact-us</field>
+            <field name="type">qweb</field>
+            <field name="track">True</field>
+            <field name="key">sah_badailtech.badailtech_contact-us_page</field>
+            <field name="arch" type="xml">
+                <t name="Contact Us badailtech" priority="20" t-name="sah_badailtech.contact-us_page_template">
+                    <t t-call="website.layout">
+                        <div id='wrap' class='oe_structure'>
+                            <!-- contact -->
+                            <section class="oe_structure contact_us_page">
+                                <div class="container sec-contain">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="title_head_contain">
+                                                <h3>Contact Us</h3>
+                                                <p>We offer our customers a live customized demo, a free consultation
+                                                    to get answers to all your questions and to clarify why BadailTech is
+                                                    the right partner to grow your business</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-7 pr-5">
+                                            <form action="/website_form/" method="post" class="s_website_form container-fluid mt32 o_fake_not_editable" enctype="multipart/form-data" data-name="Form Builder" data-model_name="crm.lead" data-success_page="/thanks_page">
+                                                <div class="container">
+                                                    <div class="row">
+                                                        <div class="col-md-12 contact_us_form_inputs">
+                                                            <div class="form-group form-field o_website_form_required_custom">
+                                                                <label class="col-form-label" for="contact_name">Your Name</label>
+                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" name="contact_name" required=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 contact_us_form_inputs">
+                                                            <div class="form-group form-field o_website_form_custom">
+                                                                <label class="col-form-label" for="contact_name">Phone Number</label>
+                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" name="phone" required=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 contact_us_form_inputs">
+                                                            <div class="form-group form-field o_website_form_required_custom">
+                                                                <label class="col-form-label" for="contact_name">Email</label>
+                                                                <input type="email" class="form-control o_website_form_input custom_contact_us_form" name="email_from" required="" />
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 contact_us_form_inputs">
+                                                            <div class="form-group form-field o_website_form_required_custom">
+                                                                <label class="col-form-label" for="contact_name">Subject</label>
+                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" name="name" required=""/>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-md-12 contact_us_form_inputs">
+                                                            <div class="form-group form-field o_website_form_custom o_website_form_required_custom">
+                                                                <label class="col-form-label" for="contact_name"> Your Question</label>
+                                                                <textarea class="form-control o_website_form_input custom_contact_us_form" rows="7" placeholder="write your comment here ........" name="description" required=""/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <button class="btn form_btn btn-lg o_website_form_send contact_form_btn" data-original-title="" title="" aria-describedby="tooltip307407">send</button>
+                                                    </div>
+                                                    <div class="text-center mt-3">
+                                                        <span id="o_website_form_result" class="text-danger ml8"/>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <!--                                        <div class="col-lg-5 contact_information">-->
+                                        <!--                                            <p class="contact_information_description">Contact Details</p>-->
+                                        <!--                                            <h4 class="contactus_info_title">GET IN TOUCH WITH US</h4>-->
+                                        <!--                                            <div class="contact_information_contain">-->
+                                        <!--                                                <ul class="contact_information_list" data-oe-model="ir.ui.view" data-oe-id="1860" data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/section[2]/div[1]/div[1]/div[1]/div[2]/ul[1]">-->
+                                        <!--                                                    <li class="contact_information_item">-->
+                                        <!--                                                        <img src="/sah_badailtech/static/src/img/contactusphone.png" />-->
+                                        <!--                                                        <div class="contact_information_item_contain">-->
+                                        <!--                                                            <a onclick="directTel()" class="contact_information_item_label"><span>Phone: </span>+201002212225</a>-->
+                                        <!--                                                            <p>Call us any time from 08:00 till 17:00 Mon-Fri</p>-->
+                                        <!--                                                        </div>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                    <li class="contact_information_item">-->
+                                        <!--                                                        <img src="/sah_badailtech/static/src/img/contactusmail.png" />-->
+                                        <!--                                                        <div class="contact_information_item_contain">-->
+                                        <!--                                                            <a onclick="directEmail()" class="contact_information_item_label"><span>Email: </span>customer.support@domain.com</a>-->
+                                        <!--                                                            <p>Email us any time, we'll reply within 24 hours</p>-->
+                                        <!--                                                        </div>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                </ul>-->
+                                        <!--                                                <p class="contact_list_title_txt">FOLLOW</p>-->
+                                        <!--                                                <ul class="mt-2 mb-5 p-0">-->
+                                        <!--                                                    <li class="contact_information_social_icons">-->
+                                        <!--                                                        <a target="_blank" t-att-href="website.social_facebook"><i class="fa fa-facebook"></i></a>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                    <li class="contact_information_social_icons">-->
+                                        <!--                                                        <a target="_blank" t-att-href="website.social_twitter"><i class="fa fa-twitter"></i></a>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                    <li class="contact_information_social_icons">-->
+                                        <!--                                                        <a target="_blank" t-att-href="website.social_instagram"><i class="fa fa-instagram"></i></a>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                    <li class="contact_information_social_icons">-->
+                                        <!--                                                        <a target="_blank" t-att-href="website.social_youtube"><i class="fa fa-youtube"></i></a>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                    <li class="contact_information_social_icons">-->
+                                        <!--                                                        <a target="_blank" t-att-href="website.social_youtube"><i class="fa fa-snapchat-ghost"></i></a>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                    <li class="contact_information_social_icons">-->
+                                        <!--                                                        <a target="_blank" href="https://api.whatsapp.com/send?phone=00201002212225"><i class="fa fa-whatsapp"></i></a>-->
+                                        <!--                                                    </li>-->
+                                        <!--                                                </ul>-->
+                                        <!--                                            </div>-->
+                                        <!--                                        </div>-->
+                                    </div>
+                                </div>
+                            </section>
+                            <!--                            <section class="sectoin_newsletter_bg pt-5 pb-5  mb-0">-->
+                            <!--                                <div class="container">-->
+                            <!--                                    <div class="row">-->
+                            <!--                                        <div class="col-md-12 text-center">-->
+                            <!--                                            <div class="newsletter_contain">-->
+                            <!--                                                <p class="rose_Projects_title text-center m-0">SUBSCRIBE</p>-->
+                            <!--                                                <h2 class="product_title text-center">NEWSLETTER</h2>-->
+                            <!--                                                <p class="rose_projects_newsletter_description text-center">Subscribe to our newsletter now and stay up to date with new collection,latest lookbooks and execlusive offers.</p>-->
+                            <!--                                                <form action="/website_form/" method="post"-->
+                            <!--                                                      class="s_website_form  o_fake_not_editable"-->
+                            <!--                                                      enctype="multipart/form-data" data-name="Form Builder"-->
+                            <!--                                                      data-model_name="mail.mail"-->
+                            <!--                                                      data-success_page="/thanks_page">-->
+                            <!--                                                    <div class="form-group form-field d-none">-->
+                            <!--                                                        <label class="col-form-label" for="email_to"/>-->
+                            <!--                                                        <input type="text" class="form-control o_website_form_input"-->
+                            <!--                                                               name="email_to" value="support@domain.com"/>-->
+                            <!--                                                    </div>-->
+                            <!--                                                    <div class="form-group form-field o_website_form_required_custom newsletter_form_contain">-->
+                            <!--                                                        <input type="text"-->
+                            <!--                                                               class="form-control o_website_form_input newsletter_form_input"-->
+                            <!--                                                               name="email_from" required=""-->
+                            <!--                                                               data-oe-model="ir.ui.view" data-oe-id="2651"-->
+                            <!--                                                               data-oe-field="arch"-->
+                            <!--                                                               data-oe-xpath="/data/xpath/t/div[1]/div[2]/div[1]/div[2]/form[1]/div[2]/div[1]/div[1]/input[1]"-->
+                            <!--                                                               value="" placeholder="Enter Your Email"/>-->
+                            <!--                                                        <button title="SUBSCRIBE" role="button"-->
+                            <!--                                                                class="btn btn-primary btn-lg btn_contact_form o_website_form_send o_default_snippet_text newsleter_form_btn">-->
+                            <!--                                                            <span class="pl-1">SUBSCRIBE</span>-->
+                            <!--                                                        </button>-->
+                            <!--                                                        <span id="o_website_form_result"/>-->
+                            <!--                                                    </div>-->
+                            <!--                                                </form>-->
+                            <!--                                            </div>-->
+                            <!--                                        </div>-->
+                            <!--                                    </div>-->
+                            <!--                                </div>-->
+                            <!--                            </section>-->
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
+        <record id="badailtech_menu_contact_us" model="website.menu">
+            <field name="name">Contact Us</field>
+            <field name="url">/contact-us</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">27</field>
+        </record>
+
     </data>
 </odoo>

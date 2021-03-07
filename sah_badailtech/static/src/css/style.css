@@ -399,6 +399,7 @@ li.home_service_list.home_service_list_before {
 }
 .home_odoo_tour_container h3{
     color: #45a79d;
+    margin-bottom: 2rem;
 }
 .home_odoo_tour_container p
 {
@@ -412,4 +413,99 @@ p.home_company_chosen{
     margin: unset;
     color: #d1d2d4;
     margin-bottom: 3rem;
+<<<<<<< HEAD
+}
+.home_company_chosen_img
+{
+    background: #02a69d;
+    width: 45px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+.home_company_chosen_content h4
+{
+    color: #054340;
+    margin: 20px 0;
+}
+.home_company_chosen_content span, .home_company_chosen_content p{
+  color: #b8b8b8;
+}
+.home_company_chosen_border{
+    border-right: 2px dashed rgba(190, 190, 190, 0.53);
+    border-left: 2px dashed rgba(190, 190, 190, 0.53);
+}
+.odoo_customer_slider_txt {
+    font-size: 13px;
+    color: #4f4f4f;
+    margin-top: 1rem
+}
+.odoo_customer_slider_img
+{
+    padding-bottom: 12px;
+    width: 150px !important;
+    margin: auto;
+    border-bottom: 1px solid #a8a8a8;
+}
+.odoo_customer_slider .owl-dots
+{
+    display: block !important;
+    text-align: center;
+}
+.odoo_customer_slider .owl-dot
+{
+    background: #d1d2d4 !important;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.odoo_customer_slider .owl-dot.active{
+    background: #45a79d !important;
+}
+/****************************/
+.contact_us_page{
+    margin-top: 7rem;
+}
+input.form-control.o_website_form_input.custom_contact_us_form {
+    border-color: #d1d2d4;
+    border-radius: 13px;
+}
+input.form-control.o_website_form_input.custom_contact_us_form:focus{
+    border-color: #02a69d !important;
+}
+.title_head_contain h3{
+    color: #02a69d;
+    padding-bottom: 10px;
+    position: relative;
+}
+.title_head_contain h3:after{
+    position: absolute;
+    content: "";
+    bottom: 0px;
+    left: 0;
+    width: 85px;
+    height: 3px;
+    background: #45a79d;
+}
+.title_head_contain p{
+    color: #000000;
+    font-size: 27px;
+    line-height: 1.2;
+    width: 90%;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.contact_us_form_inputs label{
+    font-weight: 400;
+}
+button.o_website_form_send.contact_form_btn {
+    background: #02a69d;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+=======
+>>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
 }
