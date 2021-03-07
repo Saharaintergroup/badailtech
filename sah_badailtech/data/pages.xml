@@ -186,12 +186,17 @@
                             <section class="oe_structure">
                                 <div class="container">
                                     <div class="row">
+<<<<<<< HEAD
                                         <div class="col-12">
+=======
+                                        <div class="col-12  home_odoo_tour_container">
+>>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
                                             <h3>Why Choose Us</h3>
                                             <p class="home_company_chosen">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
                                                 aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
                                                 takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet .</p>
                                         </div>
+<<<<<<< HEAD
                                         <div class="col-4">
                                             <div class="home_company_chosen_img">
                                                 <img src="/sah_badailtech/static/src/img/quality.png" class="img-fluid"/>
@@ -231,10 +236,13 @@
                                                     sadipscing elitr, sed diam nonumy eirmod</P>
                                             </div>
                                         </div>
+=======
+>>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
 
                                     </div>
                                 </div>
                             </section>
+<<<<<<< HEAD
                             <section class="oe_structure home_odoo_tour mt-5">
                                 <div class="container">
                                     <div class="row">
@@ -274,6 +282,8 @@
                                     </div>
                                 </div>
                             </section>
+=======
+>>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
 
 
                         </div>
@@ -281,6 +291,7 @@
                 </t>
             </field>
         </record>
+<<<<<<< HEAD
 
 
         <!-- === Contact Us Page === -->
@@ -453,5 +464,7 @@
             <field name="sequence" type="int">27</field>
         </record>
 
+=======
+>>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
     </data>
 </odoo>

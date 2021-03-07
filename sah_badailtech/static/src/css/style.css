@@ -412,6 +412,7 @@ p.home_company_chosen{
     margin: unset;
     color: #d1d2d4;
     margin-bottom: 3rem;
+<<<<<<< HEAD
 }
 .home_company_chosen_img
 {
@@ -504,4 +505,6 @@ button.o_website_form_send.contact_form_btn {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
+=======
+>>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
 }
