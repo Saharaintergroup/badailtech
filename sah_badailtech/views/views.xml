@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+<!--
+    <record model="ir.ui.view" id="sah_badailtech.list">
+      <field name="name">sah_badailtech list</field>
+      <field name="model">sah_badailtech.sah_badailtech</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+-->
+
+    <!-- actions opening views on models -->
+<!--
+    <record model="ir.actions.act_window" id="sah_badailtech.action_window">
+      <field name="name">sah_badailtech window</field>
+      <field name="res_model">sah_badailtech.sah_badailtech</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+-->
+
+    <!-- server action to the one above -->
+<!--
+    <record model="ir.actions.server" id="sah_badailtech.action_server">
+      <field name="name">sah_badailtech server</field>
+      <field name="model_id" ref="model_sah_badailtech_sah_badailtech"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": model._name,
+        }
+      </field>
+    </record>
+-->
+
+    <!-- Top menu item -->
+<!--
+    <menuitem name="sah_badailtech" id="sah_badailtech.menu_root"/>
+-->
+    <!-- menu categories -->
+<!--
+    <menuitem name="Menu 1" id="sah_badailtech.menu_1" parent="sah_badailtech.menu_root"/>
+    <menuitem name="Menu 2" id="sah_badailtech.menu_2" parent="sah_badailtech.menu_root"/>
+-->
+    <!-- actions -->
+<!--
+    <menuitem name="List" id="sah_badailtech.menu_1_list" parent="sah_badailtech.menu_1"
+              action="sah_badailtech.action_window"/>
+    <menuitem name="Server to list" id="sah_badailtech" parent="sah_badailtech.menu_2"
+              action="sah_badailtech.action_server"/>
+-->
+  </data>
+</odoo>

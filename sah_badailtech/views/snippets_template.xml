@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <!-- Snippets in Website -->
+
+
+        <template name="header snippets option" id="header_snippets_option" inherit_id="website.snippet_options">
+            <xpath expr="//we-button[@data-name='header_default_opt']" position="after">
+                <we-button title="Badailtech Header"
+                           data-name="header_badailtech_opt"
+                           data-customize-website-views="sah_badailtech.badailtech_header_layout"
+                           data-customize-website-variable="'badailtech'"
+                           data-img="/sah_badailtech/static/src/img/header_template_custom.png"/>
+            </xpath>
+        </template>
+
+
+        <template name="footer snippets option" id="footer_snippets_option" inherit_id="website.snippet_options">
+            <xpath expr="//we-select[@data-variable='footer-template']/we-button[@data-customize-website-views='website.footer_custom']" position="before">
+                <we-button title="Badailtech Footer"
+                           data-name="header_badailtech_opt"
+                           data-customize-website-views="sah_badailtech.badailtech_footer_layout"
+                           data-customize-website-variable="'badailtech'"
+                           data-img="/sah_badailtech/static/src/img/footer_template_links.png"/>
+            </xpath>
+        </template>
+
+
+    </data>
+</odoo>
