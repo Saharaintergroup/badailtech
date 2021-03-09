@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','website','website_blog','website_event'],
+    'depends': ['base','website','website_blog','website_event','website_slides'],
 
     # always loaded
     'data': [

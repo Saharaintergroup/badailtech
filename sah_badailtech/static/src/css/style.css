@@ -131,7 +131,7 @@ outline:0;
 }
 .total_pages .nav-item.dropdown:last-child{
     position: absolute;
-    right: 40px;
+    right: 270px;
 }
 nav .navbar-nav .nav-item .dropdown-menu{
     border-radius: 0;
@@ -149,6 +149,16 @@ nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item {
     margin: 0;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+a.menu_lang_pages[data-url_code="en"]{
+    color: #7b7b7b !important;
+}
+.lang_cut{
+    color: #7b7b7b !important;
+}
+.menu_lang_pages{
+    color: #02a69d;
+    text-decoration: none !important;
 }
 nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover{
     color: #0a7bbc;
@@ -541,5 +551,32 @@ li.contact_information_item {
     color: #000;
     font-size: 19px;
     font-weight: 300;
+}
+.mark_title h3{
+    color: #02a69d;
+    padding-bottom: 10px;
+    position: relative;
+    padding-left: 20px;
+}
+.mark_title h3:before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0;
+    width: 3px;
+    height: 40px;
+    background: #45a79d;
+}
+.vision_desc{
+    color:#7b7b7b;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+.services_page_item_slider{
+    border-radius: 15px;
+    box-shadow: 0px 0 13px 0 rgb(0 0 0 / 12%);
+    background-color: #ffffff;
+    padding: 17px;
 }
 /*************************/

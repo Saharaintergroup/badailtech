@@ -320,6 +320,128 @@
                                         </div>
                                     </div>
                                 </section>
+                                <section class="oe_structure about_us_page">
+                                    <div class="container sec-contain">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-5">
+                                                <div class="mark_title">
+                                                    <h3>Our Services</h3>
+                                                </div>
+                                            </div>
+                                            <div class="owl-carousel owl-theme odoo_services_slider">
+                                                <div class="item services_page_item_slider mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Create Enterprise Resource Planning</h5>
+                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
+                                                                we provide innovative solutions to our customers tomanage
+                                                                their businesses easily by using the famous Odoo system.
+                                                                Our team can provide all software units that can manage
+                                                                business, including accounting, finance,human resource
+                                                                management, warehouse management, insurances and
+                                                                sales management,and we also help our customers find
+                                                                special and appropriate solution for their needs in managing
+                                                                their business.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mt-5 mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Create Enterprise Resource Planning</h5>
+                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
+                                                                we provide innovative solutions to our customers tomanage
+                                                                their businesses easily by using the famous Odoo system.
+                                                                Our team can provide all software units that can manage
+                                                                business, including accounting, finance,human resource
+                                                                management, warehouse management, insurances and
+                                                                sales management,and we also help our customers find
+                                                                special and appropriate solution for their needs in managing
+                                                                their business.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Create Enterprise Resource Planning</h5>
+                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
+                                                                we provide innovative solutions to our customers tomanage
+                                                                their businesses easily by using the famous Odoo system.
+                                                                Our team can provide all software units that can manage
+                                                                business, including accounting, finance,human resource
+                                                                management, warehouse management, insurances and
+                                                                sales management,and we also help our customers find
+                                                                special and appropriate solution for their needs in managing
+                                                                their business.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mt-5 mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Create Enterprise Resource Planning</h5>
+                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
+                                                                we provide innovative solutions to our customers tomanage
+                                                                their businesses easily by using the famous Odoo system.
+                                                                Our team can provide all software units that can manage
+                                                                business, including accounting, finance,human resource
+                                                                management, warehouse management, insurances and
+                                                                sales management,and we also help our customers find
+                                                                special and appropriate solution for their needs in managing
+                                                                their business.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="oe_structure about_us_page">
+                                    <div class="container sec-contain">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-5">
+                                                <div class="mark_title">
+                                                    <h3>Our vision</h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-8 m-auto">
+                                                <p class="vision_desc">
+                                                    At Badael Tech, we strive to be an integral part of
+                                                    Oman’s endeavors to digitize all sectors in 2040, as
+                                                    we want to be an effective partner for all the efforts
+                                                    made by the Sultanate in managing by using modern
+                                                    technologies
+                                                </p>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <img src="/sah_badailtech/static/src/img/about.png" class="img-fluid"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
 
 
                             </div>
