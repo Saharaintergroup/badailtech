@@ -41,6 +41,16 @@
                                 </t>
                             </t>
                         </div>
+<!--                        <div class="text-right">-->
+<!--                            <div class="langs_menu nav_menu_language" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">-->
+<!--                                <t t-foreach="languages" t-as="lg">-->
+<!--                                    <a class="menu_footer_pages" t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])" t-att-data-url_code="lg[1]">-->
+<!--                                        <t t-esc="lg[2].split('/').pop()"/>-->
+<!--                                    </a>-->
+<!--                                    <span class="lang_cut">/</span>-->
+<!--                                </t>-->
+<!--                            </div>-->
+<!--                        </div>-->
                         <!-- Button -->
                         <div class="oe_structure" id="oe_structure_header_default_1"/>
                     </div>
@@ -114,11 +124,11 @@
                                             </li>
                                             <li class="footer_list_links">
                                                 <i class="fa fa-phone icon_footer_support"></i>
-                                                <a onclick="directTel()" target="blank" class="footer_page_contact">+968 92517926</a>
+                                                <a target="blank" class="footer_page_contact">+968 92517926</a>
                                             </li>
                                             <li class="footer_list_links">
                                                 <i class="fa fa-envelope icon_footer_support"></i>
-                                                <a  onclick="directEmail()" target="blank" class="footer_page_contact">info@badailtech.com</a>
+                                                <a  target="blank" class="footer_page_contact">info@badailtech.com</a>
                                             </li>
                                         </ul>
 

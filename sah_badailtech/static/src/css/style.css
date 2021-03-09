@@ -21,10 +21,22 @@ html
 {
   height: 100%;
 }
-#top nav.pages_nav{
-    /*box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.2);*/
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav{
     position: absolute;
     width: 100%;
+    background: unset;
+}
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .nav-item .nav-link{
+    color: #fff !important;
+}
+#top nav.pages_nav{
+    box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.05);
+    position: relative;
+    width: 100%;
+    background: #fff;
+}
+#top nav.pages_nav .nav-item .nav-link{
+    color: #000 !important;
 }
 #top_menu_collapse{
     /*position: absolute;
@@ -464,8 +476,8 @@ p.home_company_chosen{
     background: #45a79d !important;
 }
 /****************************/
-.contact_us_page{
-    margin-top: 7rem;
+.contact_us_page, .about_us_page{
+    margin-top: 3rem;
 }
 input.form-control.o_website_form_input.custom_contact_us_form {
     border-color: #d1d2d4;
@@ -499,6 +511,7 @@ input.form-control.o_website_form_input.custom_contact_us_form:focus{
 }
 .contact_us_form_inputs label{
     font-weight: 400;
+    font-size: 14px;
 }
 button.o_website_form_send.contact_form_btn {
     background: #02a69d;
@@ -506,6 +519,26 @@ button.o_website_form_send.contact_form_btn {
     color: #fff;
     font-weight: 600;
     text-transform: uppercase;
-=======
->>>>>>> 2cdc7b57e0bca445dd2b8b83e03abe98d6df832f
+
+}
+ul.contact_information_list {
+    list-style: none;
+    margin-top: 2rem;
+    width: 40%;
+    padding: 0;
+}
+li.contact_information_item {
+    padding: 5px 0;
+}
+.contact_information_item a{
+    color: #7b7b7b !important;
+}
+.lang_cut:last-child{
+    display: none;
+}
+/**************************/
+.about_company_desc{
+    color: #000;
+    font-size: 19px;
+    font-weight: 300;
 }
