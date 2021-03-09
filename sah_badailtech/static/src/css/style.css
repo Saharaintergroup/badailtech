@@ -536,9 +536,10 @@ li.contact_information_item {
 .lang_cut:last-child{
     display: none;
 }
-/**************************/
+/******* about us *******************/
 .about_company_desc{
     color: #000;
     font-size: 19px;
     font-weight: 300;
 }
+/*************************/
