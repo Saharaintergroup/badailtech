@@ -282,6 +282,248 @@
             </field>
         </record>
 
+
+
+        <!-- === Odoo Page === -->
+        <record id="badailtech_odoo" model="website.page">
+
+            <field name="name">Odoo badailtech</field>
+            <field name="website_published">True</field>
+            <field name="url">/odoo</field>
+            <field name="track">True</field>
+            <field name="type">qweb</field>
+            <field name="key">sah_badailtech.badailtech_odoo</field>
+
+
+            <field name="arch" type="xml">
+                <t name="Odoo Badailtech" priority="10" t-name="sah_badailtech.badailtech_odoo">
+                    <t t-call="website.layout">
+                        <div id="wrap" class="oe_structure oe_website_sale ">
+                            <div class="oe_structure">
+                                <section class="oe_structure odoo_page">
+                                    <div class="container sec-contain">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-5">
+                                                <div class="title_head_contain">
+                                                    <h3>About Odoo</h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 m-auto">
+                                                <h4>
+                                                    What Is Odoo ?
+                                                </h4>
+                                                <p class="odoo_company_desc">
+                                                    Odoo Is An Open Source Business Management System,
+                                                    This System Contains Several Software
+                                                    Applications That Will Help Entrepreneurs And
+                                                    Company Owners To Find Enterprise Resource Planning,
+                                                    As It Meets Their Needs In Many Matters Such As Sales
+                                                    Management, Accounting, Finance, Human
+                                                    Resource Management, And Inventory Management .
+                                                </p>
+                                                <p class="odoo_company_desc">
+                                                    Odoo Is A Global System That Can Help All
+                                                    Companies Of Any Size, As It Is Used By More Than 5
+                                                    Million People Around The World And Shares With
+                                                    About 1250 Partners Around The World, And It Also
+                                                    Provides About 27500 Applications For Enterprise
+                                                    Resource Planning.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="/sah_badailtech/static/src/img/odoo.png" class="img-fluid"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="oe_structure odoo_page">
+                                    <div class="container sec-contain">
+                                        <div class="row">
+                                            <div class="col-md-10 mb-5">
+                                                <div>
+                                                    <h4>
+                                                        What Is Odoo ?
+                                                    </h4>
+                                                    <h5 class="odoo_coloer_title">
+                                                        With Odoo, you don't need anything else
+                                                    </h5>
+                                                    <p class="odoo_company_desc">
+                                                        Thanks to its diversity of applications, Odoo brings you all the solutions for all enterprise resource
+                                                        requirements, its diversity of platforms and its constant updating make it a modern system that keeps pace
+                                                        with all aspects of enterprise resource planning.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-5">
+                                                <div class="mark_title">
+                                                    <h3 class="odoo_title_details">Odoo as an easy-to-use program</h3>
+                                                </div>
+                                                <p class="odoo_company_desc odoo_desc_details">Thanks to its simple and harmonious design, Odoo provides a very easy user experience for
+                                                    businessmen, where anyone can download and install it, and because Odoo is an open source program,
+                                                    it allows company owners to benefit from its services comfortably, these services include finding
+                                                    solutions in accounting, finance, sales management, e-commerce, technical support services for
+                                                    customers, human resources management and many business management services .</p>
+                                            </div>
+
+                                            <div class="col-md-12 mb-5">
+                                                <div class="mark_title">
+                                                    <h3 class="odoo_title_details">Now you can manage everything using one platform</h3>
+                                                </div>
+                                                <p class="odoo_company_desc odoo_desc_details">One of the most negative things that entrepreneurs face is the overlapping of management programs
+                                                    and applications with each other, although they are separate, as it is very difficult to manage them at
+                                                    the same time and coordinate between them, now with Odoo you can manage all the applications
+                                                    related to your business using one platform, which makes it easier You have to monitor all aspects of
+                                                    your company simultaneously and thus find quick and effective enterprise resource planning.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-12 mb-5">
+                                                <div class="mark_title">
+                                                    <h3 class="odoo_title_details">Odoo helps you no matter the size of your company</h3>
+                                                </div>
+                                                <p class="odoo_company_desc odoo_desc_details">Odoo provides the ability to download its applications for all companies, including startups, as these
+                                                    applications enable entrepreneurs to use them in various fields related to managing their business,
+                                                    thanks to this flexibility, Odoo has become the most downloaded business program in the world, with
+                                                    more than 5 million users.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="oe_structure mb-5">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-5">
+                                                <div class="title_head_contain text-center">
+                                                    <h3 class="odoo_app_title">Odoo Apps</h3>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Sales Apps
+                                                        </h5>
+                                                        <p>Sales apps in Odoo allow the management of sales in a very smooth and professional manner, now with Odoo it is possible to manage all sales easily</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Website Apps
+                                                        </h5>
+                                                        <p>And Because It Has Become Necessary For The Company To Exist On The Internet, Odoo Provides You With A Distinctive Place On The Internet By Creating And Managing Your Website</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Finance Apps
+                                                        </h5>
+                                                        <p>Finance Apps In Odoo Allow You To Manage The Financial Side Of The Company, As It Can Create Accounting Solutions And Process All Sales Data.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Human Resource Management Apps
+                                                        </h5>
+                                                        <p>Through Odoo, It Becomes Possible To Manage Personnel
+                                                            Affairs With Flexibility. These Apps Allow Managing Workers'
+                                                            Salaries And Vacations, As Well As Conducting Job Interviews
+                                                            And Employment.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Operations Apps
+                                                        </h5>
+                                                        <p>These Apps Allow To Facilitate All The Company’s Operations. These Operations Are Mainly Represented In Inventory Management, Customer Orders Management And Some Mini Projects Within The Company.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Marketing Apps
+                                                        </h5>
+                                                        <p>Marketing Is One Of The Pillars Of A Successful Business, So
+                                                            Odoo's Marketing Apps Allow An Excellent Experience To
+                                                            Manage The Company's Marketing Department.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Communication Apps
+                                                        </h5>
+                                                        <p>These Apps Enable Perfect Communication Between
+                                                            Employees Or With Customers</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="odoo_app_content">
+                                                    <div class="odoo_app_list_img">
+                                                        <img src="/sah_badailtech/static/src/img/odoo_app.png" class="img-fluid" />
+                                                    </div>
+                                                    <div class="odoo_app_details">
+                                                        <h5>
+                                                            Apps That Enable You To Manage
+                                                            Relationships With Your Customers
+                                                        </h5>
+                                                        <p>Thanks To The Flexible Communication Apps Provided By Odoo, You Can Now
+                                                            Communicate With Your Customers With Ease. These Apps Provide An Ideal
+                                                            Communication Bridge Between You And The Customer, Making It Easier For You
+                                                            To Establish A Professional Relationship With Customers</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+
+                            </div>
+                        </div>
+                    </t>
+                </t>
+            </field>
+        </record>
+
         <!-- === about us Page === -->
         <record id="badailtech_about_page" model="website.page">
 
@@ -560,11 +802,17 @@
             </field>
         </record>
 
+        <record id="badailtech_menu_odoo" model="website.menu">
+            <field name="name">Odoo</field>
+            <field name="url">/odoo</field>
+            <field name="parent_id" ref="website.main_menu"/>
+            <field name="sequence" type="int">10</field>
+        </record>
         <record id="badailtech_menu_about_us" model="website.menu">
             <field name="name">About Us</field>
             <field name="url">/about_us</field>
             <field name="parent_id" ref="website.main_menu"/>
-            <field name="sequence" type="int">10</field>
+            <field name="sequence" type="int">15</field>
         </record>
 
 

@@ -486,7 +486,7 @@ p.home_company_chosen{
     background: #45a79d !important;
 }
 /****************************/
-.contact_us_page, .about_us_page{
+.contact_us_page, .about_us_page, .odoo_page{
     margin-top: 3rem;
 }
 input.form-control.o_website_form_input.custom_contact_us_form {
@@ -579,4 +579,48 @@ li.contact_information_item {
     background-color: #ffffff;
     padding: 17px;
 }
-/*************************/
+/********** odoo page ***************/
+.odoo_company_desc{
+    color: #000;
+    font-size: 14px;
+}
+h5.odoo_coloer_title {
+    color: #45a79d;
+    margin-top: 20px;
+}
+.odoo_title_details
+{
+    color: #000 !important;
+    text-transform: capitalize;
+}
+.odoo_desc_details{
+    padding-left: 20px;
+    margin-top: 1rem;
+}
+.odoo_app_title:after{
+    left: 44% !important;
+}
+.odoo_app_content{
+    border-radius: 25px;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    min-height: 200px;
+}
+.odoo_app_list_img{
+    background-color: #02a69d;
+    width: 19%;
+    padding: 1.4rem;
+    float: left;
+    margin-right: 2rem;
+    border-radius: 7px;
+    margin-bottom: 5rem;
+}
+.odoo_app_details h5{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.odoo_app_details p {
+    font-size: 12px;
+}
