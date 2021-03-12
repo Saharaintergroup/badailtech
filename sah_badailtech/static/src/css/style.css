@@ -353,7 +353,7 @@ ul.social_icons{
 }
 .home_service_list{
     list-style: none;
-    height: 135px;
+    height: 230px;
     position: relative;
 }
 .home_service_list_after:after{
@@ -415,11 +415,12 @@ li.home_service_list.home_service_list_before {
     width: 100%;
 }
 .home_odoo_tour{
-    background: #e5e5e5;
+    background-image: url(../img/odoo_tour_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
     padding: 3rem 0 5rem;
-    margin: 7rem 0 !important;
 }
-.home_odoo_tour_container h3{
+.home_odoo_tour_container h3, .home_ques_title{
     color: #45a79d;
     margin-bottom: 2rem;
 }
@@ -435,7 +436,6 @@ p.home_company_chosen{
     margin: unset;
     color: #d1d2d4;
     margin-bottom: 3rem;
-<<<<<<< HEAD
 }
 .home_company_chosen_img
 {
@@ -445,7 +445,7 @@ p.home_company_chosen{
     border-radius: 5px;
     margin-bottom: 2rem;
 }
-.home_company_chosen_content h4
+.home_company_chosen_content h5
 {
     color: #054340;
     margin: 20px 0;
@@ -534,7 +534,6 @@ button.o_website_form_send.contact_form_btn {
 ul.contact_information_list {
     list-style: none;
     margin-top: 2rem;
-    width: 40%;
     padding: 0;
 }
 li.contact_information_item {
@@ -542,6 +541,10 @@ li.contact_information_item {
 }
 .contact_information_item a{
     color: #7b7b7b !important;
+}
+.contact_information_item p{
+    margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .lang_cut:last-child{
     display: none;
@@ -581,8 +584,9 @@ li.contact_information_item {
 }
 /********** odoo page ***************/
 .odoo_company_desc{
-    color: #000;
-    font-size: 14px;
+    color: #000 !important;
+    font-size: 14px !important;
+    font-weight: 400!important;
 }
 h5.odoo_coloer_title {
     color: #45a79d;
@@ -597,9 +601,9 @@ h5.odoo_coloer_title {
     padding-left: 20px;
     margin-top: 1rem;
 }
-.odoo_app_title:after{
+/*.odoo_app_title:after{
     left: 44% !important;
-}
+}*/
 .odoo_app_content{
     border-radius: 25px;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.16);
@@ -609,9 +613,7 @@ h5.odoo_coloer_title {
     min-height: 200px;
 }
 .odoo_app_list_img{
-    background-color: #02a69d;
     width: 19%;
-    padding: 1.4rem;
     float: left;
     margin-right: 2rem;
     border-radius: 7px;
@@ -623,4 +625,29 @@ h5.odoo_coloer_title {
 }
 .odoo_app_details p {
     font-size: 12px;
+}
+.mission_container{
+    background-image: url(../img/mission_bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 2rem;
+}
+.mission_container_img{
+    float: left;
+    width: 50px;
+}
+.mission_container_img img{
+    width: 60%;
+    z-index: 9999;
+    display: block;
+}
+.mission_content{
+    padding: 20px 135.2px 23px 40px;
+    border-radius: 33px;
+    -webkit-backdrop-filter: blur(35px);
+    backdrop-filter: blur(35px);
+    background-color: rgb(255 255 255 / 39%);
+}
+.mission_container_details p{
+    color: #fff;
 }
