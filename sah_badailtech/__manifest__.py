@@ -29,6 +29,8 @@
         'views/views.xml',
         'views/templates.xml',
         'views/snippets_template.xml',
+        'views/blog_template.xml',
+        'views/event_template.xml',
         'data/pages.xml',
     ],
     # only loaded in demonstration mode

@@ -420,6 +420,13 @@ li.home_service_list.home_service_list_before {
     background-repeat: no-repeat;
     padding: 3rem 0 5rem;
 }
+.home_customer{
+    background-image: url(../img/our_customer.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 3rem 0 5rem;
+    margin-bottom: 3rem;
+}
 .home_odoo_tour_container h3, .home_ques_title{
     color: #45a79d;
     margin-bottom: 2rem;
@@ -440,10 +447,11 @@ p.home_company_chosen{
 .home_company_chosen_img
 {
     background: #02a69d;
-    width: 45px;
-    padding: 10px;
+    width: 40px;
+    padding: 3px;
     border-radius: 5px;
     margin-bottom: 2rem;
+    height: 50px;
 }
 .home_company_chosen_content h5
 {
@@ -453,21 +461,20 @@ p.home_company_chosen{
 .home_company_chosen_content span, .home_company_chosen_content p{
   color: #b8b8b8;
 }
-.home_company_chosen_border{
-    border-right: 2px dashed rgba(190, 190, 190, 0.53);
-    border-left: 2px dashed rgba(190, 190, 190, 0.53);
-}
 .odoo_customer_slider_txt {
     font-size: 13px;
     color: #4f4f4f;
     margin-top: 1rem
 }
-.odoo_customer_slider_img
-{
-    padding-bottom: 12px;
-    width: 150px !important;
+.odoo_customer_slider_img_container{
+    width: 70px;
     margin: auto;
     border-bottom: 1px solid #a8a8a8;
+    padding-bottom: 12px;
+    height: 85px;
+}
+.home_customer .home_odoo_tour_container h3{
+    color: #054340;
 }
 .odoo_customer_slider .owl-dots
 {
@@ -484,6 +491,34 @@ p.home_company_chosen{
 }
 .odoo_customer_slider .owl-dot.active{
     background: #45a79d !important;
+}
+.why_choose_us_indicators li
+{
+    border-radius: 5px !important;
+    width: 10px;
+    height: 10px;
+    border: none;
+}
+.why_choose_us_indicators li.active
+{
+    background-color: #02a69d !important;
+    position:relative;
+}
+.why_choose_us_indicators li.active:after
+{
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    right: -4px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #45a79d;
+    border-radius: 50%;
+}
+.why_choose_us_indicators li
+{
+    background-color: #d1d2d4;
+    opacity: 1;
 }
 /****************************/
 .contact_us_page, .about_us_page, .odoo_page{
@@ -650,4 +685,24 @@ h5.odoo_coloer_title {
 }
 .mission_container_details p{
     color: #fff;
+}
+/**********blog page ********************/
+.blog_list_container a.blog-list-item-image{
+    float: left;
+    width: 20%;
+    margin-right: 20px;
+}
+.news_grid_subtitle
+{
+    font-size: 13px;
+}
+.blog_details_btn{
+    float: right;
+    text-decoration: none !important;
+    font-size: 14px;
+}
+.blog_list_container{
+    box-shadow: 0 0.5px 13px 0 rgb(136 126 132 / 22%);
+    padding: 1rem;
+    border-radius: 10px;
 }

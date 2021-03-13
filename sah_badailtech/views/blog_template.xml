@@ -1,0 +1,55 @@
+<odoo>
+    <data>
+        <template id="badailtech_blog_template" active="True" inherit_id="website_blog.blog_post_short">
+            <xpath  expr="//div[@id='o_wblog_blog_top']" position="replace">
+                <section class="badailtech_breadcrumb">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="title_head_contain">
+                                    <h3>News</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </xpath>
+            <xpath  expr="//div[@id='o_wblog_posts_loop_container']" position="replace">
+                <t t-foreach="posts" t-as="blog_post">
+                    <div class="col-md-12 mt-3 blog_list_container">
+                        <div class="">
+                            <a title="Blog image"  t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}" class="blog-list-item-image">
+                                <img alt="Blog" class="img-fluid"
+                                     data-original-title="" title=""
+                                     aria-describedby="tooltip838064"
+                                     t-att-src="'/web/image/blog.post/%s/image' % blog_post.id"/>
+
+                            </a>
+
+                        </div>
+
+                        <div class="home_latset_news_grid_content mt-3">
+                            <h3 class="blog_page_title" t-field="blog_post.name"/>
+                            <p class="news_grid_subtitle" t-field="blog_post.subtitle"/>
+                            <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}" class="blog_details_btn text-right">Read More</a>
+                        </div>
+                    </div>
+                </t>
+            </xpath>
+        </template>
+        <record id="blog_post_view_form_inherited" model="ir.ui.view">
+            <field name="name">blog.post.form.inherited</field>
+            <field name="model">blog.post</field>
+            <field name="inherit_id" ref="website_blog.view_blog_post_form"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='tag_ids']" position="after">
+                    <field name="image"/>
+                    <field name="content"/>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

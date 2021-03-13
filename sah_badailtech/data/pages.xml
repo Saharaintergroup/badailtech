@@ -34,7 +34,19 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/banner.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/banner2.png" class="d-block img-fluid" alt="..."/>
+                                                    <div class="home_header_content">
+                                                        <h1>who are badailTech ?
+                                                        </h1>
+                                                        <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
+                                                        </p>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="slider_logo_img">
+                                                    <img src="/sah_badailtech/static/src/img/banner3.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <h1>who are badailTech ?
                                                         </h1>
@@ -48,6 +60,7 @@
                                         <ol class="carousel-indicators badailtech_header_indicators">
                                             <li data-target="#badailtechCarousel" data-slide-to="0" class="circle active"/>
                                             <li data-target="#badailtechCarousel" data-slide-to="1" class="circle"/>
+                                            <li data-target="#badailtechCarousel" data-slide-to="2" class="circle"/>
                                         </ol>
                                     </div>
                                 </div>
@@ -177,6 +190,8 @@
                                     </div>
                                 </div>
                             </section>
+
+
                             <section class="oe_structure">
                                 <div class="container">
                                     <div class="row">
@@ -184,48 +199,96 @@
                                             <h3 class="home_ques_title">Why Choose Us</h3>
                                             <p class="home_company_chosen">It is evident that the secret of the success of any company is its provision of services and products of high value to the customer, and for this reason, what we care about most about alternatives to tech is the quality of the services and products that we provide</p>
                                         </div>
-                                        <div class="col-4">
-                                            <div class="home_company_chosen_img">
-                                                <img src="/sah_badailtech/static/src/img/quality.png" class="img-fluid"/>
+                                    </div>
+                                    <div id="why_choose_us_carousel" class="carousel slide" data-ride="carousel">
+                                        <div class="slider_contain">
+                                            <div class="carousel-inner home_header_slider">
+                                                <div class="carousel-item active mb-5">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="home_company_chosen_img">
+                                                                <img src="/sah_badailtech/static/src/img/customer_review.png" class="img-fluid"/>
+                                                            </div>
+                                                            <div class="home_company_chosen_content">
+                                                                <h4><span>01</span></h4>
+                                                                <h5>
+                                                                    Customer satisfaction comes first
+                                                                </h5>
+                                                                <P>We attach utmost importance to making our client satisfied with our performance, and for that to happen we strive to provide our service as required, by providing technical solutions that will facilitate the client's business management</P>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="home_company_chosen_img">
+                                                                <img src="/sah_badailtech/static/src/img/creativity.png" class="img-fluid"/>
+                                                            </div>
+                                                            <div class="home_company_chosen_content">
+                                                                <h4><span>02</span></h4>
+                                                                <h5>
+                                                                    Our creativity is unlimited
+                                                                </h5>
+                                                                <P>Because we strive to be in the forefront, we are working to raise the element of surprise in the same customer after we have provided our service with high efficiency and accuracy.
+                                                                </P>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="home_company_chosen_img">
+                                                                <img src="/sah_badailtech/static/src/img/communication.png" class="img-fluid"/>
+                                                            </div>
+                                                            <div class="home_company_chosen_content">
+                                                                <h4><span>03</span></h4>
+                                                                <h5>
+                                                                    We are good listeners
+                                                                </h5>
+                                                                <P>Mastering the service requires a good understanding of the customer’s request, so our team is keen to monitor every small and large piece of our client’s needs.</P>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item mb-5">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <div class="home_company_chosen_img">
+                                                                <img src="/sah_badailtech/static/src/img/quality.png" class="img-fluid"/>
+                                                            </div>
+                                                            <div class="home_company_chosen_content">
+                                                                <h4><span>04</span></h4>
+                                                                <h5>
+                                                                    Our services are of high quality
+                                                                </h5>
+                                                                <P>It is evident that the secret of the success of any company is its
+                                                                    provision of services and products of high value to the customer,
+                                                                    and for this reason, what we care about most about alternatives
+                                                                    to tech is the quality of the services and products that we provide</P>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-4">
+                                                            <div class="home_company_chosen_img">
+                                                                <img src="/sah_badailtech/static/src/img/think_out.png" class="img-fluid"/>
+                                                            </div>
+                                                            <div class="home_company_chosen_content">
+                                                                <h4><span>05</span></h4>
+                                                                <h5>
+                                                                    We think outside the box
+                                                                </h5>
+                                                                <p>                                                          Because we strive to be in the forefront, we are
+                                                                    working to raise the element of surprise in the
+                                                                    same customer after we have provided our service
+                                                                    with high efficiency and accuracy      </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="home_company_chosen_content">
-                                                <h4><span>01</span></h4>
-                                                <h5>
-                                                    Customer satisfaction comes first
-                                                </h5>
-                                                <P>We attach utmost importance to making our client satisfied with our performance, and for that to happen we strive to provide our service as required, by providing technical solutions that will facilitate the client's business management</P>
-                                            </div>
+                                            <ol class="carousel-indicators why_choose_us_indicators">
+                                                <li data-target="#why_choose_us_carousel" data-slide-to="0" class="circle active"/>
+                                                <li data-target="#why_choose_us_carousel" data-slide-to="1" class="circle"/>
+                                            </ol>
                                         </div>
-                                        <div class="col-4 home_company_chosen_border">
-                                            <div class="home_company_chosen_img">
-                                                <img src="/sah_badailtech/static/src/img/creativity.png" class="img-fluid"/>
-                                            </div>
-                                            <div class="home_company_chosen_content">
-                                                <h4><span>02</span></h4>
-                                                <h5>
-                                                    Our creativity is unlimited
-                                                </h5>
-                                                <P>Because we strive to be in the forefront, we are working to raise the element of surprise in the same customer after we have provided our service with high efficiency and accuracy.
-                                                </P>
-                                            </div>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="home_company_chosen_img">
-                                                <img src="/sah_badailtech/static/src/img/fast_response.png" class="img-fluid"/>
-                                            </div>
-                                            <div class="home_company_chosen_content">
-                                                <h4><span>03</span></h4>
-                                                <h5>
-                                                    We are good listeners
-                                                </h5>
-                                                <P>Mastering the service requires a good understanding of the customer’s request, so our team is keen to monitor every small and large piece of our client’s needs.</P>
-                                            </div>
-                                        </div>
-
                                     </div>
                                 </div>
                             </section>
-                            <section class="oe_structure home_odoo_tour mt-5">
+
+                            <section class="oe_structure home_customer mt-5">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12 text-center home_odoo_tour_container">
@@ -233,28 +296,28 @@
                                         </div>
                                         <div class="owl-carousel owl-theme odoo_customer_slider">
                                             <div class="item text-center">
-                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
                                                 <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
                                                     consetetur sadipscing elitr, sed
                                                     diam nonumy eirmod tempor
                                                     invidunt</p>
                                             </div>
                                             <div class="item text-center">
-                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
                                                 <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
                                                     consetetur sadipscing elitr, sed
                                                     diam nonumy eirmod tempor
                                                     invidunt</p>
                                             </div>
                                             <div class="item text-center">
-                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <div class="odoo_customer_slider_img_container"> <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
                                                 <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
                                                     consetetur sadipscing elitr, sed
                                                     diam nonumy eirmod tempor
                                                     invidunt</p>
                                             </div>
                                             <div class="item text-center">
-                                                <img src="/sah_badailtech/static/src/img/logo.png" class="odoo_customer_slider_img img-fluid"/>
+                                                <div class="odoo_customer_slider_img_container">  <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
                                                 <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
                                                     consetetur sadipscing elitr, sed
                                                     diam nonumy eirmod tempor
