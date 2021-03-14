@@ -1,23 +1,49 @@
 <odoo>
     <data>
+        <template id="badailtech_event_template_header" active="True" inherit_id="website_event.index_topbar">
+            <xpath  expr="//nav[hasclass('d-print-none')]" position="replace">
+                <nav class="navbar navbar-light d-print-none mt-5">
+                    <div class="container">
+                        <div class="d-flex flex-column flex-sm-row justify-content-between title_head_contain w-100">
+                            <div class="d-flex flex-column flex-sm-row justify-content-between title_head_contain w-100 title_head_contain">
+                                <h3>Events</h3>
+                            </div>
+                            <ul class="o_wevent_index_topbar_filters nav">
+                                <li class="nav-item dropdown mr-2 my-1">
+                                    <a href="#" role="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <i class="fa fa-calendar"/>
+                                        <t t-if="current_date" t-esc="current_date"/>
+                                        <t t-else="">Upcoming Events</t>
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <t t-foreach="dates" t-as="date">
+                                            <t t-if="date[3] or (date[0] in ('old','all'))">
+                                                <a t-att-href="keep('/event', date=date[0])" t-attf-class="dropdown-item d-flex align-items-center justify-content-between #{searches.get('date') == date[0] and 'active'}">
+                                                    <t t-esc="date[1]"/>
+                                                    <span t-if="date[3]" t-esc="date[3]" class="badge badge-pill badge-primary ml-3"/>
+                                                </a>
+                                            </t>
+                                        </t>
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <div class="d-flex align-items-center flex-wrap pl-sm-3 pr-0">
+                                <t t-call="website_event.events_search_box">
+                                    <t t-set="_searches" t-value="searches"/>
+                                    <t t-set="_placeholder">Search Events</t>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </xpath>
+        </template>
         <template id="badailtech_event_template" active="True" inherit_id="website_event.index">
-            <!--            <xpath  expr="//div[@id='o_wblog_blog_top']" position="replace">-->
-            <!--                <section class="badailtech_breadcrumb">-->
-            <!--                    <div class="container">-->
-            <!--                        <div class="row">-->
-            <!--                            <div class="col-md-12">-->
-            <!--                                <div class="title_head_contain">-->
-            <!--                                    <h3>Events</h3>-->
-            <!--                                </div>-->
-            <!--                            </div>-->
-            <!--                        </div>-->
-            <!--                    </div>-->
-            <!--                </section>-->
-            <!--            </xpath>-->
             <xpath  expr="//div[@id='o_wevent_index_main_col']" position="replace">
                 <div class="row">
                     <!-- Events List -->
-                    <div t-foreach="event_ids" t-as="event" t-attf-class=" #{opt_event_size} mb-4">
+                    <t t-foreach="event_ids" t-as="event">
                         <div class=" col-md-6 col-lg-4 mb-4">
                             <a t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register'}" class="text-decoration-none">
                                 <article t-attf-class="h-100 #{opt_events_list_cards and 'card border-0 shadow-sm'}" itemscope="itemscope" itemtype="http://schema.org/Event">
@@ -26,10 +52,17 @@
                                         <header t-attf-class="overflow-hidden #{opt_events_list_columns and 'col-12 rounded-top' or 'col-sm-4 col-lg-3 rounded-left'} #{(not opt_events_list_cards) and 'rounded shadow'} #{(not opt_events_list_cards and not opt_events_list_columns) and 'rounded-top'}">
                                             <!-- Image + Link -->
                                             <div class="d-block h-100 w-100">
-                                                <img alt="Event" class="img-fluid"
-                                                     data-original-title="" title=""
-                                                     aria-describedby=""
-                                                     t-att-src="'/web/image/event.event/%s/image' % event.id"/>
+                                                <div>
+                                                    <img alt="Event" class="event_img img-fluid"
+                                                         data-original-title="" title=""
+                                                         aria-describedby=""
+                                                         t-att-src="'/web/image/event.event/%s/image' % event.id"/>
+                                                    <div class="o_wevent_event_date position-absolute event_date_img">
+                                                        <span t-field="event.with_context(tz=event.date_tz).date_begin" t-options="{'format': 'LLL'}" class="o_wevent_event_month"/>
+                                                        <span t-field="event.with_context(tz=event.date_tz).date_begin" t-options="{'format': 'dd'}" class="o_wevent_event_day"/>
+                                                    </div>
+
+                                                </div>
                                                 <t t-call="website.record_cover">
                                                     <t t-set="_record" t-value="event"/>
 
@@ -59,7 +92,7 @@
                                                     <span t-field="event.name" itemprop="name"/>
                                                 </h5>
                                                 <!-- Start Date & Time -->
-                                                <time itemprop="startDate" t-att-datetime="event.date_begin">
+                                                <time itemprop="startDate" t-att-datetime="event.date_begin" class="event_time_grid">
                                                     <span t-field="event.with_context(tz=event.date_tz).date_begin" t-options="{'date_only': 'true', 'format': 'long'}"/> -
                                                     <span t-field="event.with_context(tz=event.date_tz).date_begin" t-options="{'time_only': 'true', 'format': 'short'}"/>
                                                 </time>
@@ -97,30 +130,44 @@
                                 </article>
                             </a>
                         </div>
-                    </div>
+                    </t>
 
                 </div>
-                <!--                <t t-foreach="event_ids" t-as="event">-->
-                <!--                    <div class="col-md-12 mt-3 blog_list_container">-->
-                <!--                        <div class="">-->
-                <!--                            <a title="Blog image"  t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}" class="blog-list-item-image">-->
-                <!--                                <img alt="Blog" class="img-fluid"-->
-                <!--                                     data-original-title="" title=""-->
-                <!--                                     aria-describedby="tooltip838064"-->
-                <!--                                     t-att-src="'/web/image/blog.post/%s/image' % blog_post.id"/>-->
-
-                <!--                            </a>-->
-
-                <!--                        </div>-->
-
-                <!--                        <div class="home_latset_news_grid_content mt-3">-->
-                <!--                            <h3 class="blog_page_title" t-field="blog_post.name"/>-->
-                <!--                            <p class="news_grid_subtitle" t-field="blog_post.subtitle"/>-->
-                <!--                            <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}" class="blog_details_btn text-right">Read More</a>-->
-                <!--                        </div>-->
-                <!--                    </div>-->
-                <!--                </t>-->
             </xpath>
+        </template>
+
+
+        <!-- single  event       -->
+        <template id="badailtech_single_event_template" active="True" inherit_id="website_event.layout">
+            <xpath  expr="//nav[hasclass('d-print-none')]" position="replace">
+                <nav class="navbar navbar-light border-top shadow-sm d-print-none">
+                    <div class="container align-items-baseline justify-content-start">
+                        <a href="/event" class="navbar-brand h4 my-0 mr-0 mr-md-4 title_head_contain">
+                            <h3>All Events</h3>
+                        </a>
+                        <ul class="navbar-nav flex-row ml-md-auto ml-0">
+                            <li t-if="opt_events_list_categories" class="nav-item mr-3">
+                                <a t-attf-href="/event?type=#{event.event_type_id.id}" t-if="event.event_type_id" class="nav-link">
+                                    <i class="fa fa-folder-open text-primary mr-2"/><span t-field="event.event_type_id"/>
+                                </a>
+                            </li>
+                            <li class="nav-item mr-3">
+                                <a t-if="event.country_id" t-attf-href="/event?country=#{event.country_id.id}" class="nav-link">
+                                    <i class="fa fa-map-marker text-primary mr-2"/><span t-field="event.country_id"/>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="d-flex align-items-centerflex-wrap pl-sm-3 pr-0">
+                            <t t-call="website_event.events_search_box">
+                                <t t-set="_classes" t-value="'ml-auto'"/>
+                                <t t-set="_searches" t-value="searches"/>
+                                <t t-set="_placeholder">Search Event</t>
+                            </t>
+                        </div>
+                    </div>
+                </nav>
+            </xpath>
+
         </template>
 
         <record id="event_view_form_inherited" model="ir.ui.view">

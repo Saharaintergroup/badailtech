@@ -50,10 +50,10 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .
 header .navbar-brand, header .navbar-brand.logo{
     margin-right: 5.5rem !important;
 }
-header, .o_header_affixed
+/*header, .o_header_affixed
 {
   background-color: #222222 !important;
-}
+}*/
 .o_header_affixed .pages_nav{
     box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.2) !important;
     background: rgb(15, 66, 104, 93%);
@@ -161,7 +161,7 @@ a.menu_lang_pages[data-url_code="en"]{
     text-decoration: none !important;
 }
 nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover{
-    color: #0a7bbc;
+    color: #45a79d;
 }
 /* header*/
 .headr_contact_bg{
@@ -705,4 +705,60 @@ h5.odoo_coloer_title {
     box-shadow: 0 0.5px 13px 0 rgb(136 126 132 / 22%);
     padding: 1rem;
     border-radius: 10px;
+}
+/*********** event **************/
+.rounded-top .event_img{
+    padding: 1rem;
+}
+.o_wevent_index .o_wevent_events_list.opt_event_list_cards_bg {
+    background-color: unset !important;
+    color: #212529;
+}
+.o_wevent_index_topbar_filters .dropdown-toggle{
+    border: 1px solid #e3e3e5 !important;
+    border-radius: 10px !important;
+    color: #e3e3e5 !important;
+}
+.o_wevent_index_topbar_filters .dropdown-toggle .fa{
+     color: #e3e3e5 !important;
+}
+.oe_search_box{
+    border: 1px solid #e3e3e5 !important;
+    border-radius: 10px !important;
+    color: #e3e3e5 !important;
+    padding-left: 42px;
+    width: 200px !important;
+}
+.oe_search_box::placeholder{
+    color: #e3e3e5 !important;
+}
+.input-group-append{
+    position: absolute;
+}
+.oe_search_button{
+    color: #f1f0f4 !important;
+    background-color: unset !important;
+    border: none !important;
+}
+.event_date_img{
+    border-radius: 20px !important;
+    background-color: rgba(2, 166, 157, 0.25) !important;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #fff !important;
+}
+.event_time_grid{
+    color: #7b7b7b;
+}
+.o_wevent_index_topbar_filters .dropdown-menu .dropdown-item{
+    color: #7b7b93 !important;
+    font-size: 13px !important;
+}
+.o_wevent_index_topbar_filters .dropdown-menu .dropdown-item.active{
+    background-color: #ffffff !important;
+    color: #45a79d !important;
+}
+.o_wevent_index_topbar_filters .dropdown-item.active .badge{
+    background-color: #47adaa !important;
+    color: #ffffff !important;
 }
