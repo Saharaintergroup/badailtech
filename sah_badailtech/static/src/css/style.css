@@ -857,3 +857,40 @@ h5.odoo_coloer_title {
 .o_website_hr_recruitment_jobs_list{
     background-color: #fff !important;
 }
+#hr_recruitment_form .s_website_form_label_content{
+    font-weight: 400;
+}
+.career_input_cv i
+{
+    position: absolute;
+    right: 28px;
+    font-size: 25px;
+    top: 6px;
+    color: #47adaa;
+    z-index: 999;
+}
+.career_input_cv_span{
+    position: absolute;
+    left: 13px;
+    top: 0px;
+    color: #6c757d;
+    width: 97% !important;
+    cursor: pointer;
+}
+.career_input_cv #recruitment5{
+    opacity: 0;
+}
+.career_form_send{
+    width: 98%;
+    margin-left: 12px;
+    padding: 0.5rem !important;
+    line-height: 1.3;
+    border-radius: 8px;
+}
+.career_job_title{
+    color: #000 !important;
+    font-size: 20px;
+}
+.oe_website_jobs .row.pt48.pb48{
+    padding-top: 0 !important;
+}
