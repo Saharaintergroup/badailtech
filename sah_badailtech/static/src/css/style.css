@@ -706,6 +706,9 @@ h5.odoo_coloer_title {
     padding: 1rem;
     border-radius: 10px;
 }
+.home_latset_news_grid_content a.blog_title_link{
+    text-decoration: none !important;
+}
 /*********** event **************/
 .rounded-top .event_img{
     padding: 1rem;
@@ -732,7 +735,7 @@ h5.odoo_coloer_title {
 .oe_search_box::placeholder{
     color: #e3e3e5 !important;
 }
-.input-group-append{
+.o_wevent_event_searchbar_form .input-group-append{
     position: absolute;
 }
 .oe_search_button{
@@ -761,4 +764,96 @@ h5.odoo_coloer_title {
 .o_wevent_index_topbar_filters .dropdown-item.active .badge{
     background-color: #47adaa !important;
     color: #ffffff !important;
+}
+.o_wevent_event.js_event .bg-200.mt-n5{
+    background-color: #fff !important;
+}
+.o_wevent_event.js_event .bg-200.mt-n5 .no-gutters .bg-light.shadow-sm  {
+    background-color: #FFFFFF !important;
+    box-shadow: unset !important;
+}
+.o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3, .o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3 .oe_black{
+    background-color: #FFFFFF !important;
+    color: #000000;
+}
+.o_wevent_event.js_event .o_wevent_event h6.o_wevent_sidebar_title{
+    color: #7b7b7b;
+    font-size: 19px;
+    opacity: 1 !important;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block, .o_wevent_event.js_event .o_wevent_sidebar_block span[data-oe-type="datetime"]
+{
+    color: #7b7b7b;
+    font-size: 19px;
+    opacity: 1 !important;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block .d-flex{
+    display: block !important;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block h5.my-1.mr-1 {
+    color: #d1d2d4;
+    font-size: 12px !important;
+    display: block;
+    width: 100%;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block h5.my-1 {
+    color: #d1d2d4;
+    font-size: 12px !important;
+    width: 100%;
+    display: block;
+}
+.o_wevent_event .o_wevent_sidebar_title{
+    opacity: 1 !important;
+    font-size: 19px !important;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block .fa-long-arrow-down.d-block.text-muted.mx-3{
+    display: none !important;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block .dropdown a, .o_wevent_event.js_event .o_wevent_sidebar_block .dropdown i.fa-calendar, .o_wevent_event.js_event .o_wevent_sidebar_block span, .o_wevent_event.js_event .o_wevent_sidebar_block i, .o_wevent_event.js_event .o_wevent_sidebar_block h4, .o_wevent_event.js_event .o_wevent_sidebar_block a{
+    color: #d1d2d4;
+    font-size: 14px;
+}
+.o_wevent_event.js_event .o_wevent_sidebar_block small
+{
+    color: #d1d2d4 !important;
+}
+.o_website_event_configuration.o_not_editable{
+    color: #47adaa;
+    background-color: unset;
+    border: none;
+}
+#o_wevent_event_main_col{
+    box-shadow: unset !important;
+}
+.o_wevent_registration_single .o_wevent_nowrap .w-auto.custom-select{
+    border-radius: 5px;
+    background-color: rgb(71 173 170 / 19%);
+    color: #000;
+}
+.o_wevent_sidebar_social a.o_wevent_social_link{
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 16%);
+    background-color: #ffffff;
+}
+.o_wevent_sidebar_social a.s_share_facebook i{
+    color: #1e76cd !important;
+}
+.o_wevent_sidebar_social a.s_share_twitter i{
+    color: #3eaee2 !important;
+}
+.o_wevent_sidebar_social a.s_share_linkedin i{
+    color: #0e6cc9 !important;
+}
+.o_wevent_sidebar_social a.s_share_whatsapp i{
+    color: #7bb984 !important;
+}
+.o_wevent_sidebar_social a.s_share_pinterest i{
+    color: #ef4832 !important;
+}
+.o_wevent_sidebar_social a.s_share_email i{
+    color: #7c7d7e !important;
+}
+/********************************/
+.o_website_hr_recruitment_jobs_list{
+    background-color: #fff !important;
 }

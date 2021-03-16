@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <template id="badailtech_career_template" active="True" inherit_id="website_hr_recruitment.index">
+            <xpath  expr="//section[hasclass('pb32')]" position="replace">
+                <section class="pt48 pb32">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 mb-5">
+                                <div class="title_head_contain">
+                                    <h3>Careers</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </xpath>
+
+        </template>
+    </data>
+</odoo>

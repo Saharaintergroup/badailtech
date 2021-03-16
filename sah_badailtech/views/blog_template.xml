@@ -29,7 +29,9 @@
                         </div>
 
                         <div class="home_latset_news_grid_content mt-3">
-                            <h3 class="blog_page_title" t-field="blog_post.name"/>
+                            <a class="blog_title_link" t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}">
+                                <h3 class="blog_page_title" t-field="blog_post.name"/>
+                            </a>
                             <p class="news_grid_subtitle" t-field="blog_post.subtitle"/>
                             <a t-attf-href="/blog/#{slug(blog_post.blog_id)}/post/#{slug(blog_post)}" class="blog_details_btn text-right">Read More</a>
                         </div>
