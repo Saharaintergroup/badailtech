@@ -42,21 +42,78 @@
 
         <!--   blog details -->
         <template id="blog_post_complete_inherited_template" active="True" name="Badailtech Blog Post" inherit_id="website_blog.blog_post_complete">
-<!--            <xpath expr="//t[@t-call='website_blog.index']" position="replace">-->
-<!--                <t t-call="website_blog.index">-->
-<!--                <section class="badailtech_breadcrumb">-->
-<!--                    <div class="container">-->
-<!--                        <div class="row">-->
-<!--                            <div class="col-md-12">-->
-<!--                                <div class="title_head_contain">-->
-<!--                                    <h3>News</h3>-->
+            <xpath expr="//t[@t-call='website_blog.index']" position="replace">
+                <t t-call="website_blog.index">
+                    <section class="badailtech_breadcrumb mt-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="title_head_contain">
+                                        <h3>News</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="oe_structure mb-5">
+                        <div class="container sec-contain">
+                            <div class="row">
+                                <div class="col-md-12 m-auto blog_details_bg">
+                                    <div class="blog_details_bg_content">
+                                        <h4>News</h4>
+                                        <p>the most accurate and recent news in the technology world
+                                        </p>
+                                    </div>                                                                                            </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="blog_details_content mt-3">
+                        <div class="container">
+                            <div class="mark_title">
+                                <h3 class="" t-field="blog_post.name"/>
+                            </div>
+                            <div>
+                                <p t-field="blog_post.content" />
+                            </div>
+                        </div>
+                    </section>
+                    <section class="mt-3">
+                        <div class="container">
+                            <div class="owl-carousel owl-theme odoo_blog_details_slider">
+                                 <t t-foreach="values" t-as="blog_val">
+                                    <div class="item text-center">
+                                        <div class="odoo_customer_slider_img_container">
+                                            <p t-field="blog_val.name"/>
+                                        </div>
+                                    </div>
+                                 </t>
+<!--                                <div class="item text-center">-->
+<!--                                    <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                    <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                        consetetur sadipscing elitr, sed-->
+<!--                                        diam nonumy eirmod tempor-->
+<!--                                        invidunt</p>-->
 <!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                    </div>-->
-<!--                </section>-->
-<!--                </t>-->
-<!--            </xpath>-->
+<!--                                <div class="item text-center">-->
+<!--                                    <div class="odoo_customer_slider_img_container"> <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                    <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                        consetetur sadipscing elitr, sed-->
+<!--                                        diam nonumy eirmod tempor-->
+<!--                                        invidunt</p>-->
+<!--                                </div>-->
+<!--                                <div class="item text-center">-->
+<!--                                    <div class="odoo_customer_slider_img_container">  <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                    <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                        consetetur sadipscing elitr, sed-->
+<!--                                        diam nonumy eirmod tempor-->
+<!--                                        invidunt</p>-->
+<!--                                </div>-->
+                            </div>
+
+                        </div>
+                    </section>
+                </t>
+            </xpath>
 
         </template>
 

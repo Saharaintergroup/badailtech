@@ -36,6 +36,21 @@ $(function () {
             }
         }
     });
+    $('.odoo_blog_details_slider').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        center:true,
+        autoplay:true,
+        responsive:{
+            768: {
+                items: 1,
+            },
+            1024: {
+                items:2
+            }
+        }
+    });
 
 });
 //$owl.trigger('refresh.owl.carousel');

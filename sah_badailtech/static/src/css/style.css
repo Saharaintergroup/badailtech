@@ -709,6 +709,25 @@ h5.odoo_coloer_title {
 .home_latset_news_grid_content a.blog_title_link{
     text-decoration: none !important;
 }
+.blog_details_bg{
+    background-image: url(/sah_badailtech/static/src/css/../img/blog_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 15rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem;
+}
+.blog_details_bg_content p{
+    font-size: 17px;
+    color: #fff;
+}
+.blog_details_bg_content{
+    color: #fff !important;
+}
+.blog_details_content span.o_field_widget{
+    color: #7b7b7b;
+    font-size: 15px;
+}
 /*********** event **************/
 .rounded-top .event_img{
     padding: 1rem;
