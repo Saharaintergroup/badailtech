@@ -894,3 +894,48 @@ h5.odoo_coloer_title {
 .oe_website_jobs .row.pt48.pb48{
     padding-top: 0 !important;
 }
+.job_short_desc{
+    font-size: 12px;
+    margin-bottom: 3rem !important;
+}
+.job_category_career{
+    color: #02a69d;
+    font-weight: 600;
+    margin-bottom: 5px !important;
+    display: block;
+}
+.o_website_hr_recruitment_jobs_list #jobs_grid .card{
+    border-bottom: #45a79d;
+    border-radius: 10px;
+}
+.career_position_btn{
+    background-color: #02a69d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: .5rem 1rem;
+    color: #fff !important;
+    border-radius: 0 0 5px 5px;
+    text-decoration: none !important;
+}
+.job_desc_career, address .o_force_ltr, address i.fa-map-marker{
+    font-size: 14px;
+    color: #7b7b7b !important;
+    font-weight: 400;
+}
+.job_benefits_title{
+    text-transform: capitalize;
+}
+.career_list_content
+{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 7%);
+    padding: 1rem;
+    height: 850px;
+}
+.career_list_content ul li{
+    margin-bottom: 10px;
+    font-size: 14px;
+}

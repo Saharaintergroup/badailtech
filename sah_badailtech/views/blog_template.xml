@@ -39,6 +39,28 @@
                 </t>
             </xpath>
         </template>
+
+        <!--   blog details -->
+        <template id="blog_post_complete_inherited_template" active="True" name="Badailtech Blog Post" inherit_id="website_blog.blog_post_complete">
+<!--            <xpath expr="//t[@t-call='website_blog.index']" position="replace">-->
+<!--                <t t-call="website_blog.index">-->
+<!--                <section class="badailtech_breadcrumb">-->
+<!--                    <div class="container">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-12">-->
+<!--                                <div class="title_head_contain">-->
+<!--                                    <h3>News</h3>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </section>-->
+<!--                </t>-->
+<!--            </xpath>-->
+
+        </template>
+
+
         <record id="blog_post_view_form_inherited" model="ir.ui.view">
             <field name="name">blog.post.form.inherited</field>
             <field name="model">blog.post</field>

@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base','website','website_blog','website_event','website_slides','website_hr_recruitment'],
+    'depends': ['base','website','website_blog','website_event','website_slides','website_hr_recruitment','hr'],
 
     # always loaded
     'data': [
@@ -32,6 +32,7 @@
         'views/blog_template.xml',
         'views/event_template.xml',
         'views/career_template.xml',
+        'views/job_hr_views.xml',
         'data/pages.xml',
     ],
     # only loaded in demonstration mode

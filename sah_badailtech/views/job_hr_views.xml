@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="product_website_description_template_form_view" model="ir.ui.view">
+        <field name="name">hr.job.form</field>
+        <field name="model">hr.job</field>
+        <field name="inherit_id" ref="hr.view_hr_job_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='description']" position="after">
+                <div colspan="2">
+                    <label for="benefits" style="font-size:1.08333333rem; font-weight: 900;" string="Benefits"/>
+                    <field string="Benefits" name="benefits" />
+                </div>
+            </xpath>
+
+            <xpath expr="//field[@name='address_id']" position="after">
+                <div colspan="2">
+                    <label for="job_category" style="font-size:1.08333333rem; font-weight: 900;" string="Job Category"/>
+                    <field string="Short Description" name="job_category" />
+                </div>
+                <div colspan="2">
+                    <label for="responsibilities" style="font-size:1.08333333rem; font-weight: 900;" string="Responsibilities"/>
+                    <field string="Responsibilities" name="responsibilities" />
+                </div>
+                <div colspan="2">
+                    <label for="must_have" style="font-size:1.08333333rem; font-weight: 900;" string="Must Have"/>
+                    <field string="Must Have" name="must_have" />
+                </div>
+
+            </xpath>
+
+            <xpath expr="//field[@name='user_id']" position="after">
+                <div colspan="2">
+                    <label for="min_requirements" style="font-size:1.08333333rem; font-weight: 900;" string="Min Requirements"/>
+                    <field string="Min Requirements" name="min_requirements" />
+                </div>
+            </xpath>
+
+        </field>
+    </record>
+</odoo>
