@@ -1,8 +1,25 @@
-@media (max-width: 1900px){
+@media (max-width: 1990px){
 
 }
-@media (max-width: 1199px){
-
+@media (max-width: 1500px){
+    .slider_logo_img img{
+        width: 1500px !important;
+    }
+}
+@media (max-width: 1350px){
+    .slider_logo_img img{
+        width: 1350px !important;
+    }
+}
+@media (max-width: 1300px){
+    .slider_logo_img img{
+        width: 1300px !important;
+    }
+}
+@media (max-width: 1250px){
+    .slider_logo_img img{
+        width: 1250px !important;
+    }
 
 }
 @media(min-width: 850px) and (max-width: 1050px)

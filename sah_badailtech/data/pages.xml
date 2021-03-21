@@ -22,7 +22,7 @@
                                         <div class="carousel-inner home_header_slider">
                                             <div class="carousel-item active">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/banner.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/slide3.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <h1>who are badailTech ?
                                                         </h1>
@@ -34,7 +34,7 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/banner2.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/slide2.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <h1>who are badailTech ?
                                                         </h1>
@@ -46,7 +46,7 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/banner3.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/slide1.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <h1>who are badailTech ?
                                                         </h1>
@@ -144,8 +144,8 @@
                                                         about your company. A comprehensive analysis of the company enables you to plan well for the future and avoid all potential obstacles.</p>
                                                 </li>
 
-                                                <li class="home_service_list home_service_list_before">
-                                                    <h4 class="home_service_title home_service_title_before">
+                                                <li class="home_service_list home_service_list_after">
+                                                    <h4 class="home_service_title home_service_title_after">
                                                         Technical Support Service
                                                     </h4>
                                                     <p class="home_service_title_text">We can provide different technical support teams, who are
@@ -153,8 +153,8 @@
                                                         needs and solve them in record time
                                                     </p>
                                                 </li>
-                                                <li class="home_service_list home_service_list_before">
-                                                    <h4 class="home_service_title home_service_title_before">
+                                                <li class="home_service_list home_service_list_after">
+                                                    <h4 class="home_service_title home_service_title_after">
                                                         Professional helping
                                                     </h4>
                                                     <p class="home_service_title_text">We provide technical advice and guidance for your business,
@@ -192,7 +192,7 @@
                             </section>
 
 
-                            <section class="oe_structure">
+                            <section class="oe_structure mt-5">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12">
@@ -324,6 +324,58 @@
                                                     invidunt</p>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <t t-set="blog_post"
+                               t-value="request.env['blog.post'].search([('active','=',True),('is_published','=',True)],limit=4, order='post_date desc')"/>
+                            <section class="oe_structure mt-5">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h3 class="home_ques_title">Events &amp; News</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="tabs_head">
+                                        <ul class="tabs-list">
+                                            <li class="tab-head-item list-inline-item active" onclick="tabEventNews(this,'Events');">Event</li>
+                                            <li class="tab-head-item list-inline-item" onclick="tabEventNews(this,'News');">News</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="tabs_content">
+                                        <div id="Events" class="sah-tab active">
+                                            <div class="row">
+                                                <div class="row">
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div id="News" class="sah-tab">
+                                            <t t-set="i" t-value="1"/>
+                                            <div class="row">
+                                                <div t-attf-class="col-md-6 latest_blog_container"
+                                                     t-foreach="blog_post" t-as="post">
+                                                    <div class="latest_blog_list">
+                                                        <a title="Blog image"  t-attf-href="/blog/#{slug(post.blog_id)}/post/#{slug(post)}" class="blog-list-item-image">
+                                                            <img t-att-src="'data:image/png;base64,%s' % to_text(post.image)"
+                                                                 class="img-fluid" t-if="post.image"/>
+                                                        </a>
+                                                    </div>
+
+                                                    <div class="home_latset_news_grid_content">
+                                                        <h5 t-field="post.name" />
+                                                        <p class="home_latset_news_grid_text"
+                                                           t-field="post.subtitle"/>
+                                                    </div>
+                                                    <t t-set="i" t-value="i+1"/>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                             </section>
