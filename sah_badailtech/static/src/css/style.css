@@ -246,7 +246,7 @@ nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover{
 
 }
 li.footer_list_links{
-    padding: 0rem 0 4.5rem;
+    padding: 0rem 0 2.3rem;
 }
 .footer_logo_img img{
     width: 30%;
@@ -257,6 +257,8 @@ li.footer_list_links{
     color: #fff;
     width: 100%;
     font-size: 16px;
+    text-align: justify;
+    padding-right: 70px;
 }
 .footer_description{
   margin-top: 2.5rem;
@@ -325,6 +327,7 @@ ul.social_icons{
 .home_header_content p{
     color: #fff;
     margin-top: 2rem;
+    text-align: justify;
 }
 .slider_logo_img {
     position: relative;
@@ -407,12 +410,17 @@ li.home_service_list.home_service_list_before {
 .home_service_title_text{
     font-size: 13px;
     color: #d1d2d4;
+    text-align: justify;
+    padding-right: 45px;
 }
 .service_inner_title{
-    font-size: 22px;
-    color: #45a79d;
-    margin-top: 273px;
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 465px;
     width: 100%;
+    background: #028d85;
+    padding: .7rem 1rem;
+    border-radius: 25px;
 }
 .home_odoo_tour{
     background-image: url(../img/odoo_tour_bg.png);
@@ -435,7 +443,7 @@ li.home_service_list.home_service_list_before {
 {
     width: 50%;
     margin: auto;
-    color: #7b7b7b;
+    color: #313131;
     margin-bottom: 3rem;
 }
 p.home_company_chosen{
@@ -447,11 +455,11 @@ p.home_company_chosen{
 .home_company_chosen_img
 {
     background: #02a69d;
-    width: 40px;
-    padding: 3px;
+    width: 60px;
+    padding: 7px;
     border-radius: 5px;
     margin-bottom: 2rem;
-    height: 50px;
+    height: 70px;
 }
 .home_company_chosen_content h5
 {
@@ -460,6 +468,7 @@ p.home_company_chosen{
 }
 .home_company_chosen_content span, .home_company_chosen_content p{
   color: #b8b8b8;
+  text-align: justify;
 }
 .odoo_customer_slider_txt {
     font-size: 13px;
@@ -472,9 +481,6 @@ p.home_company_chosen{
     border-bottom: 1px solid #a8a8a8;
     padding-bottom: 12px;
     height: 85px;
-}
-.home_customer .home_odoo_tour_container h3{
-    color: #054340;
 }
 .odoo_customer_slider .owl-dots
 {

@@ -69,7 +69,7 @@
                             <!-- Grid row -->
                             <div class="row pb-3">
                                 <!-- Grid column -->
-                                <div class="col-md-3 col-sm-12 footer_logo_img footer_grid_col">
+                                <div class="col-md-4 col-sm-12 footer_logo_img footer_grid_col">
                                     <!-- Content -->
                                     <h2>Our Mission</h2>
                                     <p>At badailtech,we work to help
@@ -90,15 +90,18 @@
                                                 <a target="_blank"  t-att-href="website.social_instagram"><i class="fa fa-instagram"></i></a>
                                             </li>
                                             <li class="contact_information_social_icons">
-                                                <a target="_blank" t-att-href="website.social_youtube"><i class="fa fa-youtube"></i></a>
+                                                <a target="_blank" t-att-href="website.social_linkedin"><i class="fa fa-linkedin"></i></a>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="col-md-3 col-sm-12 footer_grid_col">
+                                <div class="col-md-2 col-sm-12 footer_grid_col">
                                     <!-- Links -->
-                                    <h5 class="mt-3 mb-4 footer_links">Links</h5>
+                                    <h5 class="mt-3 mb-4 footer_links">Quick Links</h5>
                                     <ul class="list-unstyled">
+                                        <li>
+                                            <a class="footer_page" href="/">Home</a>
+                                        </li>
                                         <li>
                                             <a class="footer_page" href="/about_us">About Us</a>
                                         </li>
@@ -106,10 +109,7 @@
                                             <a class="footer_page" href="/blog">About Odoo</a>
                                         </li>
                                         <li>
-                                            <a class="footer_page" href="/shop">Training &amp; Careers</a>
-                                        </li>
-                                        <li>
-                                            <a class="footer_page" href="/contact_us">Contact Us</a>
+                                            <a class="footer_page" href="/shop">Careers</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -140,11 +140,11 @@
                                     <div class="business_hours">
                                         <h5>Opening Days</h5>
                                         <p class="mb-0">Sunday - Thursday : 9am to 5pm</p>
-                                        <p>Saturday 4 pm to 8 pmm</p>
+                                        <p>Saturday 4 pm to 8 pm</p>
                                         <h5 class="mt-4">
                                             Vacation
                                         </h5>
-                                        <p>All friday  days are official Holidays </p>
+                                        <p>All fridays are official Holidays </p>
                                     </div>
                                 </div>
 

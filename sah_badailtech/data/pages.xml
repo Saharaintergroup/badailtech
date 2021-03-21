@@ -13,7 +13,7 @@
 
 
             <field name="arch" type="xml">
-                <t name="Home badailtech" priority="20" t-name="sah_badailtech.home_page_template">
+                <t name="Home BadailTech" priority="20" t-name="sah_badailtech.home_page_template">
                     <t t-call="website.layout">
                         <div id="wrap" class="oe_structure oe_website_sale home_structure">
                             <section class="oe_structure home_banner">
@@ -24,7 +24,7 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/slide3.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-                                                        <h1>who are badailTech ?
+                                                        <h1>who are BadailTech ?
                                                         </h1>
                                                         <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
                                                         </p>
@@ -36,7 +36,7 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/slide2.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-                                                        <h1>who are badailTech ?
+                                                        <h1>who are BadailTech ?
                                                         </h1>
                                                         <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
                                                         </p>
@@ -48,7 +48,7 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/slide1.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-                                                        <h1>who are badailTech ?
+                                                        <h1>who are BadailTech ?
                                                         </h1>
                                                         <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
                                                         </p>
@@ -121,31 +121,31 @@
                                         </div>
                                         <div class="col-5 text_title_bg">
                                             <div class="">
-                                                <li class="home_service_list home_service_list_after">
-                                                    <h4 class="home_service_title home_service_title_after">
+                                                <li class="home_service_list home_service_list_before">
+                                                    <h4 class="home_service_title home_service_title_before">
                                                         E-commerce
                                                     </h4>
                                                     <p class="home_service_title_text">We create professional e-stores and offer advanced
                                                         strategies in digital marketing and advertising campaigns
                                                         management.</p>
                                                 </li>
-                                                <li class="home_service_list home_service_list_after">
-                                                    <h4 class="home_service_title home_service_title_after">
+                                                <li class="home_service_list home_service_list_before">
+                                                    <h4 class="home_service_title home_service_title_before">
                                                         Training
                                                     </h4>
                                                     <p class="home_service_title_text">We help you in training your team through training courses in various
                                                         fields where we are happy to share our experiences and skills with you</p>
                                                 </li>
-                                                <li class="home_service_list home_service_list_after">
-                                                    <h4 class="home_service_title home_service_title_after">
+                                                <li class="home_service_list home_service_list_before">
+                                                    <h4 class="home_service_title home_service_title_before">
                                                         Statistic and analyze your business
                                                     </h4>
                                                     <p class="home_service_title_text">We have a team specialized in analyzing data and monitoring everything
                                                         about your company. A comprehensive analysis of the company enables you to plan well for the future and avoid all potential obstacles.</p>
                                                 </li>
 
-                                                <li class="home_service_list home_service_list_after">
-                                                    <h4 class="home_service_title home_service_title_after">
+                                                <li class="home_service_list home_service_list_before">
+                                                    <h4 class="home_service_title home_service_title_before">
                                                         Technical Support Service
                                                     </h4>
                                                     <p class="home_service_title_text">We can provide different technical support teams, who are
@@ -153,8 +153,8 @@
                                                         needs and solve them in record time
                                                     </p>
                                                 </li>
-                                                <li class="home_service_list home_service_list_after">
-                                                    <h4 class="home_service_title home_service_title_after">
+                                                <li class="home_service_list home_service_list_before">
+                                                    <h4 class="home_service_title home_service_title_before">
                                                         Professional helping
                                                     </h4>
                                                     <p class="home_service_title_text">We provide technical advice and guidance for your business,
@@ -288,11 +288,11 @@
                                 </div>
                             </section>
 
-                            <section class="oe_structure home_customer mt-5">
+                            <section class="oe_structure home_odoo_tour mt-5">
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-12 text-center home_odoo_tour_container">
-                                            <h3>OUR CUSTOMER</h3>
+                                            <h3>Our Happy Clients</h3>
                                         </div>
                                         <div class="owl-carousel owl-theme odoo_customer_slider">
                                             <div class="item text-center">
@@ -392,7 +392,7 @@
         <!-- === Odoo Page === -->
         <record id="badailtech_odoo" model="website.page">
 
-            <field name="name">Odoo badailtech</field>
+            <field name="name">Odoo BadailTech</field>
             <field name="website_published">True</field>
             <field name="url">/odoo</field>
             <field name="track">True</field>
@@ -401,7 +401,7 @@
 
 
             <field name="arch" type="xml">
-                <t name="Odoo Badailtech" priority="10" t-name="sah_badailtech.badailtech_odoo">
+                <t name="Odoo BadailTech" priority="10" t-name="sah_badailtech.badailtech_odoo">
                     <t t-call="website.layout">
                         <div id="wrap" class="oe_structure oe_website_sale ">
                             <div class="oe_structure">
@@ -638,7 +638,7 @@
         <!-- === about us Page === -->
         <record id="badailtech_about_page" model="website.page">
 
-            <field name="name">About US badailtech</field>
+            <field name="name">About US BadailTech</field>
             <field name="website_published">True</field>
             <field name="url">/about_us</field>
             <field name="track">True</field>
@@ -647,7 +647,7 @@
 
 
             <field name="arch" type="xml">
-                <t name="About US Badailtech" priority="10" t-name="sah_badailtech.badailtech_about_page">
+                <t name="About US BadailTech" priority="10" t-name="sah_badailtech.badailtech_about_page">
                     <t t-call="website.layout">
                         <div id="wrap" class="oe_structure oe_website_sale ">
                             <div class="oe_structure">
@@ -661,7 +661,7 @@
                                             </div>
                                             <div class="col-md-7 m-auto">
                                                 <h4>
-                                                    About Badailtech
+                                                    About BadailTech
                                                 </h4>
                                                 <p class="about_company_desc">
                                                     We help you manage your business with one click
@@ -858,7 +858,7 @@
             <field name="track">True</field>
             <field name="key">sah_badailtech.badailtech_contact-us_page</field>
             <field name="arch" type="xml">
-                <t name="Contact Us badailtech" priority="20" t-name="sah_badailtech.contact-us_page_template">
+                <t name="Contact Us BadailTech" priority="20" t-name="sah_badailtech.contact-us_page_template">
                     <t t-call="website.layout">
                         <div id='wrap' class='oe_structure'>
                             <!-- contact -->
