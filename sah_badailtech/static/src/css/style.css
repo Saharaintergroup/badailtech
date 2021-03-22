@@ -767,7 +767,7 @@ p.home_latset_news_grid_text {
     overflow: hidden;
 }
 /*********** event **************/
-/*.rounded-top .event_img{
+.rounded-top .event_img{
     padding: 1rem;
 }
 .o_wevent_index .o_wevent_events_list.opt_event_list_cards_bg {
@@ -822,7 +822,7 @@ p.home_latset_news_grid_text {
     background-color: #47adaa !important;
     color: #ffffff !important;
 }
-.o_wevent_event.js_event .bg-200.mt-n5{
+/*.o_wevent_event.js_event .bg-200.mt-n5{
     background-color: #fff !important;
 }
 .o_wevent_event.js_event .bg-200.mt-n5 .no-gutters .bg-light.shadow-sm  {
