@@ -344,7 +344,6 @@
                                             <li class="tab-head-item list-inline-item" onclick="tabEventNews(this,'News');">News</li>
                                         </ul>
                                     </div>
-
                                     <div class="tabs_content">
                                         <div id="Events" class="sah-tab active">
                                             <div class="row">
@@ -374,8 +373,10 @@
                                                     <t t-set="i" t-value="i+1"/>
                                                 </div>
                                             </div>
+                                            <div class="text-center">
+                                                <a href="/blog" class="home_latest_btn">See More <i class="fa fa-angle-down ml-2"></i></a>
+                                            </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </section>

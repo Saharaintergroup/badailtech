@@ -42,14 +42,30 @@
                             </t>
                         </div>
                         <div class="text-right">
-                            <div class="langs_menu nav_menu_language" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
-                                <t t-foreach="languages" t-as="lg">
-                                    <a class="menu_lang_pages" t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])" t-att-data-url_code="lg[1]">
-                                        <t t-esc="lg[2].split('/').pop()"/>
-                                    </a>
-                                    <span class="lang_cut">/</span>
-                                </t>
+                            <!--                            <div class="langs_menu nav_menu_language" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">-->
+                            <!--                                <t t-foreach="languages" t-as="lg">-->
+                            <!--                                    <a class="menu_lang_pages" t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])" t-att-data-url_code="lg[1]">-->
+                            <!--                                        <t t-esc="lg[2].split('/').pop()"/>-->
+                            <!--                                    </a>-->
+                            <!--                                    <span class="lang_cut">/</span>-->
+                            <!--                                </t>-->
+                            <!--                            </div>-->
+                            <div class="langs_dropdown">
+                                <p class="choose_lang">
+                                    <t t-esc="list(filter(lambda lg : lg[0] == lang, languages))[0][2].split('/').pop()" />
+                                    <i class="fa fa-angle-down ml-2"></i>
+                                    <ul class="list-unstyled langs_menu nav_menu_language" t-if="(request and request.is_frontend_multilang and len(languages) &gt; 1) or (website and (editable or translatable))">
+                                        <t t-foreach="languages" t-as="lg">
+                                            <li>
+                                                <a class="menu_footer_pages" t-att-href="url_for(request.httprequest.path + '?' + keep_query(), lang_code=lg[0])" t-att-data-url_code="lg[1]">
+                                                    <t t-esc="lg[2].split('/').pop()"/>
+                                                </a>
+                                            </li>
+                                        </t>
+                                    </ul>
+                                </p>
                             </div>
+
                         </div>
                         <!-- Button -->
                         <div class="oe_structure" id="oe_structure_header_default_1"/>

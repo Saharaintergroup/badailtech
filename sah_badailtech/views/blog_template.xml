@@ -2,12 +2,18 @@
     <data>
         <template id="badailtech_blog_template" active="True" inherit_id="website_blog.blog_post_short">
             <xpath  expr="//div[@id='o_wblog_blog_top']" position="replace">
-                <section class="badailtech_breadcrumb">
+                <section class="badailtech_breadcrumb mt-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <div class="title_head_contain">
+                                <div class="title_head_contain blog_list_title">
                                     <h3>News</h3>
+                                    <form id="o_wblog_post_search" class="form-inline w-100 w-md-auto pt-2 pt-md-0 d-md-flex"
+                                          role="search" t-att-action="blog_url(tag=tag,search=search)" method="get">
+                                        <t t-call="website.website_search_box">
+                                            <t t-set="_classes" t-valuef="w-100"/>
+                                        </t>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +114,6 @@
                     </section>
                 </t>
             </xpath>
-
         </template>
 
 

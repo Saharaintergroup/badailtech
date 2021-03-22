@@ -26,7 +26,7 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav{
     width: 100%;
     background: unset;
 }
-html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .nav-item .nav-link{
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .nav-item .nav-link, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .langs_dropdown p, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .choose_lang i{
     color: #fff !important;
 }
 #top nav.pages_nav{
@@ -131,15 +131,16 @@ outline:0;
 }
 .total_pages .nav-item.dropdown:last-child{
     position: absolute;
-    right: 270px;
+    right: 300px;
 }
 nav .navbar-nav .nav-item .dropdown-menu{
     border-radius: 0;
     padding: .5rem 0 .3rem !important;
+    background-color: rgba(2, 90, 85, 70%);
 }
 nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item {
-    font-size: 12px;
-    color: #b8b8b8;
+    font-size: 13px;
+    color: #fff;
     line-height: 15px;
     display: inline-block;
     vertical-align: top;
@@ -156,12 +157,16 @@ a.menu_lang_pages[data-url_code="en"]{
 .lang_cut{
     color: #7b7b7b !important;
 }
+div#o_logout_divider {
+    display: none;
+}
 .menu_lang_pages{
     color: #02a69d;
     text-decoration: none !important;
 }
-nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover{
-    color: #45a79d;
+nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover, .langs_dropdown ul li a:hover{
+    color: #ffffff;
+    background: #013e3c;
 }
 /* header*/
 .headr_contact_bg{
@@ -195,7 +200,7 @@ nav .navbar-nav .nav-item .dropdown-menu a.dropdown-item:hover{
   line-height: 1;
   padding: 0 !important;
 }
-.headr_contact_list i, .choose_lang i{
+.headr_contact_list i{
     color: #00599d;
     font-size: 16px;
 }
@@ -698,6 +703,13 @@ h5.odoo_coloer_title {
     width: 20%;
     margin-right: 20px;
 }
+#o_wblog_post_search{
+    float: right;
+}
+.blog_list_title h3{
+    width: 50%;
+    float: left;
+}
 .latest_blog_list a.blog-list-item-image{
     float: left;
     width: 30%;
@@ -755,7 +767,7 @@ p.home_latset_news_grid_text {
     overflow: hidden;
 }
 /*********** event **************/
-.rounded-top .event_img{
+/*.rounded-top .event_img{
     padding: 1rem;
 }
 .o_wevent_index .o_wevent_events_list.opt_event_list_cards_bg {
@@ -780,7 +792,7 @@ p.home_latset_news_grid_text {
 .oe_search_box::placeholder{
     color: #e3e3e5 !important;
 }
-.o_wevent_event_searchbar_form .input-group-append{
+.o_wevent_event_searchbar_form .input-group-append, #o_wblog_post_search .input-group-append{
     position: absolute;
 }
 .oe_search_button{
@@ -790,10 +802,10 @@ p.home_latset_news_grid_text {
 }
 .event_date_img{
     border-radius: 20px !important;
-    background-color: rgba(2, 166, 157, 0.25) !important;
+    background-color: #ffffff !important;
     margin-right: 10px;
     margin-top: 10px;
-    color: #fff !important;
+    color: #343434 !important;
 }
 .event_time_grid{
     color: #7b7b7b;
@@ -897,7 +909,7 @@ p.home_latset_news_grid_text {
 }
 .o_wevent_sidebar_social a.s_share_email i{
     color: #7c7d7e !important;
-}
+}*/
 /********************************/
 .o_website_hr_recruitment_jobs_list{
     background-color: #fff !important;
@@ -1036,6 +1048,61 @@ img.tab_image{
 .sah-tab.active{
   display:block;
 }
-.tabs_event_news{
-
+/*********** language ***********/
+.langs_dropdown p {
+    font-size: 14px;
+    color: #000 !important;
+    margin-top: 15px;
+    line-height: .9;
+    position: relative;
+    font-weight: 600;
+}
+.langs_dropdown {
+    position: relative;
+    cursor: pointer;
+}
+.langs_dropdown ul {
+    position: absolute;
+    top: 45px;
+    left: 0px;
+    width: 130px;
+    z-index: 9;
+    display: none;
+    text-align: left;
+    background-color: rgba(2, 90, 85, 70%);
+}
+.o_header_affix .langs_dropdown ul {
+    position: absolute;
+    background-color: #fff;
+    left: -15px;
+    width: 130px;
+    z-index: 9;
+    display: none;
+    top: 49px;
+}
+.langs_dropdown ul li {
+    display: block;
+    margin: 0;
+}
+.langs_dropdown ul li  a {
+    padding: 10px;
+    display: block;
+    color: #ffffff;
+    position: relative;
+    text-decoration: none!important;
+    font-size: 13px;
+}
+.langs_dropdown ul li:last-child a {
+    border-bottom: none;
+}
+.choose_lang i{
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*********** language ***********/
+.home_latest_btn{
+    color: #02a69d;
+    text-decoration: none !important;
+    font-weight:600;
 }
