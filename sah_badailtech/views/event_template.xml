@@ -178,6 +178,7 @@
 
                 <xpath expr="//field[@name='tag_ids']" position="after">
                     <field name="image"/>
+                    <field name="content"/>
                 </xpath>
 
             </field>

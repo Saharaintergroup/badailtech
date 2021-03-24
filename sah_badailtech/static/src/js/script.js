@@ -24,7 +24,7 @@ $(function () {
     $('.odoo_services_slider').owlCarousel({
         loop:true,
         margin:10,
-        nav:false,
+        nav:true,
         center:true,
         autosahay:true,
         responsive:{
@@ -39,7 +39,7 @@ $(function () {
     $('.odoo_blog_details_slider').owlCarousel({
         loop:true,
         margin:10,
-        nav:false,
+        nav:true,
         center:false,
         autosahay:true,
         responsive:{

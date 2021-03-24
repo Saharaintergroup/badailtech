@@ -131,7 +131,7 @@ outline:0;
 }
 .total_pages .nav-item.dropdown:last-child{
     position: absolute;
-    right: 300px;
+    right: 250px;
 }
 nav .navbar-nav .nav-item .dropdown-menu{
     border-radius: 0;
@@ -479,6 +479,7 @@ p.home_company_chosen{
     font-size: 13px;
     color: #4f4f4f;
     margin-top: 1rem
+    text-align: justify;
 }
 .odoo_customer_slider_img_container{
     width: 70px;
@@ -564,6 +565,7 @@ input.form-control.o_website_form_input.custom_contact_us_form:focus{
     margin-top: 20px;
     text-transform: capitalize;
     font-weight: 500;
+    text-align: justify;
 }
 .contact_us_form_inputs label{
     font-weight: 400;
@@ -591,6 +593,8 @@ li.contact_information_item {
 .contact_information_item p{
     margin-bottom: 10px;
     text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
 }
 .lang_cut:last-child{
     display: none;
@@ -621,6 +625,7 @@ li.contact_information_item {
     font-size: 19px;
     font-weight: 300;
     line-height: 1.5;
+    text-align: justify;
 }
 .services_page_item_slider{
     border-radius: 15px;
@@ -628,11 +633,24 @@ li.contact_information_item {
     background-color: #ffffff;
     padding: 17px;
 }
+.odoo_services_slider .owl-nav ,.odoo_blog_details_slider .owl-nav{
+    text-align: center;
+}
+.odoo_services_slider .owl-prev,.odoo_services_slider .owl-next, .odoo_blog_details_slider .owl-prev, .odoo_blog_details_slider .owl-next{
+    font-size: 35px !important;
+    margin: 0 10px !important;
+    color: #45a79d !important;
+    font-weight: 900 !important;
+}
+.owl-prev:focus, .owl-next:focus{
+    outline: none !important;
+}
 /********** odoo page ***************/
 .odoo_company_desc{
     color: #000 !important;
     font-size: 14px !important;
     font-weight: 400!important;
+    text-align: justify;
 }
 h5.odoo_coloer_title {
     color: #45a79d;
@@ -671,6 +689,7 @@ h5.odoo_coloer_title {
 }
 .odoo_app_details p {
     font-size: 12px;
+    text-align: justify;
 }
 .mission_container{
     background-image: url(../img/mission_bg.png);
@@ -1105,4 +1124,28 @@ img.tab_image{
     color: #02a69d;
     text-decoration: none !important;
     font-weight:600;
+}
+.latest_event_date_home{
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 16%);
+    width: 85px;
+    padding: 1rem 1.3rem;
+    display: block;
+    text-align: center;
+    z-index: 99;
+    float: left;
+    color: #054340 !important;
+    font-weight: 600;
+}
+.latest_event_title_home{
+    width: 70%;
+    margin-left: 7rem;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none !important;
+}
+.home_latest_event_container{
+    margin-bottom: 1.3rem;
+}
+.o_colored_level{
+    background-image: url("'/web/image/event.event/% event.id") !important;
 }

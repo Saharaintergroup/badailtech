@@ -12,10 +12,11 @@ class BlogPost(models.Model):
 class EventPost(models.Model):
     _inherit = "event.event"
 
+    content = fields.Html(string='Content')
     image = fields.Binary(
         "Image", attachment=True,)
 
-class EventPost(models.Model):
+class HrPost(models.Model):
     _inherit = "hr.job"
 
     job_category = fields.Selection([('full_time', 'Full Time'), ('part_time', 'Part Time')], 'Job Category', default='full_time')
