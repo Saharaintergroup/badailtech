@@ -376,7 +376,7 @@ ul.social_icons{
 }
 .home_service_list{
     list-style: none;
-    height: 230px;
+    height: 130px;
     position: relative;
 }
 .home_service_list_after:after{
@@ -436,7 +436,7 @@ li.home_service_list.home_service_list_before {
 .service_inner_title{
     font-size: 17px;
     color: #ffffff;
-    margin-top: 465px;
+    margin-top: 255px;
     width: 100%;
     background: #028d85;
     padding: .7rem 1rem;
@@ -531,6 +531,9 @@ p.home_company_chosen{
     background-color: #02a69d !important;
     position:relative;
 }
+.about_us_page h5{
+    text-align: justify;
+}
 .why_choose_us_indicators li.active:after
 {
     position: absolute;
@@ -619,6 +622,7 @@ li.contact_information_item {
     color: #000;
     font-size: 19px;
     font-weight: 300;
+    text-align: justify;
 }
 .mark_title h3{
     color: #02a69d;

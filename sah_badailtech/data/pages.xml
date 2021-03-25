@@ -24,9 +24,9 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/component2.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-                                                        <h1>who are BadailTech ?
+                                                        <h1>Welcome To BadailTech
                                                         </h1>
-                                                        <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
+                                                        <p>We Provide Powerful Yet Simple Business Solutions
                                                         </p>
                                                     </div>
 
@@ -36,9 +36,9 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/component1.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-                                                        <h1>who are BadailTech ?
-                                                        </h1>
-                                                        <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
+<!--                                                        <h1>who are BadailTech ?-->
+<!--                                                        </h1>-->
+                                                        <p style="font-weight: bold;">An  Information technology company based in Sohar, Sultanate of Oman. Our main focus is to deliver accurate business solutions using Odoo to provide customized ERP.
                                                         </p>
                                                     </div>
 
@@ -48,10 +48,10 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/component3.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-                                                        <h1>who are BadailTech ?
+                                                        <h1>Our main concern is doing business the right way!
                                                         </h1>
-                                                        <p>we are an information technology company based in Sohar, Sultanate of Oman. our main focus is to deliver accurate business solutions using Odoo to provide customized EPR. our main concern is doing business the right way.
-                                                        </p>
+<!--                                                        <p>-->
+<!--                                                        </p>-->
                                                     </div>
 
                                                 </div>
@@ -75,41 +75,31 @@
                                                     <h4 class="home_service_title home_service_title_after">
                                                         Create enterprise resource planning
                                                     </h4>
-                                                    <p class="home_service_title_text">Thanks to our extensive experience in computer systems, we provide
-                                                        innovative solutions to our customers to manage their businesses easily by using the famous Odoo system. Our team can provide all software units that can manage a business, including accounting, finance, human resource management, warehouse management, insurances, and sales management, and we also help our customers find special and appropriate solutions for their needs in managing their business.</p>
+                                                    <p class="home_service_title_text">BadailTech helps entrepreneurs find software solutions that makes managing their business smooth and efficient by using Odoo system.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
-                                                        Mobile app development
+                                                       Mobile App development
                                                     </h4>
-                                                    <p class="home_service_title_text">We believe that mobile applications are an integral part of running a
-                                                        successful business. Therefore, Badael Tech provide a service for
-                                                        designing and developing applications using all operating systems.</p>
+                                                    <p class="home_service_title_text">We believe in the importance of mobile applications for the progress of business, we provide designing and developing mobile applications compatible with different operating systems.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
                                                         Website design
                                                     </h4>
-                                                    <p class="home_service_title_text">We help our customers to make their business available on the
-                                                        Internet by designing websites for their companies. We guarantee the
-                                                        complete creation of websites in addition to managing and adjusting
-                                                        all their settings.</p>
+                                                    <p class="home_service_title_text">BadailTech administer a whole implementation and deployment of website starting with the design up to launching the website.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
                                                         Web hosting services
                                                     </h4>
-                                                    <p class="home_service_title_text">Do not bear the worry of searching for the right hosting
-                                                        for your site because we provide you with the best hosting
-                                                        at the best possible price.</p>
+                                                    <p class="home_service_title_text">To insure the continuity of the website on the internet a strong, confidential and accessible web host is provided by us.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
                                                         Provision of point of sale system (POS)
                                                     </h4>
-                                                    <p class="home_service_title_text">We provide you with the equipment for the point of sale for
-                                                        companies and stores, accompanied by its operating
-                                                        program.
+                                                    <p class="home_service_title_text">We present a full package of POS equipment for both companies and stores, accompanied with its operating program.
                                                     </p>
                                                 </li>
                                             </ul>
@@ -125,41 +115,33 @@
                                                     <h4 class="home_service_title home_service_title_before">
                                                         E-commerce
                                                     </h4>
-                                                    <p class="home_service_title_text">We create professional e-stores and offer advanced
-                                                        strategies in digital marketing and advertising campaigns
-                                                        management.</p>
+                                                    <p class="home_service_title_text">Increasing profit starts with the right representation of your store on the internet. We create professional e-stores along with advanced strategies in digital marketing.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
                                                         Training
                                                     </h4>
-                                                    <p class="home_service_title_text">We help you in training your team through training courses in various
-                                                        fields where we are happy to share our experiences and skills with you</p>
+                                                    <p class="home_service_title_text">It is our pleasure to share with you our experiences, knowledge and all our skills via after sale training and on purpose training courses for different IT specializations.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
-                                                        Statistic and analyze your business
+                                                        Analyze your business
                                                     </h4>
-                                                    <p class="home_service_title_text">We have a team specialized in analyzing data and monitoring everything
-                                                        about your company. A comprehensive analysis of the company enables you to plan well for the future and avoid all potential obstacles.</p>
+                                                    <p class="home_service_title_text">We track your business by analyzing all data and monitoring your strengths, weaknesses and results over time.</p>
                                                 </li>
 
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
                                                         Technical Support Service
                                                     </h4>
-                                                    <p class="home_service_title_text">We can provide different technical support teams, who are
-                                                        well trained to listen perfectly to customers' requests and
-                                                        needs and solve them in record time
+                                                    <p class="home_service_title_text">We go systematically along with our customers to guide, advice and aid them both technically and functionally through the implementation of their solution or after sale support.
                                                     </p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
-                                                        Professional helping
+                                                        Professional assistance
                                                     </h4>
-                                                    <p class="home_service_title_text">We provide technical advice and guidance for your business,
-                                                        study your situation and needs well, and then guide you to
-                                                        meet your needs</p>
+                                                    <p class="home_service_title_text">We can process any request related to business management and we will guide you to handle it properly.</p>
                                                 </li>
 
                                             </div>
@@ -173,8 +155,7 @@
                                     <div class="row">
                                         <div class="col-12 text-center home_odoo_tour_container">
                                             <h3>Odoo Tour</h3>
-                                            <p>The only platform you will ever need to help run your business
-                                                integrated apps, kept simple, and loved by millions of happy users</p>
+                                            <p>The only platform you will ever need to help run your business efficiently, simply and productively.</p>
                                         </div>
                                         <div class="col-4">
                                             <iframe width="350" height="250" src="https://www.youtube.com/embed/-FgcAUUsI7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
@@ -214,7 +195,7 @@
                                                                 <h5>
                                                                     Customer satisfaction comes first
                                                                 </h5>
-                                                                <P>We attach utmost importance to making our client satisfied with our performance, and for that to happen we strive to provide our service as required, by providing technical solutions that will facilitate the client's business management</P>
+                                                                <P>We give utmost importance to making our client satisfied with our performance, and to achieve that, we strive to provide our service as required, by providing technical solutions that facilitate the customer’s business management.</P>
                                                             </div>
                                                         </div>
                                                         <div class="col-4">
@@ -224,9 +205,9 @@
                                                             <div class="home_company_chosen_content">
                                                                 <h4><span>02</span></h4>
                                                                 <h5>
-                                                                    Our creativity is unlimited
+                                                                    Our unlimited creativity
                                                                 </h5>
-                                                                <P>Because we strive to be in the forefront, we are working to raise the element of surprise in the same customer after we have provided our service with high efficiency and accuracy.
+                                                                <P>Because being at the forefront is an objective, we are working to raise the performance and efficiency of the proposed solutions to keep reaching customer satisfaction.
                                                                 </P>
                                                             </div>
                                                         </div>
@@ -239,7 +220,7 @@
                                                                 <h5>
                                                                     We are good listeners
                                                                 </h5>
-                                                                <P>Mastering the service requires a good understanding of the customer’s request, so our team is keen to monitor every small and large piece of our client’s needs.</P>
+                                                                <P>Mastering the service requires a good understanding of the client's request, so our team is keen to monitor every small and large part of our customer's needs.</P>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -255,10 +236,7 @@
                                                                 <h5>
                                                                     Our services are of high quality
                                                                 </h5>
-                                                                <P>It is evident that the secret of the success of any company is its
-                                                                    provision of services and products of high value to the customer,
-                                                                    and for this reason, what we care about most about alternatives
-                                                                    to tech is the quality of the services and products that we provide</P>
+                                                                <P>It is clear that the secret of the success of any company is its provision of services and products that meets customer needs and solve critical problems, and for this reason, the quality of the services and products we provide is the most thing we care about at BadailTech.</P>
                                                             </div>
                                                         </div>
                                                         <div class="col-4">
@@ -270,10 +248,7 @@
                                                                 <h5>
                                                                     We think outside the box
                                                                 </h5>
-                                                                <p>                                                          Because we strive to be in the forefront, we are
-                                                                    working to raise the element of surprise in the
-                                                                    same customer after we have provided our service
-                                                                    with high efficiency and accuracy      </p>
+                                                                <p>  In order to solve any problem for the customer, we are ready to solve every emergency that the customer may face while managing his business thanks to the high innovation spirit that characterizes our team.    </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -671,11 +646,11 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-7 m-auto">
-                                                <h4>
-                                                    About BadailTech
-                                                </h4>
+                                                <h5>
+                                                    We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession. We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession.
+                                                </h5>
                                                 <p class="about_company_desc">
-                                                    We help you manage your business with one click
+                                                    We are a company specialized in finding enterprise resource planning(ERP) using Odoo system, as we provide several software units that facilitate the management of your business, and these units in particular include: accounting, finance, human resource management, warehouse management, insurances and sales management. We strive hardworking and creative in BadailTech to make managing your business easy as never before.
                                                 </p>
                                             </div>
                                             <div class="col-md-5">
@@ -700,15 +675,7 @@
                                                         </div>
                                                         <div class="col-8">
                                                             <h5>Create Enterprise Resource Planning</h5>
-                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
-                                                                we provide innovative solutions to our customers tomanage
-                                                                their businesses easily by using the famous Odoo system.
-                                                                Our team can provide all software units that can manage
-                                                                business, including accounting, finance,human resource
-                                                                management, warehouse management, insurances and
-                                                                sales management,and we also help our customers find
-                                                                special and appropriate solution for their needs in managing
-                                                                their business.</p>
+                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems, we provide innovative solutions to our customers to manage their businesses easily by using one of the most powerful ERP solution providers Odoo system. Our team is able to provide all software units that can manage business, including accounting, finance, human resource management, warehouse management, insurances and sales management, and we also help our customers find special and appropriate solutions for their needs in managing their business.</p>
 
                                                         </div>
 
@@ -720,16 +687,8 @@
                                                             <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
                                                         </div>
                                                         <div class="col-8">
-                                                            <h5>Create Enterprise Resource Planning</h5>
-                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
-                                                                we provide innovative solutions to our customers tomanage
-                                                                their businesses easily by using the famous Odoo system.
-                                                                Our team can provide all software units that can manage
-                                                                business, including accounting, finance,human resource
-                                                                management, warehouse management, insurances and
-                                                                sales management,and we also help our customers find
-                                                                special and appropriate solution for their needs in managing
-                                                                their business.</p>
+                                                            <h5>Website design</h5>
+                                                            <p class="odoo_customer_slider_txt">We help our customers make their business available on the Internet by designing websites representing their companies. We guarantee the complete creation of websites in addition to managing and adjusting all their settings.</p>
 
                                                         </div>
 
@@ -741,16 +700,8 @@
                                                             <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
                                                         </div>
                                                         <div class="col-8">
-                                                            <h5>Create Enterprise Resource Planning</h5>
-                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
-                                                                we provide innovative solutions to our customers tomanage
-                                                                their businesses easily by using the famous Odoo system.
-                                                                Our team can provide all software units that can manage
-                                                                business, including accounting, finance,human resource
-                                                                management, warehouse management, insurances and
-                                                                sales management,and we also help our customers find
-                                                                special and appropriate solution for their needs in managing
-                                                                their business.</p>
+                                                            <h5>Mobile app development</h5>
+                                                            <p class="odoo_customer_slider_txt">We believe that mobile applications are an integral part of running a successful business. Therefore, BadailTech provide a service for designing and developing applications applicable with all operating systems.</p>
 
                                                         </div>
 
@@ -762,22 +713,88 @@
                                                             <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
                                                         </div>
                                                         <div class="col-8">
-                                                            <h5>Create Enterprise Resource Planning</h5>
-                                                            <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems,
-                                                                we provide innovative solutions to our customers tomanage
-                                                                their businesses easily by using the famous Odoo system.
-                                                                Our team can provide all software units that can manage
-                                                                business, including accounting, finance,human resource
-                                                                management, warehouse management, insurances and
-                                                                sales management,and we also help our customers find
-                                                                special and appropriate solution for their needs in managing
-                                                                their business.</p>
+                                                            <h5>Statistic and analyze your business</h5>
+                                                            <p class="odoo_customer_slider_txt">We have a team specialized in analyzing data and monitoring everything about your business. A comprehensive analysis of the company enables you to plan well for the future and avoid all potential obstacles.</p>
 
                                                         </div>
 
                                                     </div>
                                                 </div>
+                                                <div class="item services_page_item_slider mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Web hosting services</h5>
+                                                            <p class="odoo_customer_slider_txt">Do not bear the worry of searching for the right hosting for your site because we provide you with the best hosting at the best possible price. Keeping security, integrity and accessibility always in mind.</p>
 
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mt-5 mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Training</h5>
+                                                            <p class="odoo_customer_slider_txt">We help you in training your team through training courses in various fields where we are happy to share our experiences and skills with you. We provide after sell training to ensure the maximum benefit from the proposed solution. As well as training at different IT specializations as development, business architecture and business analysis.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Technical Support Service</h5>
+                                                            <p class="odoo_customer_slider_txt">We provide professional technical support team, who are well trained to listen perfectly to customers' requests and needs. Our team insures that any technical problems that may face the customers are solved.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mt-5 mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Professional assistance</h5>
+                                                            <p class="odoo_customer_slider_txt">We provide technical advice and guidance for your business, study your situation and needs well, and then guide you to meet your goals and grow your business.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>Provision of point of sale system (POS)</h5>
+                                                            <p class="odoo_customer_slider_txt">We provide you with the equipment for the point of sale for companies and stores, accompanied by its operating program.</p>
+
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                                <div class="item services_page_item_slider mt-5 mx-4">
+                                                    <div class="row">
+                                                        <div class="col-4">
+                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        </div>
+                                                        <div class="col-8">
+                                                            <h5>E-commerce</h5>
+                                                            <p class="odoo_customer_slider_txt">We create professional e-stores and offer advanced strategies in digital marketing and advertising campaigns management.</p>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -788,13 +805,13 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-3">
                                                 <div class="mark_title">
-                                                    <h3>Our Team</h3>
+                                                    <h3>BadailTech Team</h3>
                                                 </div>
                                             </div>
                                             <div class="col-md-8 m-auto">
-                                                <h5>We Have A Professional And Multi-Disciplinary Team At Badail Tech.</h5>
+<!--                                                <h5>We Have A Professional And Multi-Disciplinary Team At Badail Tech.</h5>-->
                                                 <p class="vision_desc">
-                                                    This team provides all the services related to the enterprise resource planning by using the Odoo system that our workers are proficient in, Odoo system is the main platform that our team deals with professionally and meets all our customers' requests for managing their business.
+                                                   We have a professional and multi-disciplinary team at BadailTech. our team provides all the services related to the enterprise resource planning by using Odoo that our employees are proficient in, Odoo system is the main platform that our team deals with professionally and meets all our customers' requests for managing their business.
                                                 </p>
                                             </div>
                                             <div class="col-md-4">
@@ -814,11 +831,7 @@
                                             </div>
                                             <div class="col-md-8 m-auto">
                                                 <p class="vision_desc">
-                                                    At Badael Tech, we strive to be an integral part of
-                                                    Oman’s endeavors to digitize all sectors in 2040, as
-                                                    we want to be an effective partner for all the efforts
-                                                    made by the Sultanate in managing by using modern
-                                                    technologies
+                                                   At BadailTech, we strive to be an integral part of Oman’s endeavors to digitize all sectors in 2040, as we want to be an effective partner for all the efforts made by the government to guide business using information technologies.
                                                 </p>
                                             </div>
                                             <div class="col-md-4">
@@ -842,10 +855,11 @@
                                                         <img src="/sah_badailtech/static/src/img/icon.png" class="img-fluid" />
                                                     </div>
                                                     <div class="mission_container_details text-center">
-                                                        <p>At Badael Tech, we work to help entrepreneurs find the most effective and easiest solutions for their business by employing a professional team that listens well to all our customers' requests.
+                                                        <p>At BadailTech, we work to help entrepreneurs find the most effective and easiest E-solutions for their business by employing a professional team that listens well and analyze all our customers' requirements.
                                                         </p>
                                                     </div>
-                                                </div>                                                                                            </div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </section>
