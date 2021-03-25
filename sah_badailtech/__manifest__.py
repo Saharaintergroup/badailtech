@@ -33,6 +33,7 @@
         'views/event_template.xml',
         'views/career_template.xml',
         'views/job_hr_views.xml',
+        'views/courses_template.xml',
         'data/pages.xml',
     ],
     # only loaded in demonstration mode

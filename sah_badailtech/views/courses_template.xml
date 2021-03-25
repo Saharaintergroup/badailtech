@@ -1,0 +1,112 @@
+<odoo>
+    <data>
+        <template id="badailtech_courses_template_header" active="True" inherit_id="website_slides.courses_home">
+            <xpath  expr="//section[hasclass('s_banner')]" position="replace">
+                <section class="">
+                    <div class="container">
+                        <div class="d-flex flex-column flex-sm-row justify-content-between title_head_contain w-100 title_head_contain">
+                            <h3 class="mt-4 mb-5">Courses</h3>
+                            <form method="GET" class="form-inline o_wslides_nav_navbar_right order-lg-3" t-attf-action="/slides/all" role="search">
+                                <div class="input-group">
+                                    <input type="search" name="search" class="form-control oe_search_box" placeholder="Search courses" aria-label="Search" t-att-value="search_term"/>
+                                    <div class="input-group-append">
+                                        <button class="btn border border-left-0 oe_search_button" type="submit" aria-label="Search" title="Search">
+                                            <i class="fa fa-search"/>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </section>
+            </xpath>
+            <xpath expr="//div[hasclass('o_wslides_home_main')]" position="replace">
+                <div class="container o_wslides_home_main">
+                    <div class="row">
+                        <t t-set="has_side_column" t-value="is_view_active('website_slides.toggle_leaderboard')"/>
+                        <t t-if="is_public_user">
+                            <div t-if="has_side_column" class="col-lg-3 order-3 order-lg-2">
+                                <div class="row">
+                                    <div class="col-12 col-md-5 col-lg-12">
+                                        <div class="pl-md-5 pl-lg-0">
+                                            <t t-call="website_slides.slides_home_users_small"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                        <div t-att-class="'col-lg-12 pr-lg-5 order-lg-1' if has_side_column else 'col-lg pr-lg'">
+                            <div class="o_wslides_home_content_section mb-3"
+                                 t-if="not channels_popular">
+                                <p class="h2">No Course created yet.</p>
+                                <p groups="website_slides.group_website_slides_officer">Click on "New" in the top-right corner to write your first course.</p>
+                            </div>
+                            <t t-if="channels_my">
+                                <t t-set="void_count" t-value="3 - len(channels_my[:3])"/>
+                                <div class="o_wslides_home_content_section mb-3">
+                                    <div class="row o_wslides_home_content_section_title align-items-center">
+                                        <div class="col">
+                                            <a href="/slides/all?my=1" class="float-right course_slides_all">View all</a>
+                                            <h5 class="m-0 courses_general_title">My courses</h5>
+                                        </div>
+                                    </div>
+                                    <div class="row mx-n2 mt8">
+                                        <t t-foreach="channels_my[:3]" t-as="channel">
+                                            <div class="col-md-4 col-sm-6 px-2 col-xs-12 d-flex flex-grow-1">
+                                                <t t-call="website_slides.course_card"/>
+                                            </div>
+                                        </t>
+                                    </div>
+                                </div>
+                            </t>
+                            <div class="o_wslides_home_content_section mb-3"
+                                 t-if="channels_popular">
+                                <div class="row o_wslides_home_content_section_title align-items-center">
+                                    <div class="col">
+                                        <a href="slides/all" class="float-right course_slides_all">View all</a>
+                                        <h5 class="m-0 courses_general_title">Most popular</h5>
+                                    </div>
+                                </div>
+                                <div class="row mx-n2 mt8">
+                                    <t t-foreach="channels_popular[:3]" t-as="channel">
+                                        <div class="col-md-4 col-sm-6 px-2 col-xs-12 d-flex flex-grow-1">
+                                            <t t-call="website_slides.course_card"/>
+                                        </div>
+                                    </t>
+                                </div>
+                            </div>
+                            <div class="o_wslides_home_content_section mb-3"
+                                 t-if="channels_newest">
+                                <div class="row o_wslides_home_content_section_title align-items-center">
+                                    <div class="col">
+                                        <a href="slides/all" class="float-right course_slides_all">View all</a>
+                                        <h5 class="m-0 courses_general_title">Newest courses</h5>
+                                    </div>
+                                </div>
+                                <div class="row mx-n2 mt8">
+                                    <t t-foreach="channels_newest[:3]" t-as="channel">
+                                        <div class="col-md-4 col-sm-6 px-2 col-xs-12 d-flex flex-grow-1">
+                                            <t t-call="website_slides.course_card"/>
+                                        </div>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </template>
+
+        <template id="badailtech_courses_nav_template_header" active="True" inherit_id="website_slides.course_nav">
+            <xpath  expr="//div[hasclass('o_wslides_course_nav')]" position="replace">
+               <div class="container">
+                   <div class="title_head_contain title_course_details" data-oe-model="ir.ui.view" data-oe-id="1411" data-oe-field="arch" data-oe-xpath="/data/xpath/nav/div[1]/div[1]/div[1]">
+                        <h3>BadailTech Academy</h3>
+                    </div>
+               </div>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

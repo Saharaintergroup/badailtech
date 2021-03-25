@@ -26,9 +26,24 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav{
     width: 100%;
     background: unset;
 }
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar-brand.logo{
+    background-image: url("../img/logo_he.png");
+    z-index: 999;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 40px;
+}
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar-brand.logo img{
+    display: none;
+}
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar .o_menu_loading .nav-item {
+    opacity: 1 !important;
+}
 html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .nav-item .nav-link, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .langs_dropdown p, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .choose_lang i{
     color: #fff !important;
 }
+
 #top nav.pages_nav{
     box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.05);
     position: relative;
@@ -811,7 +826,7 @@ p.home_latset_news_grid_text {
 .oe_search_box::placeholder{
     color: #e3e3e5 !important;
 }
-.o_wevent_event_searchbar_form .input-group-append, #o_wblog_post_search .input-group-append{
+.o_wevent_event_searchbar_form .input-group-append, #o_wblog_post_search .input-group-append, .o_wslides_wrap .input-group-append{
     position: absolute;
 }
 .oe_search_button{
@@ -1148,4 +1163,97 @@ img.tab_image{
 }
 .o_colored_level{
     background-image: url("'/web/image/event.event/% event.id") !important;
+}
+/********* Courses ****************/
+.o_wslides_wrap{
+    background: #fff;
+}
+.o_wslides_home_main .col-lg-3.order-lg-2{
+    display: none;
+}
+.o_wslides_wrap .mt16.o_wslides_home_nav.position-relative{
+    margin-top: 3rem !important;
+}
+.o_wslides_home_nav nav.navbar{
+    display: none;
+}
+.courses_general_title {
+    color: #7b7b7b;
+    text-transform: capitalize;
+    font-size: 21px;
+    font-weight: 600;
+    margin-bottom: 1rem !important;
+}
+.o_wslides_course_card{
+    border-radius: 15px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+    padding: 1rem;
+    border: none;
+}
+.o_wslides_desc_truncate_2{
+    color: #000;
+    text-decoration: none !important;
+}
+.course_slides_all{
+    color: #a0a0a0;
+    text-decoration: none !important;
+}
+.o_wslides_gradient, .o_wslides_wrap section.s_banner {
+    background-image: url("../img/course_bg.jpg") !important;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.o_wslides_wrap h1{
+    font-size: 44px;
+    padding: 5rem 0;
+}
+.title_course_details h3{
+    color: #fff !important;
+}
+.title_course_details h3:after{
+    background: #fff !important;
+}
+.o_wslides_course_header p.mb-0.mb-xl-3{
+    color: #fff;
+}
+.o_wslides_course_pict {
+    border: none;
+    border-bottom-width: 0;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+    background: #fff;
+    padding: 1rem;
+    border-radius: 5px 5px 0 0;
+}
+.o_wslides_course_sidebar{
+    background-color: #FFFFFF !important;
+    color: #000;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 16%);
+    border: none !important;
+}
+.o_wslides_course_main{
+    background: #fff;
+}
+.o_wslides_course_main .o_wslides_nav_tabs .nav-link{
+    color: #fff;
+    padding: 0.53rem 1rem;
+}
+.o_wslides_course_main .o_wslides_nav_tabs .nav-link:hover{
+    background: #45a79d !important;
+}
+.o_wslides_course_header:before{
+    background: #02a69d !important;
+}
+.o_wslides_course_main .o_portal_chatter_js_is_internal .btn-success{
+    border-radius: 20px;
+    background-color: #02a69d;
+    padding: .5rem 2rem;
+}
+.o_wslides_course_main .o_wslides_js_slide_upload{
+    font-size: 14px;
+}
+.o_wslides_course_main .o_wslides_slides_list_drag span{
+    font-size: 13px;
+}
+.o_wslides_js_slides_list_slide_link{
+    color: #000 !important;
 }
