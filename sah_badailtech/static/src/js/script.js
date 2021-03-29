@@ -28,10 +28,16 @@ $(function () {
         center:true,
         autosahay:true,
         responsive:{
+            0: {
+                items: 1,
+            },
+            481: {
+                items: 1,
+            },
             768: {
                 items: 1,
             },
-            1024: {
+            991: {
                 items:1.5
             }
         }

@@ -69,8 +69,8 @@
                             <section class="oe_structure home_service mt-5">
                                 <div class="container sec-contain">
                                     <div class="row">
-                                        <div class="col-5 text_title_bg">
-                                            <ul>
+                                        <div class="col-md-5 text_title_bg">
+                                            <ul class="p-0">
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
                                                         Create enterprise resource planning
@@ -104,13 +104,13 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="col-2 text_title_bg">
+                                        <div class="col-md-2 text_title_bg">
                                             <div class="text-center">
                                                 <h2 class="service_inner_title">OUR SERVICES</h2>
                                             </div>
                                         </div>
-                                        <div class="col-5 text_title_bg">
-                                            <div class="">
+                                        <div class="col-md-5 text_title_bg">
+                                            <ul class="p-0">
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
                                                         E-commerce
@@ -144,7 +144,7 @@
                                                     <p class="home_service_title_text">We can process any request related to business management and we will guide you to handle it properly.</p>
                                                 </li>
 
-                                            </div>
+                                            </ul>
                                         </div>
                                     </div>
 
@@ -157,14 +157,14 @@
                                             <h3>Odoo Tour</h3>
                                             <p>The only platform you will ever need to help run your business efficiently, simply and productively.</p>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-lg-4">
                                             <iframe width="350" height="250" src="https://www.youtube.com/embed/-FgcAUUsI7k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
                                         </div>
 
-                                        <div class="col-4">
+                                        <div class="col-lg-4">
                                             <iframe width="350" height="250" src="https://www.youtube.com/embed/1SMm2VHXv1Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
                                         </div>
-                                        <div class="col-4">
+                                        <div class="col-lg-4">
                                             <iframe width="350" height="250" src="https://www.youtube.com/embed/KxZAdEGpYAw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
                                         </div>
 
@@ -399,7 +399,7 @@
                                                     <h3>About Odoo</h3>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6 m-auto">
+                                            <div class="col-lg-6 m-auto">
                                                 <h4>
                                                     what is odoo ?
                                                 </h4>
@@ -421,7 +421,7 @@
                                                     Resource Planning.
                                                 </p>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <img src="/sah_badailtech/static/src/img/odoo.png" class="img-fluid"/>
                                             </div>
                                         </div>
@@ -494,7 +494,7 @@
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/sale.png" class="img-fluid" />
@@ -507,7 +507,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/website.png" class="img-fluid" />
@@ -520,7 +520,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/account_accountant.png" class="img-fluid" />
@@ -533,7 +533,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/hr.png" class="img-fluid" />
@@ -549,7 +549,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/project.png" class="img-fluid" />
@@ -563,7 +563,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/mass_mailing.png" class="img-fluid" />
@@ -578,7 +578,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/im_livechat.png" class="img-fluid" />
@@ -592,7 +592,7 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-lg-6">
                                                 <div class="odoo_app_content">
                                                     <div class="odoo_app_list_img">
                                                         <img src="/sah_badailtech/static/src/img/crm.png" class="img-fluid" />
@@ -645,7 +645,7 @@
                                                     <h3>About Us</h3>
                                                 </div>
                                             </div>
-                                            <div class="col-md-7 m-auto">
+                                            <div class="col-lg-7 m-auto">
                                                 <h5>
                                                     We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession. We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession.
                                                 </h5>
@@ -653,7 +653,7 @@
                                                     We are a company specialized in finding enterprise resource planning(ERP) using Odoo system, as we provide several software units that facilitate the management of your business, and these units in particular include: accounting, finance, human resource management, warehouse management, insurances and sales management. We strive hardworking and creative in BadailTech to make managing your business easy as never before.
                                                 </p>
                                             </div>
-                                            <div class="col-md-5">
+                                            <div class="col-lg-5">
                                                 <img src="/sah_badailtech/static/src/img/about.png" class="img-fluid"/>
                                             </div>
                                         </div>
@@ -670,10 +670,10 @@
                                             <div class="owl-carousel owl-theme odoo_services_slider">
                                                 <div class="item services_page_item_slider mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/erp.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Create Enterprise Resource Planning</h5>
                                                             <p class="odoo_customer_slider_txt">Thanks to our extensive experience in computer systems, we provide innovative solutions to our customers to manage their businesses easily by using one of the most powerful ERP solution providers Odoo system. Our team is able to provide all software units that can manage business, including accounting, finance, human resource management, warehouse management, insurances and sales management, and we also help our customers find special and appropriate solutions for their needs in managing their business.</p>
 
@@ -683,10 +683,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mt-5 mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/web_design.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Website design</h5>
                                                             <p class="odoo_customer_slider_txt">We help our customers make their business available on the Internet by designing websites representing their companies. We guarantee the complete creation of websites in addition to managing and adjusting all their settings.</p>
 
@@ -696,10 +696,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/mobile_app.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Mobile app development</h5>
                                                             <p class="odoo_customer_slider_txt">We believe that mobile applications are an integral part of running a successful business. Therefore, BadailTech provide a service for designing and developing applications applicable with all operating systems.</p>
 
@@ -709,10 +709,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mt-5 mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/analyize.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Statistic and analyze your business</h5>
                                                             <p class="odoo_customer_slider_txt">We have a team specialized in analyzing data and monitoring everything about your business. A comprehensive analysis of the company enables you to plan well for the future and avoid all potential obstacles.</p>
 
@@ -722,10 +722,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/hosting.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Web hosting services</h5>
                                                             <p class="odoo_customer_slider_txt">Do not bear the worry of searching for the right hosting for your site because we provide you with the best hosting at the best possible price. Keeping security, integrity and accessibility always in mind.</p>
 
@@ -735,10 +735,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mt-5 mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/training.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Training</h5>
                                                             <p class="odoo_customer_slider_txt">We help you in training your team through training courses in various fields where we are happy to share our experiences and skills with you. We provide after sell training to ensure the maximum benefit from the proposed solution. As well as training at different IT specializations as development, business architecture and business analysis.</p>
                                                         </div>
@@ -747,10 +747,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/support.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Technical Support Service</h5>
                                                             <p class="odoo_customer_slider_txt">We provide professional technical support team, who are well trained to listen perfectly to customers' requests and needs. Our team insures that any technical problems that may face the customers are solved.</p>
 
@@ -760,10 +760,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mt-5 mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/assistance.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Professional assistance</h5>
                                                             <p class="odoo_customer_slider_txt">We provide technical advice and guidance for your business, study your situation and needs well, and then guide you to meet your goals and grow your business.</p>
                                                         </div>
@@ -772,10 +772,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/pos.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>Provision of point of sale system (POS)</h5>
                                                             <p class="odoo_customer_slider_txt">We provide you with the equipment for the point of sale for companies and stores, accompanied by its operating program.</p>
 
@@ -785,10 +785,10 @@
                                                 </div>
                                                 <div class="item services_page_item_slider mt-5 mx-4">
                                                     <div class="row">
-                                                        <div class="col-4">
-                                                            <img src="/sah_badailtech/static/src/img/service1.png" class="img-fluid"/>
+                                                        <div class="col-md-4">
+                                                            <img src="/sah_badailtech/static/src/img/e-commerce.jpeg" class="img-fluid"/>
                                                         </div>
-                                                        <div class="col-8">
+                                                        <div class="col-md-8">
                                                             <h5>E-commerce</h5>
                                                             <p class="odoo_customer_slider_txt">We create professional e-stores and offer advanced strategies in digital marketing and advertising campaigns management.</p>
                                                         </div>

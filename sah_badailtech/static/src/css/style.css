@@ -355,7 +355,7 @@ ul.social_icons{
 .badailtech_header_indicators{
     position: absolute;
     right: unset;
-    bottom: 80px;
+    bottom: 50px;
     left: 70px;
 }
 .badailtech_header_indicators li
@@ -444,7 +444,7 @@ li.home_service_list.home_service_list_before {
 }
 .home_odoo_tour{
     background-image: url(../img/odoo_tour_bg.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 3rem 0 5rem;
 }
@@ -493,7 +493,7 @@ p.home_company_chosen{
 .odoo_customer_slider_txt {
     font-size: 13px;
     color: #4f4f4f;
-    margin-top: 1rem
+    margin-top: 1rem;
     text-align: justify;
 }
 .odoo_customer_slider_img_container{
@@ -502,6 +502,9 @@ p.home_company_chosen{
     border-bottom: 1px solid #a8a8a8;
     padding-bottom: 12px;
     height: 85px;
+}
+.odoo_customer_slider .owl-nav{
+    display: none;
 }
 .odoo_customer_slider .owl-dots
 {
@@ -578,7 +581,7 @@ input.form-control.o_website_form_input.custom_contact_us_form:focus{
 .title_head_contain p{
     color: #000000;
     font-size: 27px;
-    line-height: 1.2;
+    line-height: 1.8;
     width: 90%;
     margin-top: 20px;
     text-transform: capitalize;
@@ -652,6 +655,9 @@ li.contact_information_item {
     background-color: #ffffff;
     padding: 17px;
 }
+.services_page_item_slider .col-md-4 img{
+    margin-bottom: 25px;
+}
 .odoo_services_slider .owl-nav ,.odoo_blog_details_slider .owl-nav{
     text-align: center;
 }
@@ -712,7 +718,7 @@ h5.odoo_coloer_title {
 }
 .mission_container{
     background-image: url(../img/mission_bg.png);
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 2rem;
 }
@@ -726,7 +732,7 @@ h5.odoo_coloer_title {
     display: block;
 }
 .mission_content{
-    padding: 20px 135.2px 23px 40px;
+    padding: 20px 40px 23px 40px;
     border-radius: 33px;
     -webkit-backdrop-filter: blur(35px);
     backdrop-filter: blur(35px);
@@ -1125,7 +1131,7 @@ img.tab_image{
 .langs_dropdown ul li  a {
     padding: 10px;
     display: block;
-    color: #ffffff;
+    color: #ffffff !important;
     position: relative;
     text-decoration: none!important;
     font-size: 13px;
