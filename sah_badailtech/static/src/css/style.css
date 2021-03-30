@@ -45,13 +45,22 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .
 }
 
 #top nav.pages_nav{
-    box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.05);
+    box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.2);
     position: relative;
     width: 100%;
     background: #fff;
 }
 #top nav.pages_nav .nav-item .nav-link{
-    color: #000 !important;
+    color: #252525 !important;
+    font-weight: 400;
+}
+.home_contact_ntn{
+    border-radius: 10px;
+    background-color: #02a69d;
+    color: #fff;
+    padding: .7rem 2rem;
+    display: inline-block;
+    margin: 25px 0;
 }
 #top_menu_collapse{
     /*position: absolute;
@@ -429,7 +438,7 @@ li.home_service_list.home_service_list_before {
 }
 .home_service_title_text{
     font-size: 13px;
-    color: #d1d2d4;
+    color: #808080;
     text-align: justify;
     padding-right: 45px;
 }
@@ -469,7 +478,7 @@ li.home_service_list.home_service_list_before {
 p.home_company_chosen{
     width: 100%;
     margin: unset;
-    color: #d1d2d4;
+    color: #5b5b5b;
     margin-bottom: 3rem;
 }
 .home_company_chosen_img
@@ -487,7 +496,7 @@ p.home_company_chosen{
     margin: 20px 0;
 }
 .home_company_chosen_content span, .home_company_chosen_content p{
-  color: #b8b8b8;
+  color: #5b5b5b;
   text-align: justify;
 }
 .odoo_customer_slider_txt {
@@ -495,6 +504,9 @@ p.home_company_chosen{
     color: #4f4f4f;
     margin-top: 1rem;
     text-align: justify;
+}
+.odoo_customer_slider .odoo_customer_slider_txt{
+    text-align: center !important;
 }
 .odoo_customer_slider_img_container{
     width: 70px;
@@ -564,6 +576,9 @@ input.form-control.o_website_form_input.custom_contact_us_form {
 input.form-control.o_website_form_input.custom_contact_us_form:focus{
     border-color: #02a69d !important;
 }
+.custom_contact_us_form::placeholder{
+    font-size: 12px !important;
+}
 .title_head_contain h3{
     color: #02a69d;
     padding-bottom: 10px;
@@ -580,7 +595,7 @@ input.form-control.o_website_form_input.custom_contact_us_form:focus{
 }
 .title_head_contain p{
     color: #000000;
-    font-size: 27px;
+    font-size: 17px;
     line-height: 1.8;
     width: 90%;
     margin-top: 20px;
@@ -613,7 +628,6 @@ li.contact_information_item {
 }
 .contact_information_item p{
     margin-bottom: 10px;
-    text-transform: uppercase;
     font-weight: 600;
     font-size: 17px;
 }
@@ -623,9 +637,10 @@ li.contact_information_item {
 /******* about us *******************/
 .about_company_desc{
     color: #000;
-    font-size: 19px;
+    font-size: 14px;
     font-weight: 300;
     text-align: justify;
+    margin-top: 20px;
 }
 .mark_title h3{
     color: #02a69d;
@@ -699,7 +714,7 @@ h5.odoo_coloer_title {
     background-color: #ffffff;
     padding: 1rem;
     margin-bottom: 2rem;
-    min-height: 200px;
+    min-height: 165px;
 }
 .odoo_app_list_img{
     width: 19%;
@@ -770,6 +785,7 @@ p.home_latset_news_grid_text {
 .news_grid_subtitle
 {
     font-size: 13px;
+    text-align: justify;
 }
 .blog_details_btn{
     float: right;
@@ -1058,7 +1074,7 @@ p.home_latset_news_grid_text {
 }
 .tabs_content{
     margin-top: 4rem;
-  min-height: 390px;
+  min-height: 330px;
 }
 ul.tabs-list
 {
@@ -1212,6 +1228,7 @@ img.tab_image{
     background-image: url("../img/course_bg.jpg") !important;
     background-size: 100%;
     background-repeat: no-repeat;
+    background-color: #1c2334;
 }
 .o_wslides_wrap h1{
     font-size: 44px;

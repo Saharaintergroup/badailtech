@@ -28,6 +28,7 @@
                                                         </h1>
                                                         <p>We Provide Powerful Yet Simple Business Solutions
                                                         </p>
+                                                        <a href="/contact_us" class="home_contact_ntn">Contact US</a>
                                                     </div>
 
                                                 </div>
@@ -36,8 +37,8 @@
                                                 <div class="slider_logo_img">
                                                     <img src="/sah_badailtech/static/src/img/component1.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
-<!--                                                        <h1>who are BadailTech ?-->
-<!--                                                        </h1>-->
+                                                        <!--                                                        <h1>who are BadailTech ?-->
+                                                        <!--                                                        </h1>-->
                                                         <p style="font-weight: bold;">An  Information technology company based in Sohar, Sultanate of Oman. Our main focus is to deliver accurate business solutions using Odoo to provide customized ERP.
                                                         </p>
                                                     </div>
@@ -50,8 +51,8 @@
                                                     <div class="home_header_content">
                                                         <h1>Our main concern is doing business the right way!
                                                         </h1>
-<!--                                                        <p>-->
-<!--                                                        </p>-->
+                                                        <!--                                                        <p>-->
+                                                        <!--                                                        </p>-->
                                                     </div>
 
                                                 </div>
@@ -79,7 +80,7 @@
                                                 </li>
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
-                                                       Mobile App development
+                                                        Mobile App development
                                                     </h4>
                                                     <p class="home_service_title_text">We believe in the importance of mobile applications for the progress of business, we provide designing and developing mobile applications compatible with different operating systems.</p>
                                                 </li>
@@ -89,11 +90,12 @@
                                                     </h4>
                                                     <p class="home_service_title_text">BadailTech administer a whole implementation and deployment of website starting with the design up to launching the website.</p>
                                                 </li>
+
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
-                                                        Web hosting services
+                                                        E-commerce
                                                     </h4>
-                                                    <p class="home_service_title_text">To insure the continuity of the website on the internet a strong, confidential and accessible web host is provided by us.</p>
+                                                    <p class="home_service_title_text">Increasing profit starts with the right representation of your store on the internet. We create professional e-stores along with advanced strategies in digital marketing.</p>
                                                 </li>
                                                 <li class="home_service_list home_service_list_after">
                                                     <h4 class="home_service_title home_service_title_after">
@@ -113,10 +115,11 @@
                                             <ul class="p-0">
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
-                                                        E-commerce
+                                                        Analyze your business
                                                     </h4>
-                                                    <p class="home_service_title_text">Increasing profit starts with the right representation of your store on the internet. We create professional e-stores along with advanced strategies in digital marketing.</p>
+                                                    <p class="home_service_title_text">We track your business by analyzing all data and monitoring your strengths, weaknesses and results over time.</p>
                                                 </li>
+
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
                                                         Training
@@ -125,11 +128,10 @@
                                                 </li>
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
-                                                        Analyze your business
+                                                        Web hosting services
                                                     </h4>
-                                                    <p class="home_service_title_text">We track your business by analyzing all data and monitoring your strengths, weaknesses and results over time.</p>
+                                                    <p class="home_service_title_text">To insure the continuity of the website on the internet a strong, confidential and accessible web host is provided by us.</p>
                                                 </li>
-
                                                 <li class="home_service_list home_service_list_before">
                                                     <h4 class="home_service_title home_service_title_before">
                                                         Technical Support Service
@@ -178,7 +180,7 @@
                                     <div class="row">
                                         <div class="col-12">
                                             <h3 class="home_ques_title">Why Choose Us</h3>
-                                            <p class="home_company_chosen">It is evident that the secret of the success of any company is its provision of services and products of high value to the customer, and for this reason, what we care about most about alternatives to tech is the quality of the services and products that we provide</p>
+                                            <p class="home_company_chosen">It is evident that the secret of the success of any company is its provision of services and products of high value to the customer, and for this reason, what we care about most about alternatives to technology is the quality of the services and products that we provide</p>
                                         </div>
                                     </div>
                                     <div id="why_choose_us_carousel" class="carousel slide" data-ride="carousel">
@@ -401,24 +403,18 @@
                                             </div>
                                             <div class="col-lg-6 m-auto">
                                                 <h4>
-                                                    what is odoo ?
+                                                    What is Odoo ?
                                                 </h4>
+                                                 <h5 class="odoo_coloer_title">
+                                                        With Odoo, you don't need anything else
+                                                 </h5>
                                                 <p class="odoo_company_desc">
-                                                    Odoo Is An Open Source Business Management System,
-                                                    This System Contains Several Software
-                                                    Applications That Will Help Entrepreneurs And
-                                                    Company Owners To Find Enterprise Resource Planning,
-                                                    As It Meets Their Needs In Many Matters Such As Sales
+                                                    Odoo is an open source business management system, this system contains several software applications that will help entrepreneurs and company owners to find enterprise resource planning, as it meets their needs in many matters such as Sales
                                                     Management, Accounting, Finance, Human
                                                     Resource Management, And Inventory Management .
                                                 </p>
                                                 <p class="odoo_company_desc">
-                                                    Odoo Is A Global System That Can Help All
-                                                    Companies Of Any Size, As It Is Used By More Than 5
-                                                    Million People Around The World And Shares With
-                                                    About 1250 Partners Around The World, And It Also
-                                                    Provides About 27500 Applications For Enterprise
-                                                    Resource Planning.
+                                                    Odoo is a global system that can help all companies of any size, as it is used by more than 5 million people around the world and shares with about 1250 partners around the world, and it also provides about 27500 applications for enterprise resource planning.
                                                 </p>
                                             </div>
                                             <div class="col-lg-6">
@@ -430,21 +426,6 @@
                                 <section class="oe_structure odoo_page">
                                     <div class="container sec-contain">
                                         <div class="row">
-                                            <div class="col-md-10 mb-5">
-                                                <div>
-                                                    <h4>
-                                                        Why Odoo?
-                                                    </h4>
-                                                    <h5 class="odoo_coloer_title">
-                                                        With Odoo, you don't need anything else
-                                                    </h5>
-                                                    <p class="odoo_company_desc">
-                                                        Thanks to its diversity of applications, Odoo brings you all the solutions for all enterprise resource
-                                                        requirements, its diversity of platforms and its constant updating make it a modern system that keeps pace
-                                                        with all aspects of enterprise resource planning.
-                                                    </p>
-                                                </div>
-                                            </div>
                                             <div class="col-md-12 mb-5">
                                                 <div class="mark_title">
                                                     <h3 class="odoo_title_details">Odoo as an easy-to-use program</h3>
@@ -599,13 +580,9 @@
                                                     </div>
                                                     <div class="odoo_app_details">
                                                         <h5>
-                                                            Apps That Enable You To Manage
-                                                            Relationships With Your Customers
+                                                           Customer Relationship Management
                                                         </h5>
-                                                        <p>Thanks To The Flexible Communication Apps Provided By Odoo, You Can Now
-                                                            Communicate With Your Customers With Ease. These Apps Provide An Ideal
-                                                            Communication Bridge Between You And The Customer, Making It Easier For You
-                                                            To Establish A Professional Relationship With Customers</p>
+                                                        <p>These apps provide an ideal communication bridge between you and the customer, making it easier for you to establish a professional relationship with customers.</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -647,7 +624,7 @@
                                             </div>
                                             <div class="col-lg-7 m-auto">
                                                 <h5>
-                                                    We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession. We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession.
+                                                    We help you manage your business with one click. Provision of powerful and user-friendly business solution is our profession.
                                                 </h5>
                                                 <p class="about_company_desc">
                                                     We are a company specialized in finding enterprise resource planning(ERP) using Odoo system, as we provide several software units that facilitate the management of your business, and these units in particular include: accounting, finance, human resource management, warehouse management, insurances and sales management. We strive hardworking and creative in BadailTech to make managing your business easy as never before.
@@ -697,7 +674,7 @@
                                                 <div class="item services_page_item_slider mx-4">
                                                     <div class="row">
                                                         <div class="col-md-4">
-                                                            <img src="/sah_badailtech/static/src/img/mobile_app.jpeg" class="img-fluid"/>
+                                                            <img src="/sah_badailtech/static/src/img/mobile_app.jpg" class="img-fluid"/>
                                                         </div>
                                                         <div class="col-md-8">
                                                             <h5>Mobile app development</h5>
@@ -809,9 +786,9 @@
                                                 </div>
                                             </div>
                                             <div class="col-md-8 m-auto">
-<!--                                                <h5>We Have A Professional And Multi-Disciplinary Team At Badail Tech.</h5>-->
+                                                <!--                                                <h5>We Have A Professional And Multi-Disciplinary Team At Badail Tech.</h5>-->
                                                 <p class="vision_desc">
-                                                   We have a professional and multi-disciplinary team at BadailTech. our team provides all the services related to the enterprise resource planning by using Odoo that our employees are proficient in, Odoo system is the main platform that our team deals with professionally and meets all our customers' requests for managing their business.
+                                                    We have a professional and multi-disciplinary team at BadailTech. our team provides all the services related to the enterprise resource planning by using Odoo that our employees are proficient in, Odoo system is the main platform that our team deals with professionally and meets all our customers' requests for managing their business.
                                                 </p>
                                             </div>
                                             <div class="col-md-4">
@@ -831,7 +808,7 @@
                                             </div>
                                             <div class="col-md-8 m-auto">
                                                 <p class="vision_desc">
-                                                   At BadailTech, we strive to be an integral part of Oman’s endeavors to digitize all sectors in 2040, as we want to be an effective partner for all the efforts made by the government to guide business using information technologies.
+                                                    At BadailTech, we strive to be an integral part of Oman’s endeavors to digitize all sectors in 2040, as we want to be an effective partner for all the efforts made by the government to guide business using information technologies.
                                                 </p>
                                             </div>
                                             <div class="col-md-4">
@@ -908,25 +885,25 @@
                                                         <div class="col-md-12 contact_us_form_inputs">
                                                             <div class="form-group form-field o_website_form_required_custom">
                                                                 <label class="col-form-label" for="contact_name">Your Name</label>
-                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" name="contact_name" required=""/>
+                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" placeholder="Your Name" name="contact_name" required=""/>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12 contact_us_form_inputs">
                                                             <div class="form-group form-field o_website_form_custom">
                                                                 <label class="col-form-label" for="contact_name">Phone Number</label>
-                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" name="phone" required=""/>
+                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" placeholder="Phone Number" name="phone" required=""/>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12 contact_us_form_inputs">
                                                             <div class="form-group form-field o_website_form_required_custom">
                                                                 <label class="col-form-label" for="contact_name">Email</label>
-                                                                <input type="email" class="form-control o_website_form_input custom_contact_us_form" name="email_from" required="" />
+                                                                <input type="email" class="form-control o_website_form_input custom_contact_us_form" placeholder="test@domain.com" name="email_from" required="" />
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12 contact_us_form_inputs">
                                                             <div class="form-group form-field o_website_form_required_custom">
                                                                 <label class="col-form-label" for="contact_name">Subject</label>
-                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" name="name" required=""/>
+                                                                <input type="text" class="form-control o_website_form_input custom_contact_us_form" placeholder="Subject" name="name" required=""/>
                                                             </div>
                                                         </div>
                                                         <div class="col-md-12 contact_us_form_inputs">
@@ -959,12 +936,12 @@
                                                     <li class="contact_information_item">
                                                         <a target="blank" class="contact_information_item_label">
                                                             <i class="fa fa-phone"></i>
-                                                            1833.erp.odoo</a>
+                                                            +968 92517926</a>
                                                     </li>
                                                     <li class="contact_information_item">
                                                         <a class="contact_information_item_label">
                                                             <i class="fa fa-envelope"></i>
-                                                            info@oerp.ca</a>
+                                                            info@badailtech.com</a>
                                                     </li>
                                                 </ul>
                                             </div>

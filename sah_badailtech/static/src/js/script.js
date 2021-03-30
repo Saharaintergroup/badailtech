@@ -11,10 +11,10 @@ $(function () {
                 items: 1,
             },
             481: {
-                items: 2,
+                items: 1,
             },
             768: {
-                items: 3,
+                items: 1,
             },
             1024: {
                 items:4
@@ -49,6 +49,12 @@ $(function () {
         center:false,
         autosahay:true,
         responsive:{
+            0: {
+                items: 1,
+            },
+            481: {
+                items: 1,
+            },
             768: {
                 items: 1,
             },

@@ -76,6 +76,9 @@
     .footer_logo_img p{
         padding-right: 30px;
     }
+    .home_contact_ntn{
+        display: none;
+    }
 }
 @media (max-width: 767px){
     .home_header_content h1 {
@@ -120,6 +123,9 @@
     }
     .footer_logo_img {
         margin-top: 12rem;
+    }
+    .title_head_contain h3{
+        margin-right: 25px;
     }
 }
 
