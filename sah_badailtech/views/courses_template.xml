@@ -100,13 +100,298 @@
 
         <template id="badailtech_courses_nav_template_header" active="True" inherit_id="website_slides.course_nav">
             <xpath  expr="//div[hasclass('o_wslides_course_nav')]" position="replace">
-               <div class="container">
-                   <div class="title_head_contain title_course_details" data-oe-model="ir.ui.view" data-oe-id="1411" data-oe-field="arch" data-oe-xpath="/data/xpath/nav/div[1]/div[1]/div[1]">
+                <div class="container">
+                    <div class="title_head_contain title_course_details" data-oe-model="ir.ui.view" data-oe-id="1411" data-oe-field="arch" data-oe-xpath="/data/xpath/nav/div[1]/div[1]/div[1]">
                         <h3>BadailTech Academy</h3>
                     </div>
-               </div>
+                </div>
             </xpath>
         </template>
+
+        <template id='badailtech_courses_template' name="badailtech  All Courses">
+            <t t-set="body_classname" t-value="'o_wslides_body'"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="wrap o_wslides_wrap">
+                    <section class="">
+                        <div class="container">
+                            <div class="d-flex flex-column flex-sm-row justify-content-between title_head_contain w-100 title_head_contain">
+                                <h3 class="mt-4 mb-5">Courses</h3>
+                                <form method="GET" class="form-inline o_wslides_nav_navbar_right order-lg-3" t-attf-action="/slides/courses" role="search">
+                                    <div class="input-group">
+                                        <input type="search" name="search" class="form-control oe_search_box" placeholder="Search courses" aria-label="Search" t-att-value="search_term"/>
+                                        <div class="input-group-append">
+                                            <button class="btn border border-left-0 oe_search_button" type="submit" aria-label="Search" title="Search">
+                                                <i class="fa fa-search"/>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                            </div>
+                            <div class="col">
+                                <a href="/slides/all?my=1" class="float-right course_slides_all">View all</a>
+                                <h5 class="mb-0 courses_general_title">My courses</h5>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="container mt16 o_wslides_home_nav position-relative">
+                        <!-- Navbar dynamically composed using displayed channel tag groups. -->
+                        <nav class="navbar navbar-expand-md navbar-light shadow-sm pl-0" style="background: white!important">
+                            <div class="navbar-nav border-right">
+                                <a class="nav-link nav-item px-3" href="/slides"><i class="fa fa-chevron-left"/></a>
+                            </div>
+                            <!-- Clear filtering (mobile)-->
+                            <div class="form-inline text-nowrap ml-auto d-md-none" t-if="search_slide_type or search_my or search_tags or search_channel_tag_id">
+                                <a href="/slides/all" class="btn btn-info mr-2" role="button" title="Clear filters">
+                                    <i class="fa fa-eraser"/> Clear filters
+                                </a>
+                            </div>
+                            <form t-else="" method="GET" class="form-inline o_wslides_nav_navbar_right d-md-none">
+                                <!-- Search box (mobile)-->
+                                <div class="input-group">
+                                    <input type="search" name="search" class="form-control"
+                                           placeholder="Search courses" aria-label="Search"
+                                           t-att-value="search_term"/>
+                                    <input t-if="search_tags" type="hidden" name="tags" t-att-value="str(search_tags.ids)"/>
+                                    <input t-if="search_my" type="hidden" name="my" t-att-value="1"/>
+                                    <input t-if="search_slide_type" type="hidden" name="slide_type" t-att-value="search_slide_type" />
+                                    <div class="input-group-append">
+                                        <button class="btn border border-left-0 oe_search_button" type="submit" aria-label="Search" title="Search">
+                                            <i class="fa fa-search"/>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <button class="navbar-toggler px-1" type="button"
+                                    data-toggle="collapse" data-target="#navbarTagGroups"
+                                    aria-controls="navbarTagGroups" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon small"/>
+                            </button>
+                        </nav>
+                        <!-- Display tags -->
+                        <t t-if="search_my">
+                            <span class="align-items-baseline border d-inline-flex pl-2 rounded mb-2">
+                                <i class="fa fa-tag mr-2 text-muted"/>
+                                My Courses
+                                <a t-att-href="'/slides/all?%s' % keep_query('*', my=None)" class="btn border-0 py-1">&#215;</a>
+                            </span>
+                        </t>
+                        <t t-if="search_term">
+                            <span class="align-items-baseline border d-inline-flex pl-2 rounded mb-2">
+                                <i class="fa fa-tag mr-2 text-muted"/>
+                                <t t-esc="search_term"/>
+                                <a t-att-href="'/slides/all?%s' % keep_query('*', search=None)" class="btn border-0 py-1">&#215;</a>
+                            </span>
+                        </t>
+                        <t t-foreach="search_tags" t-as="tag">
+                            <span class="align-items-baseline border d-inline-flex pl-2 rounded mb-2">
+                                <i class="fa fa-tag mr-2 text-muted"/>
+                                <t t-esc="tag.display_name"/>
+                                <a t-att-href="'/slides/all?%s' % keep_query('*', tags=str((search_tags - tag).ids))" class="btn border-0 py-1">&#215;</a>
+                            </span>
+                        </t>
+                    </div>
+                    <div class="container o_wslides_home_main pb-5">
+                        <div t-if="not courses" class="alert alert-info mb-5">
+                            No Course created yet
+                        </div>
+                        <div t-else="" class="row mx-n2">
+                            <t t-foreach="courses" t-as="course">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-2 d-flex flex-grow-1">
+                                    <div t-attf-class="card w-100 o_wslides_course_card mb-4 #{'o_wslides_course_unpublished' if not course.is_published else ''}">
+                                        <t t-set="course_image" t-value="website.image_url(course, 'image_1024')"/>
+                                        <a t-attf-href="/slides/#{slug(course)}" t-title="slide_training.name">
+                                            <t t-if="course.partner_has_new_content" t-call="website_slides.course_card_information"/>
+                                            <div t-if="course.image_1024" class="card-img-top" t-attf-style="padding-top: 50%; background-image: url(#{course_image}); background-size: cover; background-position:center"/>
+                                            <div t-else="" class="o_wslides_gradient card-img-top position-relative" style="padding-top: 50%; opacity: 0.8">
+                                                <i class="fa fa-graduation-cap fa-2x mr-3 mb-3 position-absolute text-white-75" style="right:0; bottom: 0"/>
+                                            </div>
+                                        </a>
+                                        <div class="card-body p-3">
+                                            <a class="card-title h5 mb-2 o_wslides_desc_truncate_2" t-attf-href="/slides/#{slug(course)}" t-esc="course.name"/>
+                                            <!--                                            <span t-if="not courses.is_published" class="badge badge-danger p-1">Unpublished</span>-->
+                                            <div class="card-text mt-1">
+                                                <div class="font-weight-light o_wslides_desc_truncate_3" t-field="course.description_short"/>
+                                                <div t-if="courses.tag_ids" class="mt-2 pt-1 o_wslides_desc_truncate_2">
+                                                    <t t-foreach="courses.tag_ids" t-as="tag">
+                                                        <t t-if="search_tags">
+                                                            <a  t-att-href="'/slides/courses?%s' % keep_query('*', tags=str((tag | search_tags).ids))" t-attf-class="badge #{'badge-primary' if tag in search_tags else 'o_wslides_channel_tag o_tag_color_0'}"  t-esc="tag.name"/>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <a t-att-href="'/slides/courses?%s' % keep_query('*', tags=str((tag | search_tags).ids))" t-attf-class="badge o_wslides_channel_tag #{'o_tag_color_'+str(tag.color)}" t-esc="tag.name"/>
+                                                        </t>
+                                                    </t>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer bg-white text-600 px-3">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <small t-if="course.total_time" class="font-weight-bold" t-esc="course.total_time" t-options="{'widget': 'duration', 'unit': 'hour', 'round': 'minute'}"/>
+                                                <div class="d-flex flex-grow-1 justify-content-end">
+                                                    <t t-if="course.is_member and course.completed">
+                                                        <span class="badge badge-pill badge-success pull-right py-1 px-2"><i class="fa fa-check"/> Completed</span>
+                                                    </t>
+                                                    <div t-elif="course.is_member and course.channel_type != 'documentation'" class="progress w-50" style="height: 6px">
+                                                        <div class="progress-bar" role="progressbar" t-att-aria-valuenow="course.completion" aria-valuemin="0" aria-valuemax="100" t-attf-style="width:#{course.completion}%;"/>
+                                                    </div>
+                                                    <small t-else=""><b t-esc="course.total_slides"/> steps</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+
+                    <t t-call="website_slides.courses_footer"></t>
+                </div>
+            </t>
+        </template>
+
+
+        <template id='badailtech_training_template' name="badailtech  All Courses">
+            <t t-set="body_classname" t-value="'o_wslides_body'"/>
+            <t t-call="website.layout">
+                <div id="wrap" class="wrap o_wslides_wrap">
+                    <section class="">
+                        <div class="container">
+                            <div class="d-flex flex-column flex-sm-row justify-content-between title_head_contain w-100 title_head_contain">
+                                <h3 class="mt-4 mb-5">BadailTech Academy</h3>
+                                <form method="GET" class="form-inline o_wslides_nav_navbar_right order-lg-3" t-attf-action="/slides/training" role="search">
+                                    <div class="input-group">
+                                        <input type="search" name="search" class="form-control oe_search_box" placeholder="Search courses" aria-label="Search" t-att-value="search_term"/>
+                                        <div class="input-group-append">
+                                            <button class="btn border border-left-0 oe_search_button" type="submit" aria-label="Search" title="Search">
+                                                <i class="fa fa-search"/>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="mark_title">
+                                <h5 class="odoo_title_details">Get trained by the best</h5>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="container mt16 o_wslides_home_nav position-relative">
+                        <!-- Navbar dynamically composed using displayed channel tag groups. -->
+                        <nav class="navbar navbar-expand-md navbar-light shadow-sm pl-0" style="background: white!important">
+                            <div class="navbar-nav border-right">
+                                <a class="nav-link nav-item px-3" href="/slides"><i class="fa fa-chevron-left"/></a>
+                            </div>
+                            <!-- Clear filtering (mobile)-->
+                            <div class="form-inline text-nowrap ml-auto d-md-none" t-if="search_slide_type or search_my or search_tags or search_channel_tag_id">
+                                <a href="/slides/all" class="btn btn-info mr-2" role="button" title="Clear filters">
+                                    <i class="fa fa-eraser"/> Clear filters
+                                </a>
+                            </div>
+                            <form t-else="" method="GET" class="form-inline o_wslides_nav_navbar_right d-md-none">
+                                <!-- Search box (mobile)-->
+                                <div class="input-group">
+                                    <input type="search" name="search" class="form-control"
+                                           placeholder="Search courses" aria-label="Search"
+                                           t-att-value="search_term"/>
+                                    <input t-if="search_tags" type="hidden" name="tags" t-att-value="str(search_tags.ids)"/>
+                                    <input t-if="search_my" type="hidden" name="my" t-att-value="1"/>
+                                    <input t-if="search_slide_type" type="hidden" name="slide_type" t-att-value="search_slide_type" />
+                                    <div class="input-group-append">
+                                        <button class="btn border border-left-0 oe_search_button" type="submit" aria-label="Search" title="Search">
+                                            <i class="fa fa-search"/>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            <button class="navbar-toggler px-1" type="button"
+                                    data-toggle="collapse" data-target="#navbarTagGroups"
+                                    aria-controls="navbarTagGroups" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon small"/>
+                            </button>
+                        </nav>
+                        <!-- Display tags -->
+                        <t t-if="search_my">
+                            <span class="align-items-baseline border d-inline-flex pl-2 rounded mb-2">
+                                <i class="fa fa-tag mr-2 text-muted"/>
+                                My Courses
+                                <a t-att-href="'/slides/all?%s' % keep_query('*', my=None)" class="btn border-0 py-1">&#215;</a>
+                            </span>
+                        </t>
+                        <t t-if="search_term">
+                            <span class="align-items-baseline border d-inline-flex pl-2 rounded mb-2">
+                                <i class="fa fa-tag mr-2 text-muted"/>
+                                <t t-esc="search_term"/>
+                                <a t-att-href="'/slides/all?%s' % keep_query('*', search=None)" class="btn border-0 py-1">&#215;</a>
+                            </span>
+                        </t>
+                        <t t-foreach="search_tags" t-as="tag">
+                            <span class="align-items-baseline border d-inline-flex pl-2 rounded mb-2">
+                                <i class="fa fa-tag mr-2 text-muted"/>
+                                <t t-esc="tag.display_name"/>
+                                <a t-att-href="'/slides/all?%s' % keep_query('*', tags=str((search_tags - tag).ids))" class="btn border-0 py-1">&#215;</a>
+                            </span>
+                        </t>
+                    </div>
+                    <div class="container o_wslides_home_main pb-5">
+                        <div t-if="not training" class="alert alert-info mb-5">
+                            No Training created yet
+                        </div>
+                        <div t-else="" class="row mx-n2">
+                            <t t-foreach="training" t-as="slide_training">
+                                <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-2 d-flex flex-grow-1">
+                                    <!--                                    <t t-call="website_slides.course_card"/>-->
+                                    <div t-attf-class="card w-100 o_wslides_course_card mb-4 #{'o_wslides_course_unpublished' if not slide_training.is_published else ''}">
+                                        <t t-set="course_image" t-value="website.image_url(slide_training, 'image_1024')"/>
+                                        <a t-attf-href="/slides/#{slug(slide_training)}" t-title="slide_training.name">
+                                            <t t-if="slide_training.partner_has_new_content" t-call="website_slides.course_card_information"/>
+                                            <div t-if="slide_training.image_1024" class="card-img-top" t-attf-style="padding-top: 50%; background-image: url(#{course_image}); background-size: cover; background-position:center"/>
+                                            <div t-else="" class="o_wslides_gradient card-img-top position-relative" style="padding-top: 50%; opacity: 0.8">
+                                                <i class="fa fa-graduation-cap fa-2x mr-3 mb-3 position-absolute text-white-75" style="right:0; bottom: 0"/>
+                                            </div>
+                                        </a>
+                                        <div class="card-body p-3">
+                                            <a class="card-title h5 mb-2 o_wslides_desc_truncate_2" t-attf-href="/slides/#{slug(slide_training)}" t-esc="slide_training.name"/>
+                                            <span t-if="not slide_training.is_published" class="badge badge-danger p-1">Unpublished</span>
+                                            <div class="card-text mt-1">
+                                                <div class="font-weight-light o_wslides_desc_truncate_3" t-field="slide_training.description_short"/>
+                                                <div t-if="slide_training.tag_ids" class="mt-2 pt-1 o_wslides_desc_truncate_2">
+                                                    <t t-foreach="slide_training.tag_ids" t-as="tag">
+                                                        <t t-if="search_tags">
+                                                            <a t-att-href="'/slides/all?%s' % keep_query('*', tags=str((tag | search_tags).ids))" t-attf-class="badge #{'badge-primary' if tag in search_tags else 'o_wslides_channel_tag o_tag_color_0'}" t-esc="tag.name"/>
+                                                        </t>
+                                                        <t t-else="">
+                                                            <a t-att-href="'/slides/all?%s' % keep_query('*', tags=str((tag | search_tags).ids))" t-attf-class="badge o_wslides_channel_tag #{'o_tag_color_'+str(tag.color)}" t-esc="tag.name"/>
+                                                        </t>
+                                                    </t>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card-footer bg-white text-600 px-3">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <small t-if="slide_training.total_time" class="font-weight-bold" t-esc="slide_training.total_time" t-options="{'widget': 'duration', 'unit': 'hour', 'round': 'minute'}"/>
+                                                <div class="d-flex flex-grow-1 justify-content-end">
+                                                    <t t-if="slide_training.is_member and slide_training.completed">
+                                                        <span class="badge badge-pill badge-success pull-right py-1 px-2"><i class="fa fa-check"/> Completed</span>
+                                                    </t>
+                                                    <div t-elif="slide_training.is_member and slide_training.channel_type != 'documentation'" class="progress w-50" style="height: 6px">
+                                                        <div class="progress-bar" role="progressbar" t-att-aria-valuenow="slide_training.completion" aria-valuemin="0" aria-valuemax="100" t-attf-style="width:#{slide_training.completion}%;"/>
+                                                    </div>
+                                                    <small t-else=""><b t-esc="slide_training.total_slides"/> steps</small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </t>
+                        </div>
+                    </div>
+
+                    <t t-call="website_slides.courses_footer"></t>
+                </div>
+            </t>
+        </template>
+
 
     </data>
 </odoo>

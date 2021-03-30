@@ -2,4 +2,4 @@
 
 from . import blog
 from . import event
-# from . import slides
+from . import slides

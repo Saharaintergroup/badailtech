@@ -79,7 +79,7 @@
                                                     <!--                                                    <span class="s_website_form_mark"> *</span>-->
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input id="recruitment1" type="text" class="form-control s_website_form_input" name="partner_name" required=""/>
+                                                    <input id="recruitment1" type="text" class="form-control s_website_form_input" placeholder="Your Name" name="partner_name" required=""/>
                                                 </div>
                                             </div>
                                         </div>
@@ -90,7 +90,7 @@
                                                     <!--                                                    <span class="s_website_form_mark"> *</span>-->
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input id="recruitment3" type="tel" class="form-control s_website_form_input" name="partner_phone" required=""/>
+                                                    <input id="recruitment3" type="tel" class="form-control s_website_form_input" placeholder="Phone Number" name="partner_phone" required=""/>
                                                 </div>
                                             </div>
                                         </div>
@@ -101,7 +101,7 @@
                                                     <!--                                                    <span class="s_website_form_mark"> *</span>-->
                                                 </label>
                                                 <div class="col-sm-9">
-                                                    <input id="recruitment2" type="email" class="form-control s_website_form_input" name="email_from" required=""/>
+                                                    <input id="recruitment2" type="email" class="form-control s_website_form_input" placeholder="test@domain.com" name="email_from" required=""/>
                                                 </div>
                                             </div>
                                         </div>
@@ -266,7 +266,7 @@
                                                         <!--                                                    <span class="s_website_form_mark"> *</span>-->
                                                     </label>
                                                     <div class="col-sm-9">
-                                                        <input id="recruitment1" type="text" class="form-control s_website_form_input" name="partner_name" required=""/>
+                                                        <input id="recruitment1" type="text" class="form-control s_website_form_input" placeholder="Your Name" name="partner_name" required=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -277,7 +277,7 @@
                                                         <!--                                                    <span class="s_website_form_mark"> *</span>-->
                                                     </label>
                                                     <div class="col-sm-9">
-                                                        <input id="recruitment3" type="tel" class="form-control s_website_form_input" name="partner_phone" required=""/>
+                                                        <input id="recruitment3" type="tel" class="form-control s_website_form_input" placeholder="Phone Number" name="partner_phone" required=""/>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,17 +288,17 @@
                                                         <!--                                                    <span class="s_website_form_mark"> *</span>-->
                                                     </label>
                                                     <div class="col-sm-9">
-                                                        <input id="recruitment2" type="email" class="form-control s_website_form_input" name="email_from" required=""/>
+                                                        <input id="recruitment2" type="email" class="form-control s_website_form_input" placeholder="test@domain.com" name="email_from" required=""/>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="form-group col-12 s_website_form_field" data-type="text" data-name="Field">
                                                 <div class="s_col_no_resize s_col_no_bgcolor">
-                                                    <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="recruitment4">
+                                                    <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="recruitments">
                                                         <span class="s_website_form_label_content">Small Introduction</span>
                                                     </label>
                                                     <div class="col-sm-9">
-                                                        <textarea id="recruitment4" class="form-control s_website_form_input" rows="4" placeholder="write small introduction about you here .." name="description"></textarea>
+                                                        <textarea id="recruitments" class="form-control s_website_form_input" rows="4" placeholder="write small introduction about you here .." name="description"></textarea>
                                                     </div>
                                                 </div>
                                             </div>

@@ -57,10 +57,11 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .
 .home_contact_ntn{
     border-radius: 10px;
     background-color: #02a69d;
-    color: #fff;
+    color: #fff !important;
     padding: .7rem 2rem;
     display: inline-block;
     margin: 25px 0;
+    text-decoration: none !important;
 }
 #top_menu_collapse{
     /*position: absolute;
@@ -642,13 +643,16 @@ li.contact_information_item {
     text-align: justify;
     margin-top: 20px;
 }
-.mark_title h3{
+.mark_title h3, .mark_title h5{
     color: #02a69d;
     padding-bottom: 10px;
     position: relative;
     padding-left: 20px;
 }
-.mark_title h3:before{
+.mark_title h5:before{
+    top: -5px !important;
+}
+.mark_title h3:before, .mark_title h5:before{
     position: absolute;
     content: "";
     top: 0px;
