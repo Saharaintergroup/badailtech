@@ -15,7 +15,7 @@ class SlidesCourses(http.Controller):
                 # perform a search to filter on existing / valid tags implicitely
                 tags = request.env['slide.channel.tag'].search([('id', 'in', tag_ids)])
         return tags
-    @http.route('/slides/courses', type='http', auth="user", website=True)
+    @http.route('/slides/courses', type='http', auth="public", website=True)
     def slides_courses(self, **post):
 
         courses = request.env['slide.channel'].search([('channel_type','=','training')])
@@ -30,7 +30,7 @@ class SlidesCourses(http.Controller):
             'search_tags': search_tags,
             })
 
-    @http.route('/slides/training', type='http', auth="user", website=True)
+    @http.route('/slides/training', type='http', auth="public", website=True)
     def slides_training(self, **post):
         training = request.env['slide.channel'].search([('channel_type', '=', 'documentation')])
 

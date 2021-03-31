@@ -1,0 +1,1437 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sah_badailtech
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-03-31 17:30+0000\n"
+"PO-Revision-Date: 2021-03-31 17:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "+968 92517926"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid ""
+"<i class=\"fa fa-envelope\"/>\n"
+"                                                            info@badailtech.com"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "<i class=\"fa fa-eraser\"/> Clear filters"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid ""
+"<i class=\"fa fa-map-marker\"/>\n"
+"                                                            Sohar,Sultanete Of Oman"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+msgid ""
+"<i class=\"fa fa-paperclip\"/>\n"
+"                                                        <span class=\"form-control career_input_cv_span\">please attach your file here</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid ""
+"<i class=\"fa fa-paperclip\"/>\n"
+"                                                    <span class=\"form-control career_input_cv_span\">please attach your file here</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid ""
+"<i class=\"fa fa-phone\"/>\n"
+"                                                            +968 92517926"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid ""
+"<i class=\"fa fa-tag mr-2 text-muted\"/>\n"
+"                                My Courses"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid ""
+"<span class=\"badge badge-pill badge-success pull-right py-1 px-2\"><i "
+"class=\"fa fa-check\"/> Completed</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Department</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Email</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Job</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Phone Number</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Small Introduction</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Your CV</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "<span class=\"s_website_form_label_content\">Your Name</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "<span>01</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "<span>02</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "<span>03</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "<span>04</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "<span>05</span>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "About Odoo"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:website.menu,name:sah_badailtech.badailtech_menu_about_us
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "About Us"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Add to Calendar"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "All fridays and official Holidays"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"An  Information technology company based in Sohar, Sultanate of Oman. Our "
+"main focus is to deliver accurate business solutions using Odoo to provide "
+"customized ERP."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Analyze your business"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"And Because It Has Become Necessary For The Company To Exist On The "
+"Internet, Odoo Provides You With A Distinctive Place On The Internet By "
+"Creating And Managing Your Website"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_job_desc_template
+msgid "Apply Now!"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+msgid "Applying"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"At BadailTech, we strive to be an integral part of Oman’s endeavors to "
+"digitize all sectors in 2040, as we want to be an effective partner for all "
+"the efforts made by the government to guide business using information "
+"technologies."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid ""
+"At BadailTech, we work to help entrepreneurs find the most effective and "
+"easiest E-solutions for their business by employing a professional team that"
+" listens well and analyse all our customers' requirements."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"At BadailTech, we work to help entrepreneurs find the most effective and "
+"easiest E-solutions for their business by employing a professional team that"
+" listens well and analyze all our customers' requirements."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_nav_template_header
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "BadailTech Academy"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "BadailTech Team"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"BadailTech administer a whole implementation and deployment of website "
+"starting with the design up to launching the website."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "BadailTech for business solutions"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"BadailTech helps entrepreneurs find software solutions that makes managing "
+"their business smooth and efficient by using Odoo system."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.footer_snippets_option
+msgid "Badailtech Footer"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.header_snippets_option
+msgid "Badailtech Header"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"Because being at the forefront is an objective, we are working to raise the "
+"performance and efficiency of the proposed solutions to keep reaching "
+"customer satisfaction."
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__benefits
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.product_website_description_template_form_view
+msgid "Benefits"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_blog_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.blog_post_complete_inherited_template
+msgid "Blog"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model,name:sah_badailtech.model_blog_post
+msgid "Blog Post"
+msgstr "مقال المدونة"
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_blog_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.blog_post_complete_inherited_template
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Blog image"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Business Hours"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Careers"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "Clear filters"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "Click on \"New\" in the top-right corner to write your first course."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Communication Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Contact US"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:website.menu,name:sah_badailtech.badailtech_menu_contact_us
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "Contact Us"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "Contact us"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_event_event__content
+msgid "Content"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "Courses"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "Create Enterprise Resource Planning"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Create enterprise resource planning"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid ""
+"Create new job pages from the <strong><i>+New</i></strong> top-right button."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Customer Relationship Management"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Customer satisfaction comes first"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Date &amp; Time"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_blog_post__display_name
+#: model:ir.model.fields,field_description:sah_badailtech.field_event_event__display_name
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__display_name
+msgid "Display Name"
+msgstr "الاسم المعروض"
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"Do not bear the worry of searching for the right hosting for your site "
+"because we provide you with the best hosting at the best possible price. "
+"Keeping security, integrity and accessibility always in mind."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "E-commerce"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "Email"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "End -"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model,name:sah_badailtech.model_event_event
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Event"
+msgstr "الفعالية"
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template_header
+msgid "Events"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Events &amp; News"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Finance Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Finance Apps In Odoo Allow You To Manage The Financial Side Of The Company, "
+"As It Can Create Accounting Solutions And Process All Sales Data."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid ""
+"Find out what people see and say about this event, and join the "
+"conversation."
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields.selection,name:sah_badailtech.selection__hr_job__job_category__full_time
+msgid "Full Time"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Get In Touch"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Get the direction"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "Get trained by the best"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Google"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Home"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Human Resource Management Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_blog_post__id
+#: model:ir.model.fields,field_description:sah_badailtech.field_event_event__id
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__id
+msgid "ID"
+msgstr "المُعرف"
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_blog_post__image
+#: model:ir.model.fields,field_description:sah_badailtech.field_event_event__image
+msgid "Image"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"In order to solve any problem for the customer, we are ready to solve every "
+"emergency that the customer may face while managing his business thanks to "
+"the high innovation spirit that characterizes our team."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"Increasing profit starts with the right representation of your store on the "
+"internet. We create professional e-stores along with advanced strategies in "
+"digital marketing."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"It is clear that the secret of the success of any company is its provision "
+"of services and products that meets customer needs and solve critical "
+"problems, and for this reason, the quality of the services and products we "
+"provide is the most thing we care about at BadailTech."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"It is evident that the secret of the success of any company is its provision"
+" of services and products of high value to the customer, and for this "
+"reason, what we care about most about alternatives to technology is the "
+"quality of the services and products that we provide"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"It is our pleasure to share with you our experiences, knowledge and all our "
+"skills via after sale training and on purpose training courses for different"
+" IT specializations."
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__job_category
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.product_website_description_template_form_view
+msgid "Job Category"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model,name:sah_badailtech.model_hr_job
+msgid "Job Position"
+msgstr "المنصب الوظيفي"
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_blog_post____last_update
+#: model:ir.model.fields,field_description:sah_badailtech.field_event_event____last_update
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job____last_update
+msgid "Last Modified on"
+msgstr "آخر تعديل في"
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Location"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"Lorem ipsum dolor sit amet,\n"
+"                                                    consetetur sadipscing elitr, sed\n"
+"                                                    diam nonumy eirmod tempor\n"
+"                                                    invidunt"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Marketing Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Marketing Is One Of The Pillars Of A Successful Business, So\n"
+"                                                            Odoo's Marketing Apps Allow An Excellent Experience To\n"
+"                                                            Manage The Company's Marketing Department."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"Mastering the service requires a good understanding of the client's request,"
+" so our team is keen to monitor every small and large part of our customer's"
+" needs."
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__min_requirements
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.product_website_description_template_form_view
+msgid "Min Requirements"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_job_desc_template
+msgid "Minimum Requirements"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Mobile App development"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "Mobile app development"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "Most popular"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__must_have
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_job_desc_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.product_website_description_template_form_view
+msgid "Must Have"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "My courses"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "Newest courses"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_blog_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.blog_post_complete_inherited_template
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "News"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+msgid "No Course created yet"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "No Course created yet."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "No Training created yet"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Now you can manage everything using one platform"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "OUR SERVICES"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:website.menu,name:sah_badailtech.badailtech_menu_odoo
+msgid "Odoo"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Odoo Tour"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Odoo as an easy-to-use program"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Odoo helps you no matter the size of your company"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Odoo is a global system that can help all companies of any size, as it is "
+"used by more than 5 million people around the world and shares with about "
+"1250 partners around the world, and it also provides about 27500 "
+"applications for enterprise resource planning."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Odoo is an open source business management system, this system contains several software applications that will help entrepreneurs and company owners to find enterprise resource planning, as it meets their needs in many matters such as Sales\n"
+"                                                    Management, Accounting, Finance, Human\n"
+"                                                    Resource Management, And Inventory Management ."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Odoo provides the ability to download its applications for all companies, including startups, as these\n"
+"                                                    applications enable entrepreneurs to use them in various fields related to managing their business,\n"
+"                                                    thanks to this flexibility, Odoo has become the most downloaded business program in the world, with\n"
+"                                                    more than 5 million users."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"One of the most negative things that entrepreneurs face is the overlapping of management programs\n"
+"                                                    and applications with each other, although they are separate, as it is very difficult to manage them at\n"
+"                                                    the same time and coordinate between them, now with Odoo you can manage all the applications\n"
+"                                                    related to your business using one platform, which makes it easier You have to monitor all aspects of\n"
+"                                                    your company simultaneously and thus find quick and effective enterprise resource planning."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Opening Days"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Operations Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Organizer"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Our Happy Clients"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "Our Mission"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "Our Services"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "Our Vision"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Our main concern is doing business the right way!"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Our services are of high quality"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Our unlimited creativity"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields.selection,name:sah_badailtech.selection__hr_job__job_category__part_time
+msgid "Part Time"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "Phone Number"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Professional assistance"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Provision of point of sale system (POS)"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Quick Links"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_blog_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.blog_post_complete_inherited_template
+msgid "Read More"
+msgstr ""
+
+#. module: sah_badailtech
+#: model:ir.model.fields,field_description:sah_badailtech.field_hr_job__responsibilities
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_job_desc_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.product_website_description_template_form_view
+msgid "Responsibilities"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "SHARE"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Sales Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Sales apps in Odoo allow the management of sales in a very smooth and "
+"professional manner, now with Odoo it is possible to manage all sales easily"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Saturday 4 pm to 8 pm"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "Search"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template_header
+msgid "Search Events"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "Search courses"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "See More"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "See More <i class=\"fa fa-angle-down ml-2\"/>"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.product_website_description_template_form_view
+msgid "Short Description"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.blog_post_complete_inherited_template
+msgid "Similar News"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Sohar,Sultanete of oman"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "Start -"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid "Statistic and analyze your business"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "Subject"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "Submit"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Sunday - Thursday : 9am to 5pm"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+msgid "Technical Support"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Technical Support Service"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Thanks to its diversity of applications, Odoo brings you all the solutions for all enterprise resource\n"
+"                                                        requirements, its diversity of platforms and its constant updating make it a modern system that keeps pace\n"
+"                                                        with all aspects of enterprise resource planning."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Thanks to its simple and harmonious design, Odoo provides a very easy user experience for\n"
+"                                                    businessmen, where anyone can download and install it, and because Odoo is an open source program,\n"
+"                                                    it allows company owners to benefit from its services comfortably, these services include finding\n"
+"                                                    solutions in accounting, finance, sales management, e-commerce, technical support services for\n"
+"                                                    customers, human resources management and many business management services ."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"Thanks to our extensive experience in computer systems, we provide "
+"innovative solutions to our customers to manage their businesses easily by "
+"using one of the most powerful ERP solution providers Odoo system. Our team "
+"is able to provide all software units that can manage business, including "
+"accounting, finance, human resource management, warehouse management, "
+"insurances and sales management, and we also help our customers find special"
+" and appropriate solutions for their needs in managing their business."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"The only platform you will ever need to help run your business efficiently, "
+"simply and productively."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"These Apps Allow To Facilitate All The Company’s Operations. These "
+"Operations Are Mainly Represented In Inventory Management, Customer Orders "
+"Management And Some Mini Projects Within The Company."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"These Apps Enable Perfect Communication Between\n"
+"                                                            Employees Or With Customers"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"These apps provide an ideal communication bridge between you and the "
+"customer, making it easier for you to establish a professional relationship "
+"with customers."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid ""
+"Through Odoo, It Becomes Possible To Manage Personnel\n"
+"                                                            Affairs With Flexibility. These Apps Allow Managing Workers'\n"
+"                                                            Salaries And Vacations, As Well As Conducting Job Interviews\n"
+"                                                            And Employment."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"To insure the continuity of the website on the internet a strong, "
+"confidential and accessible web host is provided by us."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "Toggle navigation"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Training"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "Unpublished"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template_header
+msgid "Upcoming Events"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "Vacation"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
+msgid "View all"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "We Provide Powerful Yet Simple Business Solutions"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We are a company specialized in finding enterprise resource planning(ERP) "
+"using Odoo system, as we provide several software units that facilitate the "
+"management of your business, and these units in particular include: "
+"accounting, finance, human resource management, warehouse management, "
+"insurances and sales management. We strive hardworking and creative in "
+"BadailTech to make managing your business easy as never before."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "We are good listeners"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"We believe in the importance of mobile applications for the progress of "
+"business, we provide designing and developing mobile applications compatible"
+" with different operating systems."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We believe that mobile applications are an integral part of running a "
+"successful business. Therefore, BadailTech provide a service for designing "
+"and developing applications applicable with all operating systems."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"We can process any request related to business management and we will guide "
+"you to handle it properly."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We create professional e-stores and offer advanced strategies in digital "
+"marketing and advertising campaigns management."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"We give utmost importance to making our client satisfied with our "
+"performance, and to achieve that, we strive to provide our service as "
+"required, by providing technical solutions that facilitate the customer’s "
+"business management."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"We go systematically along with our customers to guide, advice and aid them "
+"both technically and functionally through the implementation of their "
+"solution or after sale support."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We have a professional and multi-disciplinary team at BadailTech. our team "
+"provides all the services related to the enterprise resource planning by "
+"using Odoo that our employees are proficient in, Odoo system is the main "
+"platform that our team deals with professionally and meets all our "
+"customers' requests for managing their business."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We have a team specialized in analyzing data and monitoring everything about"
+" your business. A comprehensive analysis of the company enables you to plan "
+"well for the future and avoid all potential obstacles."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We help our customers make their business available on the Internet by "
+"designing websites representing their companies. We guarantee the complete "
+"creation of websites in addition to managing and adjusting all their "
+"settings."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We help you in training your team through training courses in various fields"
+" where we are happy to share our experiences and skills with you. We provide"
+" after sell training to ensure the maximum benefit from the proposed "
+"solution. As well as training at different IT specializations as "
+"development, business architecture and business analysis."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We help you manage your business with one click. Provision of powerful and "
+"user-friendly business solution is our profession."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid ""
+"We offer our customers a live customized demo, a free consultation\n"
+"                                                    to get answers to all your questions and to clarify why BadailTech is\n"
+"                                                    the right partner to grow your business"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"We present a full package of POS equipment for both companies and stores, "
+"accompanied with its operating program."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We provide professional technical support team, who are well trained to "
+"listen perfectly to customers' requests and needs. Our team insures that any"
+" technical problems that may face the customers are solved."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We provide technical advice and guidance for your business, study your "
+"situation and needs well, and then guide you to meet your goals and grow "
+"your business."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+msgid ""
+"We provide you with the equipment for the point of sale for companies and "
+"stores, accompanied by its operating program."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "We think outside the box"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid ""
+"We track your business by analyzing all data and monitoring your strengths, "
+"weaknesses and results over time."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Web hosting services"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "Website Apps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Website design"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Welcome To BadailTech"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "What is Odoo ?"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_job_desc_template
+msgid "What's great in the job?"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
+msgid "Why Choose Us"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
+msgid "With Odoo, you don't need anything else"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "Your Name"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "Your Question"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "for job opportunities."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
+msgid "iCal/Outlook"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
+msgid "info@badailtech.com"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "leave Your CV"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "open positions"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "please attach your file here"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "send"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
+msgid "steps"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "test@domain.com"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.blog_post_complete_inherited_template
+msgid "the most accurate and recent news in the technology world"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "unpublished"
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
+msgid "write small introduction about you here .."
+msgstr ""
+
+#. module: sah_badailtech
+#: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
+#: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
+msgid "write your comment here ........"
+msgstr ""

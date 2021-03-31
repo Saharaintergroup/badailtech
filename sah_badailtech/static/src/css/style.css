@@ -56,9 +56,9 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .
 }
 .home_contact_ntn{
     border-radius: 10px;
-    background-color: #02a69d;
+    background-color: #02817a;
     color: #fff !important;
-    padding: .7rem 2rem;
+    padding: .5rem 1.5rem;
     display: inline-block;
     margin: 25px 0;
     text-decoration: none !important;
@@ -838,6 +838,9 @@ p.home_latset_news_grid_text {
     background-color: unset !important;
     color: #212529;
 }
+.o_wevent_index .o_wevent_events_list .opt_events_list_columns .event_block_list header{
+    height: 300px !important;
+}
 .o_wevent_index_topbar_filters .dropdown-toggle{
     border: 1px solid #e3e3e5 !important;
     border-radius: 10px !important;
@@ -886,16 +889,29 @@ p.home_latset_news_grid_text {
     background-color: #47adaa !important;
     color: #ffffff !important;
 }
-/*.o_wevent_event.js_event .bg-200.mt-n5{
+.event_block_list .o_colored_level.o_cc3{
+    background-color: #FFFFFF !important;
+    color: #000000;
+}
+#wrap.o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3 .oe_black {
+    background-color: #02a69d !important;
+    color: #ffffff;
+    opacity: 1 !important;
+}
+.o_wevent_event.js_event .o_wevent_event_title .o_wevent_event_name{
+    color: #ffffff;
+}
+.o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3, .o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3 .oe_black{
+    background-color: #FFFFFF !important;
+    color: #000000;
+}
+/*
+.o_wevent_event.js_event .bg-200.mt-n5{
     background-color: #fff !important;
 }
 .o_wevent_event.js_event .bg-200.mt-n5 .no-gutters .bg-light.shadow-sm  {
     background-color: #FFFFFF !important;
     box-shadow: unset !important;
-}
-.o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3, .o_wevent_event.js_event .o_half_screen_height.o_colored_level.o_cc3 .oe_black{
-    background-color: #FFFFFF !important;
-    color: #000000;
 }
 .o_wevent_event.js_event .o_wevent_event h6.o_wevent_sidebar_title{
     color: #7b7b7b;
@@ -1191,9 +1207,10 @@ img.tab_image{
 .home_latest_event_container{
     margin-bottom: 1.3rem;
 }
+/*
 .o_colored_level{
-    background-image: url("'/web/image/event.event/% event.id") !important;
-}
+    background-image: url("'/web/image/event.event/%s/image' % event.id") !important;
+}*/
 /********* Courses ****************/
 .o_wslides_wrap{
     background: #fff;

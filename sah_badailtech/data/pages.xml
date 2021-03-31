@@ -28,14 +28,14 @@
                                                         </h1>
                                                         <p>We Provide Powerful Yet Simple Business Solutions
                                                         </p>
-                                                        <a href="/contact_us" class="home_contact_ntn">Contact US</a>
+                                                        <a href="/contact_us" class="home_contact_ntn">Contact us</a>
                                                     </div>
 
                                                 </div>
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/component1.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/component4.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <!--                                                        <h1>who are BadailTech ?-->
                                                         <!--                                                        </h1>-->
@@ -47,7 +47,7 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/component3.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/component5.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <h1>Our main concern is doing business the right way!
                                                         </h1>
@@ -332,6 +332,7 @@
                                                     </div>
                                                     <div class="home_latset_news_grid_content">
                                                         <a t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register'}"><h5 t-field="event.name" class="latest_event_title_home" /></a>
+<!--                                                        <p class="">This is an event This is an event This is an event This is an event This is an event This is an event</p>-->
                                                     </div>
 
                                                 </div>
@@ -467,7 +468,7 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-5">
                                                 <div class="title_head_contain">
-                                                    <h3>About Odoo</h3>
+                                                    <h3>Odoo apps</h3>
                                                     <p class="odoo_company_desc">
                                                         Thanks to its diversity of applications, Odoo brings you all the solutions for all enterprise resource
                                                         requirements, its diversity of platforms and its constant updating make it a modern system that keeps pace
