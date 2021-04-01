@@ -17,6 +17,13 @@ body, #wrapwrap h1, #wrapwrap h2, #wrapwrap h3, #wrapwrap h4, #wrapwrap h5, #wra
 {
   font-family: 'Roboto', sans-serif;
 }
+#wrapwrap.o_rtl h1, #wrapwrap.o_rtl h2, #wrapwrap.o_rtl h3, #wrapwrap.o_rtl h4, #wrapwrap.o_rtl h5, #wrapwrap.o_rtl a, #wrapwrap.o_rtl span{
+    font-family: "Source Sans Pro", "Odoo Unicode Support Noto", sans-serif;
+}
+#wrapwrap.o_rtl p, #wrapwrap.o_rtl div, #wrapwrap.o_rtl table, #wrapwrap.o_rtl tr, #wrapwrap.o_rtl td
+{
+    font-family: "Source Sans Pro", "Odoo Unicode Support Noto", sans-serif;
+}
 html
 {
   height: 100%;
@@ -388,6 +395,10 @@ ul.social_icons{
     list-style: none;
     height: 130px;
     position: relative;
+}
+.home_event_desc
+{
+    margin-left: 7rem;
 }
 .home_service_list_after:after{
     position: absolute;

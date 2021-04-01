@@ -332,7 +332,7 @@
                                                     </div>
                                                     <div class="home_latset_news_grid_content">
                                                         <a t-attf-href="/event/#{ slug(event) }/#{(not event.menu_id) and 'register'}"><h5 t-field="event.name" class="latest_event_title_home" /></a>
-<!--                                                        <p class="">This is an event This is an event This is an event This is an event This is an event This is an event</p>-->
+                                                        <p class="home_event_desc">BadailTech had this interesting event with more than 60 invites for participants around gulf countries.</p>
                                                     </div>
 
                                                 </div>
