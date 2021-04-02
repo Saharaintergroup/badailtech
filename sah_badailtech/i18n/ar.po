@@ -825,18 +825,18 @@ msgstr "السبت 4 ‫مساء حتي 8مساء"
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
 msgid "Search"
-msgstr ""
+msgstr "ابحث"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template_header
 msgid "Search Events"
-msgstr ""
+msgstr "ابحث عن الفاعليات"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
 msgid "Search courses"
-msgstr ""
+msgstr "ابحث عن التدريبات"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template

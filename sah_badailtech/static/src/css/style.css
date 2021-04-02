@@ -321,7 +321,7 @@ li.footer_list_links{
   margin-top: 2.5rem;
 }
 .o_rtl .footer_phone_num_ltr,.o_rtl .contact_information_phone_item_label{
-    direction: ltr !important;
+    direction: rtl !important;
 }
 .footer_page_contact
 {
@@ -550,9 +550,9 @@ p.home_company_chosen{
     padding-bottom: 12px;
     height: 85px;
 }
-.o_rtl .no-js .owl-carousel,.o_rtl .owl-carousel.owl-loaded {
-    direction: ltr !important;
-}
+/*.o_rtl .no-js .owl-carousel,.o_rtl .owl-carousel.owl-loaded {
+    direction: rtl !important;
+}*/
 .odoo_customer_slider .owl-nav{
     display: none;
 }

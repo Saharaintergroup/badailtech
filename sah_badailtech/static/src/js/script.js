@@ -4,6 +4,7 @@ $(function () {
         loop:true,
         margin:5,
         nav:true,
+        rtl:true,
         center:true,
         autosahay:true,
         responsive:{
@@ -25,6 +26,7 @@ $(function () {
         loop:true,
         margin:10,
         nav:true,
+        rtl:true,
         center:true,
         autosahay:true,
         responsive:{
@@ -46,6 +48,7 @@ $(function () {
         loop:true,
         margin:10,
         nav:true,
+        rtl:true,
         center:false,
         autosahay:true,
         responsive:{
