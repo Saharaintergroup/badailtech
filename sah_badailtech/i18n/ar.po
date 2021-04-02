@@ -51,7 +51,7 @@ msgid ""
 "                                                            Sohar,Sultanete Of Oman"
 msgstr ""
 "<i class=\"fa fa-map-marker\"/>\n"
-"                                                            صحار،‬‫عمان‬ ‫سلطنة"
+"                                                            صحار،سلطنة عمان"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
@@ -83,7 +83,8 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-tag mr-2 text-muted\"/>\n"
 "                                My Courses"
-msgstr ""
+msgstr <i class=\"fa fa-tag mr-2 text-muted\"/>\n"
+"                                دورات تقنية"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
@@ -210,8 +211,8 @@ msgid ""
 "At BadailTech, we strive to be an integral part of Oman’s endeavors to digitize all sectors in 2040, as we want to be an effective partner for all the efforts made by the "
 "government to guide business using information technologies."
 msgstr ""
-"نسعى في بدائل تك لنكون جزءا لا يتجزأ من مساعي دولة عمان لرقمنة جميع القطاعات سنة 2040، إننا نرغب في أن نكون شريكا فعالا لكل الجهود التي تبذلها الدولة في الإدارة بإستخدام "
-"التقنيات الحديثة ."
+"نعمل في بدائل تك على مساعدة رواد الأعمال في إيجاد أنجح و أسهل الحلول الخاصة بأعمالهم من خلال توظيفنا لفريق محترف و مستمع جيدا"
+"لكل طلبات عملائنا ."
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
@@ -232,7 +233,7 @@ msgstr "نعمل في بدائل تك على مساعدة رواد الأعما�
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_nav_template_header model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
 msgid "BadailTech Academy"
-msgstr "اكادمية بدائل تك"
+msgstr "اكاديمية بدائل تك"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
@@ -336,7 +337,7 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
 msgid "Courses"
-msgstr "الكورسات"
+msgstr "اكاديمية بدائل تك"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
@@ -411,7 +412,7 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
 msgid "Events &amp; News"
-msgstr "المؤتمرات‬ &amp; الاخبار"
+msgstr "الفاعليات والاخبار"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
@@ -446,7 +447,7 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_training_template
 msgid "Get trained by the best"
-msgstr ""
+msgstr "تدرب على يد افضل المدربين ذو خبره و مهاره واسعه"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
@@ -593,7 +594,7 @@ msgstr "يجب توافرها"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
 msgid "My courses"
-msgstr ""
+msgstr "دورات تقنية"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
@@ -718,7 +719,7 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
 msgid "Our Happy Clients"
-msgstr ""
+msgstr "زبائن بدائل تك"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
@@ -803,7 +804,7 @@ msgstr "المسؤليات"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
 msgid "SHARE"
-msgstr ""
+msgstr "مشاركه"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
@@ -860,7 +861,7 @@ msgstr "اﻷخبار المشابهه"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
 msgid "Sohar,Sultanete of oman"
-msgstr "صحار،‬‫عمان‬ ‫سلطنة‬ ‫‪‬‬ ‫"
+msgstr "صحار،سلطنة عمان"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_list_template
@@ -890,7 +891,7 @@ msgstr "ارسال"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
 msgid "Sunday - Thursday : 9am to 5pm"
-msgstr "4الأحد‬ - الخميس:9 ‪ صباحا‬حتي 5 مساءا"
+msgstr "الأحد - الخميس :9 صباحاحتي 5مساءا"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
@@ -1171,7 +1172,7 @@ msgstr "نرحب بكم في موقع البدائل لحلول الاعمال"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
 msgid "What is Odoo ?"
-msgstr "ماهي منصة أودو؟ماهي منصة أودو؟"
+msgstr "ماهي منصة أودو؟"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_job_desc_template
@@ -1202,7 +1203,7 @@ msgstr "السؤال الخاص بك"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
 msgid "for job opportunities."
-msgstr ""
+msgstr "للإطلاع على فرص العمل المتوفره"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template
@@ -1258,9 +1259,9 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_template
 msgid "write small introduction about you here .."
-msgstr ""
+msgstr "يرجى كتابة مقدمة تعريفيه عن نفسك"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
 msgid "write your comment here ........"
-msgstr "اترك تعليقك هنا .........."
+msgstr "اترك تعليقك هنا ..."

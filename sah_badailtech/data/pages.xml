@@ -35,7 +35,7 @@
                                             </div>
                                             <div class="carousel-item">
                                                 <div class="slider_logo_img">
-                                                    <img src="/sah_badailtech/static/src/img/component4.png" class="d-block img-fluid" alt="..."/>
+                                                    <img src="/sah_badailtech/static/src/img/slider5.png" class="d-block img-fluid" alt="..."/>
                                                     <div class="home_header_content">
                                                         <!--                                                        <h1>who are BadailTech ?-->
                                                         <!--                                                        </h1>-->
@@ -935,7 +935,7 @@
                                                             Sohar,Sultanete Of Oman</a>
                                                     </li>
                                                     <li class="contact_information_item">
-                                                        <a target="blank" class="contact_information_item_label">
+                                                        <a target="blank" class="contact_information_item_label contact_information_phone_item_label">
                                                             <i class="fa fa-phone"></i>
                                                             +968 92517926</a>
                                                     </li>

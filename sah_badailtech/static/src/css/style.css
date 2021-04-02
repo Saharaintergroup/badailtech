@@ -41,11 +41,31 @@ html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar-brand.logo{
     width: 10%;
     height: 40px;
 }
-html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar-brand.logo img{
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .o_rtl .navbar-brand.logo{
+    background-image: url("../img/logo_war.png");
+    z-index: 999;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 40px;
+}
+.o_rtl .navbar-brand.logo{
+    background-image: url("../img/logo_ar.png");
+    z-index: 999;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 40px;
+}
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar-brand.logo img, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .o_rtl .navbar-brand.logo img, .o_rtl .navbar-brand.logo img{
     display: none;
 }
 html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .navbar .o_menu_loading .nav-item {
     opacity: 1 !important;
+}
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav
+{
+    box-shadow: unset !important;
 }
 html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top nav.pages_nav .nav-item .nav-link, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .langs_dropdown p, html[data-view-xmlid="sah_badailtech.badailtech_home_page"] .choose_lang i{
     color: #fff !important;
@@ -300,6 +320,9 @@ li.footer_list_links{
 .footer_description{
   margin-top: 2.5rem;
 }
+.o_rtl .footer_phone_num_ltr,.o_rtl .contact_information_phone_item_label{
+    direction: ltr !important;
+}
 .footer_page_contact
 {
     line-height: 1.5;
@@ -526,6 +549,9 @@ p.home_company_chosen{
     border-bottom: 1px solid #a8a8a8;
     padding-bottom: 12px;
     height: 85px;
+}
+.o_rtl .no-js .owl-carousel,.o_rtl .owl-carousel.owl-loaded {
+    direction: ltr !important;
 }
 .odoo_customer_slider .owl-nav{
     display: none;
