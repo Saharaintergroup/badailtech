@@ -271,36 +271,119 @@
                                         <div class="col-12 text-center home_odoo_tour_container">
                                             <h3>Our Happy Clients</h3>
                                         </div>
-                                        <div class="owl-carousel owl-theme odoo_customer_slider">
-                                            <div class="item text-center">
-                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                    consetetur sadipscing elitr, sed
-                                                    diam nonumy eirmod tempor
-                                                    invidunt</p>
-                                            </div>
-                                            <div class="item text-center">
-                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                    consetetur sadipscing elitr, sed
-                                                    diam nonumy eirmod tempor
-                                                    invidunt</p>
-                                            </div>
-                                            <div class="item text-center">
-                                                <div class="odoo_customer_slider_img_container"> <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                    consetetur sadipscing elitr, sed
-                                                    diam nonumy eirmod tempor
-                                                    invidunt</p>
-                                            </div>
-                                            <div class="item text-center">
-                                                <div class="odoo_customer_slider_img_container">  <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                    consetetur sadipscing elitr, sed
-                                                    diam nonumy eirmod tempor
-                                                    invidunt</p>
+                                        <div id="clientsCarousel" class="carousel slide mt-3 mb-5" data-ride="carousel">
+                                            <div class="slider_contain">
+                                                <div class="carousel-inner ">
+                                                    <div class="carousel-item active">
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                    </div>
+                                                    <div class="carousel-item">
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                        <div class="text-center odoo_client_slider">
+                                                            <div class="odoo_customer_slider_img_container">
+                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
+                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
+                                                                consetetur sadipscing elitr, sed
+                                                                diam nonumy eirmod tempor
+                                                                invidunt</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <ol class="carousel-indicators badailtech_client_indicators">
+                                                    <li data-target="#clientsCarousel" data-slide-to="0" class="circle active"/>
+                                                    <li data-target="#clientsCarousel" data-slide-to="1" class="circle"/>
+                                                </ol>
                                             </div>
                                         </div>
+
+
+
+
+
+                                        <!--                                        <div class="owl-carousel owl-theme odoo_customer_slider">-->
+                                        <!--                                            <div class="item text-center">-->
+                                        <!--                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+                                        <!--                                                    consetetur sadipscing elitr, sed-->
+                                        <!--                                                    diam nonumy eirmod tempor-->
+                                        <!--                                                    invidunt</p>-->
+                                        <!--                                            </div>-->
+                                        <!--                                            <div class="item text-center">-->
+                                        <!--                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+                                        <!--                                                    consetetur sadipscing elitr, sed-->
+                                        <!--                                                    diam nonumy eirmod tempor-->
+                                        <!--                                                    invidunt</p>-->
+                                        <!--                                            </div>-->
+                                        <!--                                            <div class="item text-center">-->
+                                        <!--                                                <div class="odoo_customer_slider_img_container"> <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+                                        <!--                                                    consetetur sadipscing elitr, sed-->
+                                        <!--                                                    diam nonumy eirmod tempor-->
+                                        <!--                                                    invidunt</p>-->
+                                        <!--                                            </div>-->
+                                        <!--                                            <div class="item text-center">-->
+                                        <!--                                                <div class="odoo_customer_slider_img_container">  <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+                                        <!--                                                    consetetur sadipscing elitr, sed-->
+                                        <!--                                                    diam nonumy eirmod tempor-->
+                                        <!--                                                    invidunt</p>-->
+                                        <!--                                            </div>-->
+                                        <!--                                        </div>-->
                                     </div>
                                 </div>
                             </section>
@@ -406,9 +489,9 @@
                                                 <h4>
                                                     What is Odoo ?
                                                 </h4>
-                                                 <h5 class="odoo_coloer_title">
-                                                        With Odoo, you don't need anything else
-                                                 </h5>
+                                                <h5 class="odoo_coloer_title">
+                                                    With Odoo, you don't need anything else
+                                                </h5>
                                                 <p class="odoo_company_desc">
                                                     Odoo is an open source business management system, this system contains several software applications that will help entrepreneurs and company owners to find enterprise resource planning, as it meets their needs in many matters such as Sales
                                                     Management, Accounting, Finance, Human
@@ -581,7 +664,7 @@
                                                     </div>
                                                     <div class="odoo_app_details">
                                                         <h5>
-                                                           Customer Relationship Management
+                                                            Customer Relationship Management
                                                         </h5>
                                                         <p>These apps provide an ideal communication bridge between you and the customer, making it easier for you to establish a professional relationship with customers.</p>
                                                     </div>

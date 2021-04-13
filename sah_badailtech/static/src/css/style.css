@@ -567,11 +567,35 @@ p.home_company_chosen{
     display: block !important;
     text-align: center;
 }
+.odoo_client_slider{
+    width: 25% !important;
+    float: right;
+}
+.badailtech_client_indicators
+{
+    bottom: -6rem;
+}
+.badailtech_client_indicators li.active{
+    background: #45a79d !important;
+}
+.badailtech_client_indicators li{
+    background: #d1d2d4 !important;
+    width: 15px;
+    height: 0px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.odoo_client_slider .odoo_customer_slider_txt
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
 .odoo_customer_slider .owl-dot
 {
     background: #d1d2d4 !important;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 0px;
     border-radius: 50%;
     margin: 0 5px;
 }

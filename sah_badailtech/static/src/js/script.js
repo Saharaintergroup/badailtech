@@ -1,26 +1,26 @@
 $(function () {
   "use strict";
-    $('.odoo_customer_slider').owlCarousel({
-        loop:true,
-        margin:5,
-        nav:true,
-        center:true,
-        autosahay:true,
-        responsive:{
-            0: {
-                items: 1,
-            },
-            481: {
-                items: 1,
-            },
-            768: {
-                items: 1,
-            },
-            1024: {
-                items:4
-            }
-        }
-    });
+//    $('.odoo_customer_slider').owlCarousel({
+//        loop:true,
+//        margin:5,
+//        nav:true,
+//        center:true,
+//        autosahay:true,
+//        responsive:{
+//            0: {
+//                items: 1,
+//            },
+//            481: {
+//                items: 1,
+//            },
+//            768: {
+//                items: 1,
+//            },
+//            1024: {
+//                items:4
+//            }
+//        }
+//    });
     $('.odoo_services_slider').owlCarousel({
         loop:true,
         margin:10,
