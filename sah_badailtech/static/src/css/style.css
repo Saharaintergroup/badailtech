@@ -551,7 +551,13 @@ p.home_company_chosen{
     height: 85px;
 }
 .owl-carousel.owl-rtl{
-    direction: rtl !important;
+    direction: ltr !important;
+}
+.owl-stage-outer{
+    direction: ltr !important;
+}
+.owl-stage{
+    direction: ltr !important;
 }
 .odoo_customer_slider .owl-nav{
     display: none;
