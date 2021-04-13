@@ -550,14 +550,14 @@ p.home_company_chosen{
     padding-bottom: 12px;
     height: 85px;
 }
-.owl-carousel.owl-rtl{
-    direction: ltr !important;
+.owl-carousel{
+    direction: rtl !important;
 }
 .owl-stage-outer{
-    direction: ltr !important;
+    direction: rtl !important;
 }
 .owl-stage{
-    direction: ltr !important;
+    direction: rtl !important;
 }
 .odoo_customer_slider .owl-nav{
     display: none;
