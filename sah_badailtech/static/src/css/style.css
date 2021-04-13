@@ -106,9 +106,9 @@ header .navbar-brand, header .navbar-brand.logo{
 {
   background-color: #222222 !important;
 }*/
-.o_header_affixed .pages_nav{
+html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top.o_header_affixed .pages_nav{
     box-shadow: 0 1.5px 30px 0 rgba(136, 84, 115, 0.2) !important;
-    background: rgb(15, 66, 104, 93%);
+    background: #00101d !important;
 }
 .o_header_affixed .headr_contact_bg{
     display:none;
@@ -551,13 +551,13 @@ p.home_company_chosen{
     height: 85px;
 }
 .owl-carousel{
-    direction: rtl !important;
+    direction: ltr !important;
 }
 .owl-stage-outer{
-    direction: rtl !important;
+    direction: ltr !important;
 }
 .owl-stage{
-    direction: rtl !important;
+    direction: ltr !important;
 }
 .odoo_customer_slider .owl-nav{
     display: none;
