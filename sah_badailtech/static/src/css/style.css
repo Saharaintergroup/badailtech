@@ -183,7 +183,7 @@ outline:0;
 }
 .total_pages .nav-item.dropdown:last-child{
     position: absolute;
-    right: 250px;
+    right: 217px;
 }
 nav .navbar-nav .nav-item .dropdown-menu{
     border-radius: 0;
@@ -550,14 +550,8 @@ p.home_company_chosen{
     padding-bottom: 12px;
     height: 85px;
 }
-.owl-carousel{
-    direction: ltr !important;
-}
-.owl-stage-outer{
-    direction: ltr !important;
-}
-.owl-stage{
-    direction: ltr !important;
+.o_rtl .owl-carousel.owl-theme.odoo_services_slider.owl-loaded.owl-drag{
+    direction: rtl !important;
 }
 .odoo_customer_slider .owl-nav{
     display: none;
@@ -729,17 +723,20 @@ li.contact_information_item {
     background: #45a79d;
 }
 .vision_desc{
-    color:#7b7b7b;
-    font-size: 19px;
-    font-weight: 300;
     line-height: 1.5;
     text-align: justify;
+    color: #000;
+    font-size: 14px;
+    font-weight: 300;
 }
 .services_page_item_slider{
     border-radius: 15px;
     box-shadow: 0px 0 13px 0 rgb(0 0 0 / 12%);
     background-color: #ffffff;
     padding: 17px;
+}
+.o_rtl .services_page_item_slider{
+    direction: ltr !important;
 }
 .services_page_item_slider .col-md-4 img{
     margin-bottom: 25px;

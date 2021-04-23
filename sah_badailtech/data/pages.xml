@@ -265,128 +265,93 @@
                                 </div>
                             </section>
 
-                            <section class="oe_structure home_odoo_tour mt-5">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-12 text-center home_odoo_tour_container">
-                                            <h3>Our Happy Clients</h3>
-                                        </div>
-                                        <div id="clientsCarousel" class="carousel slide mt-3 mb-5" data-ride="carousel">
-                                            <div class="slider_contain">
-                                                <div class="carousel-inner ">
-                                                    <div class="carousel-item active">
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                        <div class="text-center odoo_client_slider">
-                                                            <div class="odoo_customer_slider_img_container">
-                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>
-                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,
-                                                                consetetur sadipscing elitr, sed
-                                                                diam nonumy eirmod tempor
-                                                                invidunt</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <ol class="carousel-indicators badailtech_client_indicators">
-                                                    <li data-target="#clientsCarousel" data-slide-to="0" class="circle active"/>
-                                                    <li data-target="#clientsCarousel" data-slide-to="1" class="circle"/>
-                                                </ol>
-                                            </div>
-                                        </div>
-
-
-
-
-
-                                        <!--                                        <div class="owl-carousel owl-theme odoo_customer_slider">-->
-                                        <!--                                            <div class="item text-center">-->
-                                        <!--                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
-                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
-                                        <!--                                                    consetetur sadipscing elitr, sed-->
-                                        <!--                                                    diam nonumy eirmod tempor-->
-                                        <!--                                                    invidunt</p>-->
-                                        <!--                                            </div>-->
-                                        <!--                                            <div class="item text-center">-->
-                                        <!--                                                <div class="odoo_customer_slider_img_container"><img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
-                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
-                                        <!--                                                    consetetur sadipscing elitr, sed-->
-                                        <!--                                                    diam nonumy eirmod tempor-->
-                                        <!--                                                    invidunt</p>-->
-                                        <!--                                            </div>-->
-                                        <!--                                            <div class="item text-center">-->
-                                        <!--                                                <div class="odoo_customer_slider_img_container"> <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
-                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
-                                        <!--                                                    consetetur sadipscing elitr, sed-->
-                                        <!--                                                    diam nonumy eirmod tempor-->
-                                        <!--                                                    invidunt</p>-->
-                                        <!--                                            </div>-->
-                                        <!--                                            <div class="item text-center">-->
-                                        <!--                                                <div class="odoo_customer_slider_img_container">  <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
-                                        <!--                                                <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
-                                        <!--                                                    consetetur sadipscing elitr, sed-->
-                                        <!--                                                    diam nonumy eirmod tempor-->
-                                        <!--                                                    invidunt</p>-->
-                                        <!--                                            </div>-->
-                                        <!--                                        </div>-->
-                                    </div>
-                                </div>
-                            </section>
+<!--                            <section class="oe_structure home_odoo_tour mt-5">-->
+<!--                                <div class="container">-->
+<!--                                    <div class="row">-->
+<!--                                        <div class="col-12 text-center home_odoo_tour_container">-->
+<!--                                            <h3>Our Happy Clients</h3>-->
+<!--                                        </div>-->
+<!--                                        <div id="clientsCarousel" class="carousel slide mt-3 mb-5" data-ride="carousel">-->
+<!--                                            <div class="slider_contain">-->
+<!--                                                <div class="carousel-inner ">-->
+<!--                                                    <div class="carousel-item active">-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                    <div class="carousel-item">-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/mac.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                        <div class="text-center odoo_client_slider">-->
+<!--                                                            <div class="odoo_customer_slider_img_container">-->
+<!--                                                                <img src="/sah_badailtech/static/src/img/pizza.png" class="odoo_customer_slider_img img-fluid"/></div>-->
+<!--                                                            <p class="odoo_customer_slider_txt">Lorem ipsum dolor sit amet,-->
+<!--                                                                consetetur sadipscing elitr, sed-->
+<!--                                                                diam nonumy eirmod tempor-->
+<!--                                                                invidunt</p>-->
+<!--                                                        </div>-->
+<!--                                                    </div>-->
+<!--                                                </div>-->
+<!--                                                <ol class="carousel-indicators badailtech_client_indicators">-->
+<!--                                                    <li data-target="#clientsCarousel" data-slide-to="0" class="circle active"/>-->
+<!--                                                    <li data-target="#clientsCarousel" data-slide-to="1" class="circle"/>-->
+<!--                                                </ol>-->
+<!--                                            </div>-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </section>-->
 
                             <t t-set="blog_post"
                                t-value="request.env['blog.post'].search([('active','=',True),('is_published','=',True)],limit=4, order='post_date desc')"/>
@@ -685,7 +650,7 @@
         <!-- === about us Page === -->
         <record id="badailtech_about_page" model="website.page">
 
-            <field name="name">About US BadailTech</field>
+            <field name="name">About us BadailTech</field>
             <field name="website_published">True</field>
             <field name="url">/about_us</field>
             <field name="track">True</field>
@@ -694,7 +659,7 @@
 
 
             <field name="arch" type="xml">
-                <t name="About US BadailTech" priority="10" t-name="sah_badailtech.badailtech_about_page">
+                <t name="About us BadailTech" priority="10" t-name="sah_badailtech.badailtech_about_page">
                     <t t-call="website.layout">
                         <div id="wrap" class="oe_structure oe_website_sale ">
                             <div class="oe_structure">
@@ -703,7 +668,7 @@
                                         <div class="row">
                                             <div class="col-md-12 mb-5">
                                                 <div class="title_head_contain">
-                                                    <h3>About Us</h3>
+                                                    <h3>About us</h3>
                                                 </div>
                                             </div>
                                             <div class="col-lg-7 m-auto">
@@ -937,14 +902,14 @@
 
         <record id="badailtech_contact_us_page" model="website.page">
 
-            <field name="name">Contact Us</field>
+            <field name="name">Contact us</field>
             <field name="website_published">True</field>
             <field name="url">/contact-us</field>
             <field name="type">qweb</field>
             <field name="track">True</field>
             <field name="key">sah_badailtech.badailtech_contact-us_page</field>
             <field name="arch" type="xml">
-                <t name="Contact Us BadailTech" priority="20" t-name="sah_badailtech.contact-us_page_template">
+                <t name="Contact us BadailTech" priority="20" t-name="sah_badailtech.contact-us_page_template">
                     <t t-call="website.layout">
                         <div id='wrap' class='oe_structure'>
                             <!-- contact -->
@@ -953,7 +918,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="title_head_contain">
-                                                <h3>Contact Us</h3>
+                                                <h3>Contact us</h3>
                                                 <p>We offer our customers a live customized demo, a free consultation
                                                     to get answers to all your questions and to clarify why BadailTech is
                                                     the right partner to grow your business</p>
@@ -993,7 +958,7 @@
                                                         <div class="col-md-12 contact_us_form_inputs">
                                                             <div class="form-group form-field o_website_form_custom o_website_form_required_custom">
                                                                 <label class="col-form-label" for="contact_name"> Your Question</label>
-                                                                <textarea class="form-control o_website_form_input custom_contact_us_form" rows="7" placeholder="write your comment here ........" name="description" required=""/>
+                                                                <textarea class="form-control o_website_form_input custom_contact_us_form" rows="7" placeholder="write your comment here" name="description" required=""/>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1049,7 +1014,7 @@
             <field name="sequence" type="int">10</field>
         </record>
         <record id="badailtech_menu_about_us" model="website.menu">
-            <field name="name">About Us</field>
+            <field name="name">About us</field>
             <field name="url">/about_us</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">15</field>
@@ -1057,7 +1022,7 @@
 
 
         <record id="badailtech_menu_contact_us" model="website.menu">
-            <field name="name">Contact Us</field>
+            <field name="name">Contact us</field>
             <field name="url">/contact-us</field>
             <field name="parent_id" ref="website.main_menu"/>
             <field name="sequence" type="int">30</field>

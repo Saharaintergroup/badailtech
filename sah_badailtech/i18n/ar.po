@@ -51,7 +51,7 @@ msgid ""
 "                                                            Sohar,Sultanete Of Oman"
 msgstr ""
 "<i class=\"fa fa-map-marker\"/>\n"
-"                                                            صحار،سلطنة عمان"
+"                                                          سلطنة عمان,صحار"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
@@ -75,7 +75,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
 msgid ""
 "<i class=\"fa fa-phone\"/>\n"
-"                                                            +968 92517926"
+"+96892517926"
 msgstr ""
 
 #. module: sah_badailtech
@@ -160,7 +160,7 @@ msgstr "اودو"
 #. module: sah_badailtech
 #: model:website.menu,name:sah_badailtech.badailtech_menu_about_us model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
-msgid "About Us"
+msgid "About us"
 msgstr "عن الشركة"
 
 #. module: sah_badailtech
@@ -211,8 +211,7 @@ msgid ""
 "At BadailTech, we strive to be an integral part of Oman’s endeavors to digitize all sectors in 2040, as we want to be an effective partner for all the efforts made by the "
 "government to guide business using information technologies."
 msgstr ""
-"نعمل في بدائل تك على مساعدة رواد الأعمال في إيجاد أنجح و أسهل الحلول الخاصة بأعمالهم من خلال توظيفنا لفريق محترف و مستمع جيدا"
-"لكل طلبات عملائنا ."
+"نسعى‬ في‬ بدائل‬ تك‬ لنكون‬ جزءا‬ لا‬ يتجزأ‬ من‬ مساعي دولة عمان ‫لرقمنة‬ جميع‬ القطاعات سنة 2040, إننا نرغب في أن نكون شريكا فعالا لكل الجهود التي تبذلها الدولة في اﻹدارة بإستخدام التقنيات الحديثه."
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
@@ -220,8 +219,7 @@ msgid ""
 "At BadailTech, we work to help entrepreneurs find the most effective and easiest E-solutions for their business by employing a professional team that listens well and "
 "analyse all our customers' requirements."
 msgstr ""
-"نسعى‬ في‬ بدائل‬ تك‬ لنكون‬ جزءا‬ لا‬ يتجزأ‬ من‬ مساعي دولة عمان ‫لرقمنة‬ جميع‬ القطاعات سنة 2040, إننا نرغب في أن نكون شريكا فعالا لكل الجهود التي تبذلها الدولة في اﻹدارة بإستخدام "
-"التقنيات الحديثه."
+"نعمل في بدائل تك على مساعدة رواد الأعمال في إيجاد أنجح و أسهل الحلول الخاصة بأعمالهم من خلال توظيفنا لفريق محترف و مستمع جيدالكل طلبات عملائنا . "
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_about_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_about_page
@@ -320,7 +318,7 @@ msgstr "تطبيقات التواصل"
 #. module: sah_badailtech
 #: model:website.menu,name:sah_badailtech.badailtech_menu_contact_us model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view
 #: model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
-msgid "Contact Us"
+msgid "Contact us"
 msgstr "تواصل معنا"
 
 #. module: sah_badailtech
@@ -412,7 +410,7 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page
 msgid "Events &amp; News"
-msgstr "الفاعليات والاخبار"
+msgstr "الفعاليات والاخبار"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_odoo_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_odoo
@@ -819,7 +817,7 @@ msgstr "تتيح تطبيقات المبيعات في أودو تسيير الم
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
 msgid "Saturday 4 pm to 8 pm"
-msgstr "السبت 4 ‫مساء حتي 8مساء"
+msgstr "السبت 4 مساء حتي 8 مساء"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
@@ -830,7 +828,7 @@ msgstr "ابحث"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_template_header
 msgid "Search Events"
-msgstr "ابحث عن الفاعليات"
+msgstr "ابحث عن الفعاليات"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_courses_template_header
@@ -861,7 +859,7 @@ msgstr "اﻷخبار المشابهه"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
 msgid "Sohar,Sultanete of oman"
-msgstr "صحار،سلطنة عمان"
+msgstr "سلطنة عمان,صحار"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_event_list_template
@@ -891,7 +889,7 @@ msgstr "ارسال"
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
 msgid "Sunday - Thursday : 9am to 5pm"
-msgstr "الأحد - الخميس :9 صباحاحتي 5مساءا"
+msgstr "الأحد - الخميس :9 صباحا حتي 5 مساءا"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_career_apply_template
@@ -1263,5 +1261,5 @@ msgstr "يرجى كتابة مقدمة تعريفيه عن نفسك"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_contact_us_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_contact_us_page
-msgid "write your comment here ........"
-msgstr "اترك تعليقك هنا ..."
+msgid "write your comment here"
+msgstr "اترك تعليقك هنا"

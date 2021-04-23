@@ -1,9 +1,28 @@
-@media (max-width: 1990px){
+@media (max-width: 2000px){
     .footer_grid_col {
         margin-top: 16rem;
     }
+    #top_menu_collapse .langs_dropdown_container.text-right {
+        position: absolute;
+        top: 13px;
+        right: 120px;
+    }
+    li.nav-item.ml-lg-auto.o_no_autohide_item {
+        position: absolute;
+        right: 220px;
+    }
+    html[data-view-xmlid="sah_badailtech.badailtech_home_page"] #top_menu_collapse .langs_dropdown_container.text-right{
+        top: 7px;
+    }
+}
+@media (max-width: 1600px){
+    li.nav-item.ml-lg-auto.o_no_autohide_item {
+        right: 230px;
+        position: absolute;
+    }
 }
 @media (max-width: 1500px){
+
     .slider_logo_img img{
         width: 1500px !important;
     }
@@ -20,6 +39,9 @@
     .slider_logo_img img{
         width: 1300px !important;
     }
+    .total_pages a.nav-link {
+        padding: 1rem .7rem !important;
+    }
 }
 @media (max-width: 1250px){
     .slider_logo_img img{
@@ -33,6 +55,24 @@
     }
     .home_odoo_tour iframe {
         width: 310px;
+    }
+    .total_pages .nav-item.dropdown:last-child {
+        position: relative !important;
+        right: 0px;
+    }
+    #top_menu_collapse .langs_dropdown_container.text-right {
+        right: 10px;
+    }
+    .total_pages a.nav-link {
+        padding: 1rem .4rem !important;
+    }
+    #top_menu{
+        flex-direction: row;
+        position: absolute;
+        left: 22%;
+    }
+    li.nav-item.ml-lg-auto.o_no_autohide_item {
+        right: -55px;
     }
 }
 @media(min-width: 768px) and (max-width: 1000px)
@@ -63,7 +103,6 @@
     }
     .langs_dropdown_container{
         text-align: left !important;
-        padding: 0 15px;
     }
     .home_service_list{
         height: 180px;
@@ -78,6 +117,12 @@
     }
     .home_contact_ntn{
         display: none;
+    }
+    #top_menu_collapse .langs_dropdown_container.text-right {
+        position: unset;
+        top: 13px;
+        right: 0;
+        padding: 0 5px;
     }
 }
 @media (max-width: 767px){
