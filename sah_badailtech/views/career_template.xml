@@ -18,14 +18,6 @@
 
             <xpath  expr="//div[@id='jobs_grid']" position="replace">
                 <div class="col-md-12" id="jobs_grid">
-                    <div t-if="not jobs">
-                        <div class="text-center text-muted">
-                            <h3 class="css_editable_hidden"><a t-attf-href="/contactus">Contact us</a> for job opportunities.</h3>
-                            <h4 groups="hr_recruitment.group_hr_recruitment_manager">
-                                Create new job pages from the <strong><i>+New</i></strong> top-right button.
-                            </h4>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-md-3" t-foreach="jobs" t-as="job" >
                             <a t-attf-href="/jobs/detail/#{ slug(job) }" t-attf-class="text-decoration-none">

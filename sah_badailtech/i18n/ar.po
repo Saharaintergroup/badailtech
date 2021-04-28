@@ -171,7 +171,7 @@ msgstr ""
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_footer_layout
 msgid "All fridays and official Holidays"
-msgstr "كل أيام الجمعه وإجازات رسميه"
+msgstr "كل أيام الجمعه والاجازات الرسميه"
 
 #. module: sah_badailtech
 #: model_terms:ir.ui.view,arch_db:sah_badailtech.badailtech_home_page_ir_ui_view model_terms:website.page,arch_db:sah_badailtech.badailtech_home_page

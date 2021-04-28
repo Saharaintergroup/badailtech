@@ -1,0 +1,6 @@
+1- Menu Nav Bar
+2- Translate some word of Blog pages
+3- Translate some word of event pages
+4- Translate some word of courses pages
+5- Translate some word of training pages
+6- contact Us Phone number "Translation Terms"
